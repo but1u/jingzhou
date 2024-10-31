@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-<title>���ʽHTMLģ��</title>
-    <meta charset="gpk">
+<title>框架式HTML模板</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* ����ҳ�沼����ʽ */
+        /* 整体页面布局样式 */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
 
-        /* ͷ����ʽ */
+        /* 头部样式 */
         header {
             background-color: #333;
             color: white;
@@ -21,7 +21,7 @@
             text-align: center;
         }
 
-        /* ��������ʽ */
+        /* 导航栏样式 */
         nav {
             background-color: #555;
             color: white;
@@ -40,18 +40,18 @@
             cursor: pointer;
         }
 
-        /* ����������ʽ */
+        /* 内容区域样式 */
         section {
             padding: 20px;
         }
 
-        /* �������ʽ */
+        /* 侧边栏样式 */
         aside {
             background-color: #f4f4f4;
             padding: 20px;
         }
 
-        /* ҳ����ʽ */
+        /* 页脚样式 */
         footer {
             background-color: #333;
             color: white;
@@ -62,73 +62,73 @@
 </head>
 
 <body>
-    <!-- ͷ�� -->
+    <!-- 头部 -->
     <header>
-        <h1>���ݵ������Ļ�</h1>
+        <h1>荆州的民俗文化</h1>
     </header>
-    <!-- ������ -->
+    <!-- 导航栏 -->
     <nav>
         <ul>
             
         </ul>
     </nav>
-    <!-- ҳ�����壬ʹ��flex����ʵ�ּ򵥵������ṹ -->
+    <!-- 页面主体，使用flex布局实现简单的两栏结构 -->
     <div style="display: flex; flex-wrap: wrap;">
-        <!-- ��Ҫ�������� -->
+        <!-- 主要内容区域 -->
         <section style="flex: 3;">
-            <h2>����ӵ�зḻ�����������Ļ���</h2>
+            <h2>荆州拥有丰富多样的民俗文化：</h2>
             <br>
             <div></div>
           <br>
           <ul>
             <li>
-              <div><strong>һ�����ݻ���Ϸ</strong><img src="cfbc6d9c33528f481bc956c40e521243.jpg" width="932" height="514"></div>
+              <div><strong>一、荆州花鼓戏</strong><img src="cfbc6d9c33528f481bc956c40e521243.jpg" width="932" height="514"></div>
               <br>
               <ul>
-                <li><strong>��Դ�뷢չ</strong>�����ݻ���Ϸ��Դ���峯���������귢չ���ڽ���ƽԭһ���㷺��������������صĳ�ǻ�ͱ�����ʽ�����ܵ��������ϲ�����ڸĸ￪�����������ݻ���ϷҲ���ϴ��·�չ���Ƴ��������������Ʒ���硶������Ĺ��¡�6���ⲿ�ִ�Ϸ�Ըĸ￪�� 40 ��Ϊ�����������˺������������˵İ�����£�ͬʱչ���˺����� 40 �����ľ޴�仯���þ���а���ı�������������ĺ��أ�������̬���������ǽ���������Ϸ�еľ�Ʒ��</li>
-                <li><strong>������ɫ</strong>�����ݻ���Ϸ�ĳ�ǻ�ḻ�������и�ǻ����ˮǻ����ƽǻ�ȡ�������ʽ�������ã�ע������������������еı����Ա��ͨ����տ�ı��ݣ������������ϲŭ����չ�ֵ����쾡�¡����⣬���ݻ���Ϸ����̨����Ҳ����Ũ���ĵط���ɫ���������ý���ƽԭ����Ȼ����ũ�������Ϊ�������ù��ڸ��ܵ�Ũ���������Ϣ��</li>
+                <li><strong>起源与发展</strong>：荆州花鼓戏起源于清朝，历经多年发展，在江汉平原一带广泛流传。它以其独特的唱腔和表演形式，深受当地人民的喜爱。在改革开放以来，荆州花鼓戏也不断创新发展，推出了许多优秀的作品，如《河西村的故事》6。这部现代戏以改革开放 40 年为背景，讲述了河西村里两代人的爱情故事，同时展现了河西村 40 年来的巨大变化。该剧既有爱情的悲欢，又有亲情的厚重，还有世态的炎凉，是近年来花鼓戏中的精品。</li>
+                <li><strong>艺术特色</strong>：荆州花鼓戏的唱腔丰富多样，有高腔、圻水腔、四平腔等。表演形式生动活泼，注重人物形象的塑造和情感的表达。演员们通过精湛的表演，将剧中人物的喜怒哀乐展现得淋漓尽致。此外，荆州花鼓戏的舞台布景也具有浓郁的地方特色，常常采用江汉平原的自然风光和农村生活场景为背景，让观众感受到浓厚的乡土气息。</li>
               </ul>
               <br>
-              <div><strong>��������˵����</strong><img src="4e8d44eaead15e417cab036c206d8280.jpg" width="752" height="464"></div>
+              <div><strong>二、公安说鼓子</strong><img src="4e8d44eaead15e417cab036c206d8280.jpg" width="752" height="464"></div>
               <br>
               <ul>
-                <li><strong>��������</strong>����Ϊ����ʡ�����ص�����������⣬����˵�����ڽ� 200 �����ʷ��һֱ�ǵ�������ľ���ʳ�����������ԡ��������ݡ����������ơ���Ҫ����������ṹ�ȽǶȶ����ж���֮���������������󣬳������ݷḻ����������������ķ������档���Ʒḻ������������������Ҫ�����йġ���ȣ�Ϊ���������˽���к����ɸС�����ṹ�Ͻ�����η��������нϸߵ�������ֵ2��</li>
+                <li><strong>艺术特征</strong>：作为湖北省公安县的民间艺术奇葩，公安说鼓子在近 200 年的历史中一直是当地人民的精神食粮。它从语言、唱词内容、特征、曲牌、主要乐器、整体结构等角度都具有独特之处。语言生动形象，唱词内容丰富多样，涵盖了生活的方方面面。曲牌丰富，旋律优美动听。主要乐器有鼓、板等，为表演增添了节奏感和韵律感。整体结构严谨，层次分明，具有较高的艺术价值2。</li>
               </ul>
               <br>
-              <div><strong>������ɽ���</strong><img src="ed91fd6d02436c9d59d98cdb6644dfa7.jpg" width="690" height="409"></div>
+              <div><strong>三、马山民歌</strong><img src="ed91fd6d02436c9d59d98cdb6644dfa7.jpg" width="690" height="409"></div>
               <br>
               <ul>
-                <li><strong>��ʷԨԴ</strong>����ɽ�����ʷ�ƾã���Դ�ڹŴ���������������ҥ�����ڳ��ڵķ�չ�����У����������ܱߵ���������Ԫ�أ��γ����Լ����صķ����ɽ�����Ĺ㷺�������Ͷ��衢��衢�����ȡ������ʵ�޻����������Ͷ��������ֿ��кͶ����������������</li>
-                <li><strong>�����ص�</strong>����ɽ����������������������������á��ݳ���ʽ�������ж������Գ����ϳ��ȡ����ݳ������У������ǳ�������һЩ���ص��ݳ����ɣ��绬���������ȣ�ʹ�������Ӹ��и�Ⱦ�������⣬��ɽ���ĸ��Ҳ���кܸߵ���ѧ��ֵ���������ñ��������ˡ����ŵ��޴��ַ���ʹ��ʸ�����������</li>
+                <li><strong>历史渊源</strong>：马山民歌历史悠久，起源于古代荆楚地区的民间歌谣。它在长期的发展过程中，不断吸收周边地区的音乐元素，形成了自己独特的风格。马山民歌题材广泛，包括劳动歌、情歌、生活歌等。歌词朴实无华，表达了劳动人民的真挚情感和对美好生活的向往。</li>
+                <li><strong>艺术特点</strong>：马山民歌的旋律优美动听，节奏明快活泼。演唱形式多样，有独唱、对唱、合唱等。在演唱过程中，歌手们常常运用一些独特的演唱技巧，如滑音、颤音等，使歌曲更加富有感染力。此外，马山民歌的歌词也具有很高的文学价值，常常运用比喻、拟人、夸张等修辞手法，使歌词更加生动形象。</li>
               </ul>
               <br>
-              <div><strong>�ġ������ϰ��</strong><img src="cd6c6dc27caf1fe7915f09cbec58aaa0.jpg" width="550" height="342"></div>
+              <div><strong>四、端午节习俗</strong><img src="cd6c6dc27caf1fe7915f09cbec58aaa0.jpg" width="550" height="342"></div>
               <br>
               <ul>
-                <li><strong>������</strong>��������ڼ䣬���ݵ���������ٰ������ۻ����������һ����ϵĴ�ͳ������Ŀ������Ũ����Ļ����̡����۾��ɣ��������죬ѡ���Ƿ�������������ʮ��׳�ۡ������۲�����һ�����������������һ���Ž�Э��������ֱǰ�ľ���������</li>
-                <li><strong>������</strong>������ڳ������Ǿ��ݵ����Ĵ�ͳϰ��֮һ��������Ŵ��Ϊ��Ҫԭ�ϣ�����������ϣ�����桢��ɳ�����ȵȣ�����Ҷ�������ɡ����ӿڸ���Ŵ��ζ�������������ǵ�ϲ����</li>
-                <li><strong>�����ѡ���Ҷ</strong>��������ڼ䣬���ǻ������ſڹ������ѡ���Ҷ��ֲ����ѺͰ�Ҷ������а���֡�ɱ�����������ã�Ԣ�������ǶԽ�����ƽ����������</li>
+                <li><strong>赛龙舟</strong>：端午节期间，荆州地区常常会举办赛龙舟活动。赛龙舟是一项古老的传统体育项目，具有浓厚的文化底蕴。龙舟竞渡，鼓声震天，选手们奋力划桨，场面十分壮观。赛龙舟不仅是一种体育竞技活动，更是一种团结协作、勇往直前的精神象征。</li>
+                <li><strong>吃粽子</strong>：端午节吃粽子是荆州地区的传统习俗之一。粽子以糯米为主要原料，加入各种馅料，如红枣、豆沙、火腿等，用粽叶包裹而成。粽子口感软糯，味道香甜，深受人们的喜爱。</li>
+                <li><strong>挂菖蒲、艾叶</strong>：端午节期间，人们还会在门口挂上菖蒲、艾叶等植物。菖蒲和艾叶具有驱邪避灾、杀菌消毒的作用，寓意着人们对健康和平安的向往。</li>
               </ul>
               <br>
-              <div><strong>�塢�����ϰ��</strong><img src="e2aaedd290c35cf83d82582e1755f7a5.jpg" width="600" height="406"></div>
+              <div><strong>五、中秋节习俗</strong><img src="e2aaedd290c35cf83d82582e1755f7a5.jpg" width="600" height="406"></div>
               <br>
               <ul>
-                <li><strong>����</strong>�����������Բ�Ľ��գ���������һ��������һ�����¡����±������ݵ����������ҹ�������¸�����������ͥԺ�аڷ����Σ�Ʒ���±����������£�������ŨŨ�Ľ��շ�Χ��</li>
-                <li><strong>���±�</strong>���±�������ڵĴ�ͳʳƷ�����ݵ������±����෱�࣬�й�ʽ�±�����ʽ�±�����ʽ�±��ȡ��±��Ŀ�ζҲ������ͬ���ж�ɳ�ڡ������ڡ������ڵȡ�������Ʒ���±���ͬʱ��Ҳ�����˶����������������ף����</li>
+                <li><strong>赏月</strong>：中秋节是团圆的节日，人们在这一天会相聚在一起，赏月、吃月饼。荆州地区的中秋节夜晚，明月高悬，人们在庭院中摆放桌椅，品尝月饼，欣赏明月，感受着浓浓的节日氛围。</li>
+                <li><strong>吃月饼</strong>：月饼是中秋节的传统食品，荆州地区的月饼种类繁多，有广式月饼、苏式月饼、京式月饼等。月饼的口味也各不相同，有豆沙馅、蛋黄馅、五仁馅等。人们在品尝月饼的同时，也表达了对美好生活的向往和祝福。</li>
               </ul>
               <br>
-              <div><strong>�����������</strong><img src="fa149fd2762244ab9d9fc7dda511a4d2.jpg" width="734" height="512"></div>
+              <div><strong>六、荆州鱼糕</strong><img src="fa149fd2762244ab9d9fc7dda511a4d2.jpg" width="734" height="512"></div>
               <br>
               <ul>
-                <li><strong>��ʷ�Ļ�</strong>�����������ʷ��׷�ݵ�����ʱ�ڣ�������ǧ�꣬�����ھ�������������Ϣ��2009 �꾣����ⱻ�������ʡ�������Ļ��Ų���¼����⼸���Ǹ�����ϯ�ϵĵ�һ��ˣ�����Ϊ ��ͷ�ˡ�5���������ž��ݵ�������ɫ�����Ļ����Ǿ������������в��ɻ�ȱ��һ���֡�</li>
-                <li><strong>��������</strong>���Ծ������Ϊ�о����󣬲��øй��������ӷ����λ�����TVB-N�����͵��ӱǼ���������ͬ���������¾����������ʶȱ仯�����ڵ��ӱǼ�����ݣ�������ɷַ�����PCA������ξ��������HCA����ƫ��С�����б������PLS-DA�����𲽶�Ԫ���Իع������Stepwise-MLR������������ʶȵ��б��Ԥ��ģ�͡������������ 4������������£����ӱ���Ӧ�źž��ܺܺõ����������Ʒ�����ʶȣ�������ع����в����ĵ�������������������ʶ��½�����Ҫָ�ꣻ���ڵ��ӱǼ�����ݽ����Ķ�Ԫ���Իع�Ԥ��ģ�͵� R2 ������ 0.9325��Ԥ�⼯��Ʒ��Ԥ�����������С�� 1.22�������ӱǼ�����϶�Ԫͳ�Ʒ�������Ϊһ�����𡢼��Ϳ��ټ��������ʶȵķ���4��</li>
+                <li><strong>历史文化</strong>：荆州鱼糕历史可追溯到春秋时期，历经几千年，依旧在荆楚地区生生不息。2009 年荆州鱼糕被列入湖北省非物质文化遗产名录。鱼糕几乎是各种宴席上的第一碗菜，被称为 “头菜”5。它承载着荆州地区的特色民俗文化，是荆州人民生活中不可或缺的一部分。</li>
+                <li><strong>制作工艺</strong>：以荆州鱼糕为研究对象，采用感官评定、挥发性盐基氮（TVB-N）检测和电子鼻技术分析不同贮藏条件下荆州鱼糕的新鲜度变化。基于电子鼻检测数据，结合主成分分析（PCA）、层次聚类分析（HCA）、偏最小二乘判别分析（PLS-DA）和逐步多元线性回归分析（Stepwise-MLR）建立鱼糕新鲜度的判别和预测模型。结果表明，在 4℃和室温条件下，电子鼻响应信号均能很好地区分鱼糕样品的新鲜度；鱼糕贮藏过程中产生的氮氧化物、硫化物、甲烷等是新鲜度下降的重要指标；基于电子鼻检测数据建立的多元线性回归预测模型的 R2 均大于 0.9325，预测集样品的预测均方根误差均小于 1.22，即电子鼻技术结合多元统计分析可作为一种无损、简便和快速检测鱼糕新鲜度的方法4。</li>
               </ul>
               <br>
-              <div><strong>�ߡ�������</strong><img src="cc753562a2826c948622144a10478935.jpg" width="600" height="540"></div>
+              <div><strong>七、年猪宴</strong><img src="cc753562a2826c948622144a10478935.jpg" width="600" height="540"></div>
               <br>
               <ul>
-                <li><strong>��ͳϰ��</strong>���ھ���ũ�������һ�������ˣ������ǾͿ�ʼ��ɱ������Ԥ����ĽŲ���ʼ��������ʱ�ѽ������ź��죬��ˮ�ɱ��������漫������û��ʪ�ȿ�̸���������ڷ�ɳ� �������⡱���ɷŵ����꣬��һ�㣬��һ�㣬������У�������ζ��������������� �����������������������㡣���е��˼ң��ɴ������ɺ���������������������Ϊ���ʡ���ʱû�б�����䣬ͬ���ܳԵ����⣬����ũ��������ǵı��֣�ʵ���ܽ�Ľ��7��</li>
-                <li><strong>�������</strong>�����й�ũ�����������������糤������һֱ���໥�����ũ��֮����Ҫ����ʽ�Խ�������ڼ��ֱ��������ص�ũ����̸�У��о���������Ϊ���������ĺô�����ȻһЩũ����Ϊ��һ��ͳ����Զ������ȥ�������л���˽�л������ƣ�������ܱ߶Դ�ׯ���ص���ռ��û�ա�ũ���������е���ʱ������Ǩ�ơ��������Ĺ�ҵ���Լ�ȫ������Ĺ�Ӧ�����ܵ�����һ�洫��ͳ��ת�䡢�г�������������9</li>
+                <li><strong>传统习俗</strong>：在荆州农村地区，一过了腊八，村民们就开始宰杀年猪，预告年的脚步开始启动。这时已进入数九寒天，滴水成冰，寒气逆极，几乎没有湿度可谈，猪肉易于风干成 “腊猪肉”，可放到来年，吃一点，切一点，随吃随切，永不变味。腊猪肉的青稞面 “丁丁”，现在想起来还香。还有的人家，干脆把它风干后埋在面柜里，隔绝空气，更为保鲜。那时没有冰柜冰箱，同样能吃到鲜肉，这是农民聪明才智的表现，实践总结的结果7。</li>
+                <li><strong>社会意义</strong>：在中国农村的许多地区，年猪宴长期以来一直是相互依存的农户之间重要的仪式性交流活动。在吉林北部镇赉县的农户访谈中，研究了年猪宴为社区带来的好处。虽然一些农民认为这一传统将永远持续下去，但城市化和私有化的趋势，如城市周边对村庄土地的侵占和没收、农村村民向城市的临时和永久迁移、猪生产的工业化以及全年肉类的供应，可能导致这一祖传传统的转变、市场化甚至被放弃9</li>
               </ul>
               <br>
           <div>
@@ -139,23 +139,23 @@
           </li>
                   </ul>
           </section>
-        <!-- ��������� -->
+        <!-- 侧边栏区域 -->
         <aside style="flex: 1;">
             <h3>&nbsp;</h3>
             <div>
               <div>
-                <h1>��ɽ���</h1>
+                <h1>马山民歌</h1>
                 <div></div>
               </div>
               <div id="lemmaDesc">
-                <div>����ʡ�����еĵط���ͳ����</div>
+                <div>湖北省荆州市的地方传统音乐</div>
               </div>
             </div>
-            <div title="��ɫ���������ٿ������û����ı�д���Ƿ��ϰٿƱ༭����ĵ䷶֮����"></div>
+            <div title="特色词条经过百科资深用户精心编写，是符合百科编辑精神的典范之作。"></div>
             <div><a name="lemma-summary"></a>
-                <div data-tag="paragraph" data-uuid="gnaxbl3co6" data-idx=""><span data-text="true">��ɽ��裬����ʡ�����еĵط���ͳ���֣����Ҽ��������Ļ��Ų�֮һ��</span>?[1]</div>
-              <div data-tag="paragraph" data-uuid="gnaxbkgxi0" data-idx=""><span data-text="true">��ɽ�������ʷ��׷�ݵ�2000����ǰ���صġ���衱����衱���Ǿ����Ÿ��ŷ��һ�����ʹ����������˽���ƽԭ����������̬������������ɫ�������Ļ���ɫ��������ɽ���Ʒ����������������������أ����ݹ㷺���԰�����ľӶࡣ</span>?[1]</div>
-              <div data-tag="paragraph" data-uuid="gnaxbkgxjx" data-idx=""><span data-text="true">2008��6��7�գ���ɽ��辭�л����񹲺͹�����Ժ��׼����ڶ������Ҽ��������Ļ��Ų���¼����Ŀ��ţ���-81��</span>?[2]</div>
+                <div data-tag="paragraph" data-uuid="gnaxbl3co6" data-idx=""><span data-text="true">马山民歌，湖北省荆州市的地方传统音乐，国家级非物质文化遗产之一。</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbkgxi0" data-idx=""><span data-text="true">马山民歌其历史可追溯到2000多年前楚地的“扬歌”“田歌”，是荆楚古歌遗风的一个典型代表，代表了江汉平原民歌的总体形态特征和音乐特色，地域文化特色鲜明。马山民歌品类多样，曲调优美，风格独特，内容广泛，以爱情题材居多。</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbkgxjx" data-idx=""><span data-text="true">2008年6月7日，马山民歌经中华人民共和国国务院批准列入第二批国家级非物质文化遗产名录，项目编号：Ⅱ-81。</span>?[2]</div>
             </div>
           <div id="J-lemma-structured">
             <div>
@@ -174,77 +174,77 @@
             <div>
               <div></div>
               <div data-index="1" data-tag="header" data-uuid="gnaxbinxnx" data-level="1">
-                <div><a name="��ʷԨԴ"></a><a name="1"></a></div>
-                <h2 name="1">��ʷԨԴ</h2>
+                <div><a name="历史渊源"></a><a name="1"></a></div>
+                <h2 name="1">历史渊源</h2>
                 <div></div>
-                <span data-tts-catalog="1" data-tts-from="paragraph">����</span>
-                <div>�༭</div>
+                <span data-tts-catalog="1" data-tts-from="paragraph">播报</span>
+                <div>编辑</div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnaxbinxps" data-idx="0-1"><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E7%9C%81/0?fromModule=lemma_inlink" target="_blank" data-from-module="">����ʡ</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8C%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��ɽ������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%91%E6%AD%8C/0?fromModule=lemma_inlink" target="_blank" data-from-module="">���</a></span><span data-text="true">֮�����ơ��ƾõ���ʷ���ض��ĵ����������γ����Լ����صĴ�ͳ�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbinxri" data-idx="0-2"><span data-text="true">��ɽ�������Ļ���ɫ������������Զ������ʷ����׷�ݵ�1����ǰ����صġ���衱����衱����Ԫǰ298��ǰ263�꣨ս��������ʱ�ڣ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%8B%E7%8E%89/0?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�ڡ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AF%B9%E6%A5%9A%E7%8E%8B%E9%97%AE/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�Գ�����</a></span><span data-text="true">����˵�������и���۫���ߣ���ʼԻ����������ˡ�����������������ǧ�ˡ���������󣬴ӹ�Ԫ7���͵�20���ͳ����ơ��Ρ����������ʱ�ڶ��й��ڡ�۫����衱�ļ��ء�</span>?[1]</div>
-              <div data-tag="paragraph" data-uuid="gnaxblhp82" data-idx="0-3"><span data-text="true">����20����50�������ɽ������в�����Ʒ��Ϊ�й�������辫Ʒ���人��Ƭ����Ƴɳ�Ƭ�����ڵ���ŷ�Ͷ����ǹ��ҡ�ʱ֮��СѧУ��Ϊ���ֽ̲ģ���Ů���پ���ϰ��Ϊ�֡��й���輯��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BA%A2%E6%97%97%E6%AD%8C%E8%B0%A3/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�����ҥ</a></span><span data-text="true">������ʫ��</span><span data-text="true">�質ë��</span><span data-text="true">��������ɽһ����衣1957����ɽ���������������ڱ������Ϻ��������ݳ������ȵ������N�N�������ܵ��ܶ�����������������׳������нӼ���1960��</span><span data-text="true">�й����ֳ�����</span><span data-text="true">����ġ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%AD%8C/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�й����</a></span><span data-text="true">����ʽ��������ɽ���������2003��9�£�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E7%94%B5%E8%A7%86%E5%8F%B0/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�������̨</a></span><span data-text="true">����ɽ�����ר��Ƭ��</span><span data-text="true">�������</span><span data-text="true">�������ӹ���Ƶ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%B5%B0%E9%81%8D%E4%B8%AD%E5%9B%BD/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�߱��й�</a></span><span data-text="true">����Ŀ��������������ڽ����˾�����ɽ��衣</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbinxps" data-idx="0-1"><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E7%9C%81/0?fromModule=lemma_inlink" target="_blank" data-from-module="">湖北省</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82/0?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州市</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8C%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州区</a></span><span data-text="true">马山镇，素以</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%91%E6%AD%8C/0?fromModule=lemma_inlink" target="_blank" data-from-module="">民歌</a></span><span data-text="true">之乡著称。悠久的历史、特定的地理环境，形成了自己独特的传统民歌风格。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbinxri" data-idx="0-2"><span data-text="true">马山民歌地域文化特色鲜明、流传久远，其历史可以追溯到1世纪前后楚地的“扬歌”“田歌”。公元前298—前263年（战国楚襄王时期），</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%8B%E7%8E%89/0?fromModule=lemma_inlink" target="_blank" data-from-module="">宋玉</a></span><span data-text="true">在《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AF%B9%E6%A5%9A%E7%8E%8B%E9%97%AE/0?fromModule=lemma_inlink" target="_blank" data-from-module="">对楚王问</a></span><span data-text="true">》中说：“客有歌于郢中者，其始曰《下里》《巴人》，国中属而和者数千人……”。其后，从公元7世纪到20世纪初的唐、宋、明、清各个时期都有关于“郢中田歌”的记载。</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnaxblhp82" data-idx="0-3"><span data-text="true">早在20世纪50年代，马山民歌曾有部分作品作为中国优秀民歌精品被武汉唱片社灌制成唱片，出口到西欧和东南亚国家。时之中小学校列为音乐教材，男女老少均以习唱为乐。中国民歌集《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BA%A2%E6%97%97%E6%AD%8C%E8%B0%A3/0?fromModule=lemma_inlink" target="_blank" data-from-module="">红旗歌谣</a></span><span data-text="true">》卷首诗《</span><span data-text="true">歌唱毛泽东</span><span data-text="true">》即是马山一带民歌。1957年马山民歌手王兆珍等人在北京中南海怀仁堂演唱“喇叭调”“嘚嘚调”，受到周恩来、刘少奇等中央首长的亲切接见。1960年</span><span data-text="true">中国音乐出版社</span><span data-text="true">出版的《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%AD%8C/0?fromModule=lemma_inlink" target="_blank" data-from-module="">中国民歌</a></span><span data-text="true">》正式刊载了马山民歌五大调。2003年9月，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E7%94%B5%E8%A7%86%E5%8F%B0/0?fromModule=lemma_inlink" target="_blank" data-from-module="">中央电视台</a></span><span data-text="true">在马山拍摄的专题片《</span><span data-text="true">楚歌今昔</span><span data-text="true">》在央视国际频道《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%B5%B0%E9%81%8D%E4%B8%AD%E5%9B%BD/0?fromModule=lemma_inlink" target="_blank" data-from-module="">走遍中国</a></span><span data-text="true">》栏目播出，向海内外观众介绍了荆州马山民歌。</span>?[1]</div>
               <div data-index="2" data-tag="header" data-uuid="gnaxbl3a57" data-level="1">
-                <div><a name="��������"></a><a name="2"></a></div>
-                <h2 name="2">��������</h2>
+                <div><a name="基本特征"></a><a name="2"></a></div>
+                <h2 name="2">基本特征</h2>
                 <div></div>
                 <div></div>
               </div>
               <div data-index="2-1" data-tag="header" data-uuid="gnaxblu5hq" data-level="2">
-                <div><a name="���"></a><a name="2-1"></a></div>
-                <h3>���</h3>
+                <div><a name="类别"></a><a name="2-1"></a></div>
+                <h3>类别</h3>
               </div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3ad4" data-idx="1-2"><span data-text="true">������ɽ���Ʒ�ֶ�������Ҫ����衢С�����Ƹ衢���衢���׸衢���ӡ��ڽ̸衣</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3aie" data-idx="1-3"><span data-text="true">1�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3ak0" data-idx="1-4"><span data-text="true">��ɽ�����ڳ���������У���ˮ���������Ե���Ϊ������ɽ���������Ͷ�ǿ�ȴ����·�æ����Ҫũ�����໥Э�����Ӷ��γ���ũ������ʱ���������ϰ�ף��������������Ϊ��ɽ��ḻ�������á�ũ���ڲ�������ˮ��޶�ݡ��ո���������ʱ��ϲ���ø��������ɡ����񡢽��ơ���й�ȣ�Ϊ���������ũ����������ɫ�ʣ������ܼ����Ͷ����飬����Ͷ�Ч�ʡ�������ɽ��衶��һ���ɻ���ĵ����������ĵ����ϣ�һ�ߴ򵾹ȣ�һ�߸質���������Ű��࣬��������ɽ������������ʱ�����ޱ�ϲ�õ����飬չ���˷���ʱ�����ֳ�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3all" data-idx="1-5"><span data-text="true">2������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3ans" data-idx="1-6"><span data-text="true">�������Ͷ������ڴ��������Ͷ�ʱ���質��С����������һ���ں͵���ʽ���޹̶��ĳ��ʣ��Ҷ��óĴʣ���ũ������Ͷ�ʱ���˷��ӳ����ģ������ڻ���ѹ�����ͷ���������߼���Э��������������ɽ��衶̧���ӡ�����ʼ���ȫ�Ƿ����������ʣ������������У��޹̶���ʣ������ɶ�С��������������չ������ɽ�����Ͷ�ʱ�ľ�����ò��</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3aqk" data-idx="1-7"><span data-text="true">3��С��</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3asj" data-idx="1-8"><span data-text="true">С����ɳ�����С������ٵ��������ɽ���ڽ���ˮ�磬����֮�磬�����ºͣ���Ȼ������Խ��ʹ�������������˼ϸ�壬��зḻ���Ͷ�֮�࣬�ճ����ϰ���У���ɽ����ϲ���ø������㷢�Լ����黳�����������������������о�����������ɽ��衶��Ե����ա������׸�������ͣ�������ݱ��������ﵣ��������С���ܵ��ҵ�����黳��</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3au6" data-idx="1-9"><span data-text="true">4�����Ƹ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3avr" data-idx="1-10"><span data-text="true">���Ƹ��ǰ����ڵƽ����ʱ���ĸ衣ÿ������ʮ�壬���������ơ���������������������������Ȼ���ֳ��������֣�ϲ������������ɽ��������������������ǧ���ϰ�ף���˵Ƹ�Ҳ�Ƿǳ��ķḻ����������������죬�ݳ�ʱ������ġ������������İ��࣬�������ظ����裬��һ�������޲�չʾ�ž������񼫾���ɫ�Ľ����Ļ���������ɽ��衶�����ơ�������������������������������ɽ������ϲ���ֻ����ǵ����־���</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3axc" data-idx="1-11"><span data-text="true">5������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3ayw" data-idx="1-12"><span data-text="true">�����Ǵ��˳���С������С��Ҳ����ѧ�������ɼ򵥡��ṹ�����ĸ�������Щ���������Ͽڣ�ͨ���׶������跴ӳһ������Ժ���Ĺ�ע��Ҳ��ӳ��ͯ�������ӵ���������ǵ��Ҹ����������ɽ��衶������������������������С����һ����ˣ�����Ż�������ĸ�󡣬С�����鲻�Խ���������ȥ��Ϊ���ǵ���Ұ�����������Ȥ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3b0h" data-idx="1-13"><span data-text="true">6�����׸�</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3b25" data-idx="1-14"><span data-text="true">���׸���ơ�ϰ�׸衱���ǽ��ջ�����Ҫ���ӡ�����ʱ���ĸ����������ͼ޸衢�޼޸衢��ɥ�衢ף�ٸ�ȡ�������ɽ��衶���������ӳ�˵���ӭȢ����ʱϲ������ֵ㳡�档</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3b3q" data-idx="1-15"><span data-text="true">7���ڽ̸�</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3b5b" data-idx="1-16"><span data-text="true">��ӳ�����ʵ�ĸ衣��������ɽ����������Ƿǳ����ģ����ǳ�������ͳ�ν׼��İ�����Ϊ���������еĲ�ƽ������ֻ���ø������������ĵĸ��ܣ��ڽ̸���������������ʵд�ա�����ɽ��衶��˵�ϰ�����ţ�����ͱ�������ɽ���ص�ũ��Ե��������׼��������벻����</span>?[3]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3ad4" data-idx="1-2"><span data-text="true">荆州马山民歌品种多样，主要有田歌、小调、灯歌、儿歌、风俗歌、号子、宗教歌。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3aie" data-idx="1-3"><span data-text="true">1．田歌</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3ak0" data-idx="1-4"><span data-text="true">马山镇属于长江流域城市，是水稻产区，以稻作为主的马山人民，由于劳动强度大，田事繁忙，需要农民们相互协作，从而形成了农民劳作时插秧唱歌的习俗，因而创作的田歌成为马山最丰富的民歌体裁。农民在插秧，打水、薅草、收割等田间劳作时，喜欢用歌曲来放松、提神、解闷、宣泄等，为无聊辛苦的农耕生活增添色彩，这样能激起劳动热情，提高劳动效率。例如马山民歌《翻一个荷花对牡丹》在新填的稻场上，一边打稻谷，一边歌唱，还有唢呐伴奏，传达了马山人民在田间丰收时内心无比喜悦的心情，展现了丰收时的热闹场景。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3all" data-idx="1-5"><span data-text="true">2．号子</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3ans" data-idx="1-6"><span data-text="true">号子是劳动人民在从事体力劳动时而歌唱的小曲，大多采用一领众和的形式，无固定的唱词，且多用衬词，是农民进行劳动时即兴发挥出来的，可用于缓解压力，释放情绪，提高集体协作能力。例如马山民歌《抬号子》，歌词几乎全是方言语气助词，反复出现其中，无固定歌词，且旋律短小、精悍、有力，展现了马山人民劳动时的精神面貌。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3aqk" data-idx="1-7"><span data-text="true">3．小调</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3asj" data-idx="1-8"><span data-text="true">小调亦可称作“小曲”“俚曲”。马山属于江南水乡，鱼米之乡，气候温和，自然条件优越，使得这里的人们心思细腻，情感丰富。劳动之余，日常生活、习俗中，马山人民喜欢用歌曲来抒发自己的情怀。这类歌曲，旋律优美，情感精炼，例如马山民歌《姻缘配错哒》，这首歌旋律柔和，歌词内容表达了新娘担心新郎年小不能当家的惆怅情怀。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3au6" data-idx="1-9"><span data-text="true">4．二灯歌</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3avr" data-idx="1-10"><span data-text="true">二灯歌是百姓在灯节玩灯时唱的歌。每年正月十五，会有玩龙灯、划采莲船、闹莲花、骑马射箭等活动，现场热热闹闹，喜气洋洋。这是马山及整个荆州人民延续了千年的习俗，因此灯歌也是非常的丰富，这类民歌曲调欢快，演唱时还有锣鼓、唢呐弦乐器的伴奏，百姓们载歌载舞，这一景象是无不展示着荆楚人民极具特色的节日文化。例如马山民歌《九莲灯》《划龙船》《划采莲船》表达了马山人民欢天喜地闹花灯是的热闹景象。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3axc" data-idx="1-11"><span data-text="true">5．儿歌</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3ayw" data-idx="1-12"><span data-text="true">儿歌是大人唱给小孩听，小孩也跟着学唱的旋律简单、结构简练的歌曲。这些歌曲朗朗上口，通俗易懂。儿歌反映一个民族对后代的关注，也反映儿童天真质朴的形象和他们的幸福生活。例如马山民歌《蛤蟆调》。大人在田里劳作，小孩在一旁玩耍，看着活蹦乱跳的蛤蟆，小朋友情不自禁的数来数去，为他们的田野生活带来了乐趣。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3b0h" data-idx="1-13"><span data-text="true">6．风俗歌</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3b25" data-idx="1-14"><span data-text="true">风俗歌亦称“习俗歌”，是节日或者重要日子、场合时唱的歌曲，包括送嫁歌、哭嫁歌、哭丧歌、祝寿歌等。例如马山民歌《猜新娘》，放映了当地迎娶新娘时喜庆的热闹点场面。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3b3q" data-idx="1-15"><span data-text="true">7．宗教歌</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3b5b" data-idx="1-16"><span data-text="true">反映社会现实的歌。旧社会的马山人民的日子是非常艰苦的，他们常年忍受统治阶级的剥削，为了抑郁心中的不平，他们只能用歌曲来表达内心的感受，宗教歌就是他们生活的真实写照。如马山民歌《我说老板是条牛》。就表达了马山当地的农民对地主剥削阶级的憎恨与不满。</span>?[3]</div>
               <div data-index="2-2" data-tag="header" data-uuid="gnaxblccu5" data-level="2">
-                <div><a name="����"></a><a name="2-2"></a></div>
-                <h3>����</h3>
+                <div><a name="曲调"></a><a name="2-2"></a></div>
+                <h3>曲调</h3>
               </div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bbx" data-idx="1-18"><span data-text="true">��ɽ����������ɫ�����������������׵��Էḻ�������򵥣������Ͽڣ����ڴ������硶�����Ρ����׸��������������棬�𲿺��䲿ǿ���������ʽ��ƽ������ǿ����������ɫ���ص㣬�໥֮���γɽ�Ϊ������ɫ�ʶԱȡ������ɼ�������������������</span>?[3]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bbx" data-idx="1-18"><span data-text="true">马山民歌的旋律特色鲜明，民族五声音阶调试丰富，曲调简单，朗朗上口，易于传唱。如《火烧粑》这首歌在旋律音调方面，起部和落部强调五声羽调式，平部具有强调音的徵类色彩特点，相互之间形成较为鲜明的色彩对比。其旋律简捷流畅，节奏活泼明。</span>?[3]</div>
               <div data-index="2-3" data-tag="header" data-uuid="gnaxblccvr" data-level="2">
-                <div><a name="�ṹ"></a><a name="2-3"></a></div>
-                <h3>�ṹ</h3>
+                <div><a name="结构"></a><a name="2-3"></a></div>
+                <h3>结构</h3>
               </div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bf3" data-idx="1-20"><span data-text="true">1����ʽ�ṹ</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bh6" data-idx="1-21"><span data-text="true">�϶�������µ��䡢�����˵������ַ������µ��䡢�����˵��ַ���������ڡ�ʫ��������ȣ����µ�����Ǹ��´ʾ������ͬ��ֻ�Ǹ����м�ļ����֣�����ʹ���˵��ֵ��䣬ʹ���Ը����������󣬸����״�Ħ��е��հѡ�����г��õ����ַ���һ����Ϊ�˸��õı����ǿ����ֿ�ĸ��飬��һ��������Ϊ����ǿ�ͷ�����ģ�������ʽ���ڼ���ʹ��С�������ɽ��衶���紵������ˬ��������ӡ��ȶ���Ӧ�����µ�����һ�����ַ�����Σ������ȡ��ˡ���������ƽ��ֱ��ֱ�����ܣ��űȡ��ȣ����Ǳ������ˣ������������ˣ��������������ɽ��衶�ɻ���ˮ����ʻ����ɻ���ź��������������öԸ��İ�Ľ֮�顣</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bhr" data-idx="1-22"><span data-text="true">2������ṹ</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bjb" data-idx="1-23"><span data-text="true">��ɽ��������ṹ���ӣ��������ӡ�����ӵȣ���ɽ���������Ӹ�Ϊ����������Ҫ�о��������ĵ�����Ӹ裬����Ӹ������ֽṹ�ֱ����д����ṹ�������ṹ�������ṹ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bkw" data-idx="1-24"><span data-text="true">3�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bmh" data-idx="1-25"><span data-text="true">�����ṹ���Ľṹ������ι��ɣ���һ�η�Ϊ�ľ䣬���ɳ��ľ������峪�ʵĽṹ���ڶ���Ϊ���䣬���ɳ����������ĳ��ʡ���������һ�ε����δʣ������ɷ�����3�Ρ������ṹ���ʴ��ǽ���һ�γ���󣬲�ɢ�����ڵڶ��εĸ������ݳ����γɼ��б仯�Աȣ�����Э��һ�µķ������������������Ʒ���硶���ȵ�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bo1" data-idx="1-26"><span data-text="true">4�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bpm" data-idx="1-27"><span data-text="true">�������Ǹ����У���ʼһ������Ի��������ɣ�֮��ʼ�����ӿ죬һ��׷һ�䣬����ǸϾ��ӡ��������Ρ����ǵ��͵ĸ����ṹ��������ͼ��ʾ�������ɵ����俪ʼ�𽥼ӿ죬�����������Ȳ������ĵȴ����ؼҳԷ������顣</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3br7" data-idx="1-28"><span data-text="true">5�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bst" data-idx="1-29"><span data-text="true">�������һ�������߿����������ɵ����ֽṹ������ɢ�壬�������������������£�ֻ��������ɣ�������ɽ��衶��������������������������Կ�����ṹ���ɣ���������ϴ󣬱��ָ߰����������׸贫�������ö�����İ�Ľ֮�顣</span>?[3]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bf3" data-idx="1-20"><span data-text="true">1．句式结构</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bh6" data-idx="1-21"><span data-text="true">较多采用重章叠句、赋比兴的艺术手法。重章叠句、赋比兴的手法最早出现在《诗经》里，首先，重章叠句就是各章词句基本相同，只是更换中间的几个字，大量使用了叠字叠句，使语言更加生动形象，更容易揣摩情感的握把。民歌中常用的这手法，一方面为了更好的表达个强调真挚的感情，另一方面是因为民歌是口头传唱的，这种形式便于记忆和传诵。例如马山民歌《春风吹来精神爽》《起号子》等都有应到重章叠句这一艺术手法。其次，赋、比、兴。赋，就是平铺直叙，直抒胸臆，排比。比，就是比喻。兴，就是托物起兴，先言他物。例如马山民歌《荷花出水朵朵鲜花》荷花爱藕就是托物，比喻妹妹对哥哥的爱慕之情。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bhr" data-idx="1-22"><span data-text="true">2．曲体结构</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bjb" data-idx="1-23"><span data-text="true">马山民歌的曲体结构复杂，有三句子、五句子等，马山民歌以五句子歌为主，这里主要研究它著名的的五句子歌，五句子歌有三种结构分别是有穿五句结构、赶五句结构、喊五句结构。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bkw" data-idx="1-24"><span data-text="true">3．穿五句</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bmh" data-idx="1-25"><span data-text="true">穿五句结构它的结构由两大段构成，第一段分为四句，旋律唱四句无言体唱词的结构，第二段为两句，旋律唱五句七言体的唱词。构成两句一段的三段词，由旋律反复唱3次。穿五句结构精彩处是将第一段唱完后，拆散穿插在第二段的各句中演唱，形成既有变化对比，又有协调一致的风格特征的完整音乐作品。如《喇叭调》。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bo1" data-idx="1-26"><span data-text="true">4．赶五句</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bpm" data-idx="1-27"><span data-text="true">赶五句就是歌曲中，开始一两句相对缓慢而自由，之后开始由慢加快，一句追一句，这就是赶句子。《火烧粑》就是典型的赶五句结构歌曲，如图所示，歌曲由第三句开始逐渐加快，表达了情妹迫不及待的等待情歌回家吃饭的心情。</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3br7" data-idx="1-28"><span data-text="true">5．喊五句</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bst" data-idx="1-29"><span data-text="true">喊五句是一种情绪高亢、节奏自由的音乐结构。类似散板，但不代表音乐找乱无章，只有相对自由，例如马山民歌《清早起来脸朝东》，从谱面可以看出其结构自由，旋律起伏较大，表现高昂情绪，这首歌传达了妹妹对情哥哥的爱慕之情。</span>?[3]</div>
               <div data-index="3" data-tag="header" data-uuid="gnaxbinxx9" data-level="1">
-                <div><a name="������Ʒ"></a><a name="3"></a></div>
-                <h2 name="3">������Ʒ</h2>
+                <div><a name="代表作品"></a><a name="3"></a></div>
+                <h2 name="3">代表作品</h2>
                 <div></div>
-                <span data-tts-catalog="3" data-tts-from="paragraph">����</span>
-                <div>�༭</div>
+                <span data-tts-catalog="3" data-tts-from="paragraph">播报</span>
+                <div>编辑</div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnaxbl3bxe" data-idx="2-1"><span data-text="true">����������</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbinxyw" data-idx="2-2"><span data-text="true">��1�������ȵ�������</span><span data-text="true">��һ����ĵ��</span><span data-text="true">����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbiny0h" data-idx="2-3"><span data-text="true">��2������Ƶ�������</span><span data-text="true">��˵�ϰ�����ţ</span><span data-text="true">����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbiny23" data-idx="2-4"><span data-text="true">��3�����N�N��������</span><span data-text="true">���������ָ��</span><span data-text="true">����</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbiny3n" data-idx="2-5"><span data-text="true">��4����������������һ�����Ѷ����ɡ���</span></div>
-              <div data-tag="paragraph" data-uuid="gnaxbiny58" data-idx="2-6"><span data-text="true">��5��������������</span><span data-text="true">һ�����һ����</span><span data-text="true">����</span>?[4]</div>
+              <div data-tag="paragraph" data-uuid="gnaxbl3bxe" data-idx="2-1"><span data-text="true">《五大调》：</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbinxyw" data-idx="2-2"><span data-text="true">（1）“喇叭调”：《</span><span data-text="true">翻一个对牡丹</span><span data-text="true">》；</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbiny0h" data-idx="2-3"><span data-text="true">（2）“伙计调”：《</span><span data-text="true">我说老板是条牛</span><span data-text="true">》；</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbiny23" data-idx="2-4"><span data-text="true">（3）“嘚嘚调”：《</span><span data-text="true">今年丰收有指望</span><span data-text="true">》；</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbiny3n" data-idx="2-5"><span data-text="true">（4）“叮当调”：《一收衣裳二看郎》；</span></div>
+              <div data-tag="paragraph" data-uuid="gnaxbiny58" data-idx="2-6"><span data-text="true">（5）“蛤蟆调”：《</span><span data-text="true">一个蛤蟆一张嘴</span><span data-text="true">》。</span>?[4]</div>
             </div>
             <p>&nbsp;</p>
         </aside>
 </div>
-    <!-- ҳ�� -->
+    <!-- 页脚 -->
     <footer>
    
     </footer>
