@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <title>���ʽHTMLģ��</title>
-    <meta charset="gpk">
+    <title>框架式HTML模板</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* ����ҳ�沼����ʽ */
+        /* 整体页面布局样式 */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
 
-        /* ͷ����ʽ */
+        /* 头部样式 */
         header {
             background-color: #333;
             color: white;
@@ -21,7 +21,7 @@
             text-align: center;
         }
 
-        /* ��������ʽ */
+        /* 导航栏样式 */
         nav {
             background-color: #555;
             color: white;
@@ -40,18 +40,18 @@
             cursor: pointer;
         }
 
-        /* ����������ʽ */
+        /* 内容区域样式 */
         section {
             padding: 20px;
         }
 
-        /* �������ʽ */
+        /* 侧边栏样式 */
         aside {
             background-color: #f4f4f4;
             padding: 20px;
         }
 
-        /* ҳ����ʽ */
+        /* 页脚样式 */
         footer {
             background-color: #333;
             color: white;
@@ -62,481 +62,481 @@
 </head>
 
 <body>
-    <!-- ͷ�� -->
+    <!-- 头部 -->
     <header>
-        <h1>���ݵ���ʤ�ż�</h1>
+        <h1>荆州的名胜古迹</h1>
     </header>
-    <!-- ������ -->
+    <!-- 导航栏 -->
     <nav>
         <ul>
             
         </ul>
     </nav>
-    <!-- ҳ�����壬ʹ��flex����ʵ�ּ򵥵������ṹ -->
+    <!-- 页面主体，使用flex布局实现简单的两栏结构 -->
     <div style="display: flex; flex-wrap: wrap;">
-        <!-- ��Ҫ�������� -->
+        <!-- 主要内容区域 -->
         <section style="flex: 3;">
-            <h2>������һ����ʷ�ƾõ��Ļ����ǣ���������ʤ�ż�</h2>
+            <h2>荆州是一座历史悠久的文化名城，有许多名胜古迹</h2>
             <div>
-              <p>���ݣ��ųƽ��ꡢ�Ͽ���۫��������ʡ�ؼ��У�λ�ں���ʡ���ϲ� ����һ����ʷ�ƾ����ִ����������ӳ�ı������У�����<strong>���������ݣ�ʼ�о��ݡ�</strong>֮������</p>
+              <p>荆州，古称江陵、南郡、郢都，湖北省地级市，位于湖北省中南部 ，是一座历史悠久与现代文明交相辉映的滨江城市，素有<strong>“禹划九州，始有荆州”</strong>之美誉。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/d4628535e5dde711626d3cd47d95bd169c1661d9.jpeg@f_auto?token=4a09ad7358d5ee8e5dcd35a0b93900fe" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����</p>
+              <p>荆州</p>
             </div>
             <div>
               <p>&nbsp;</p>
             </div>
             <div>
-              <h3>һ�����ݹų�</h3>
+              <h3>一、荆州古城</h3>
             </div>
             <div>
               <blockquote>
-                <p>�����ǰ׵۲��Ƽ䣬ǧ�ｭ��һ�ջ������������������ʫ�䣬������ǽ���ľ��ݹųǣ�����������������ʿ������ס��Ÿ���½�Ρ��������������ȶ����������˵ء�</p>
+                <p>“朝辞白帝彩云间，千里江陵一日还”，这是李白著名的诗句，江陵就是今天的荆州古城，历代上许多文人雅士，如李白、杜甫、陆游、刘禹锡、苏轼等都曾在来过此地。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/1b4c510fd9f9d72a03fdbab80e505b39359bbb06.jpeg@f_auto?token=cc6020c2f81d18c026e8651d4b0804a5" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݹų�</p>
+              <p>荆州古城</p>
             </div>
             <div>
-              <p>���ݹųǣ��ųƽ��꣬�ش��������Ρ�����ƽԭ���أ���ʮ��λ�����ڴ˽���������<strong>������֮����</strong>���ǳ��Ļ��������Ļ�����Ҫ�����֮һ������<strong>����֮���ţ���������</strong>֮������</p>
+              <p>荆州古城，古称江陵，地处长江中游、江汉平原腹地，三十余位帝王在此建国，被誉<strong>“帝王之都”</strong>，是楚文化、三国文化的重要发祥地之一，素有<strong>“国之南门，上游重镇”</strong>之美誉。</p>
             </div>
             <div>
               <div><img src="https://pics1.baidu.com/feed/e1fe9925bc315c6018b77c5357cbb81e485477f7.jpeg@f_auto?token=b660294feb5e9153e635c5f72e2ca9c1" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݹų�</p>
+              <p>荆州古城</p>
             </div>
             <div>
-              <p>�ųǷ�Ϊ���㣬�����ˮ�ǣ��м���ש�ǣ��ڲ������ǣ����й��Ϸ�����������Ϊ��á���ģ���ĹŴ���ԫ���ų�ԭ���������ţ������š�С���š����š�С���š����š����ţ�����ǰ�������ţ�����֮�����ͳǣ�Ϊ����׽��֮����</p>
+              <p>古城分为三层，外层是水城，中间是砖城，内部是土城，是中国南方地区保存最为完好、规模最大的古代城垣。古城原有六座城门，即东门、小东门、北门、小北门、西门、南门，均设前后两道门，二门之间有瓮城，为瓮中捉鳖之所。</p>
             </div>
             <div>
               <div><img src="https://pics6.baidu.com/feed/91ef76c6a7efce1bc9ff11d4752b80d3b58f6564.jpeg@f_auto?token=29f38c5eb6a7e605601294fc6b102c63" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݹų�</p>
+              <p>荆州古城</p>
             </div>
             <div>
-              <p>����¥���Ǿ��ݹųǵ��Ƹߵ㣬���ϳ�¥�����Ը�ųǵ�׳���������ڱ���¥�����������ʷ�����չƷ��չʾ�˾��ݵ��ƾ���ʷ���Ļ����̡�</p>
+              <p>宾阳楼，是荆州古城的制高点，登上城楼，可以俯瞰古城的壮丽美景。在宾阳楼里，还有许多历史文物和展品，展示了荆州的悠久历史和文化底蕴。</p>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/908fa0ec08fa513d29d28cc6e71726f6b2fbd932.jpeg@f_auto?token=ad9a40f22a0dfc9f801fc2148d32542d" alt="5" width="640"></div>
             </div>
             <div>
-              <p>���ݹų�</p>
+              <p>荆州古城</p>
             </div>
             <div>
-              <p><strong>��ַ�������о������ž�����</strong></p>
+              <p><strong>地址：荆州市荆州区张居正街</strong></p>
             </div>
             <div>
-              <h3>�����ž����ʾ�</h3>
+              <h3>二、张居正故居</h3>
             </div>
             <div>
               <blockquote>
-                <p>�ž���������󣬺�̫��������Ž��꣬�������μҡ��ڸ��׸����ĸ�ң�����Ϊ�����ࡱ��������֮�ܡ������й���ʷ���ľ���������ࡣ</p>
+                <p>张居正，字叔大，号太岳，亦称张江陵，明代政治家、内阁首辅、改革家，被誉为“奇相”、“宰相之杰”，是中国历史上颇具争议的宰相。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/b03533fa828ba61e8a65bf2e9b4ee407314e59ab.jpeg@f_auto?token=9dbb8d6a3c5d068a666c4ad4140b7563" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ž����ʾ�</p>
+              <p>张居正故居</p>
             </div>
             <div>
-              <p>�ž����ʾӣ�λ�ھ��ݹųǶ������ڣ���һ�������廳�������ž����ĳ�����Ϊ������԰��ʽ��������������Ժ�䣬������԰������֣�������ԭ�е������Ժ��С԰�ַ��</p>
+              <p>张居正故居，位于荆州古城东大门内，是一座用于缅怀、纪念张居正的场所，为仿明清园林式建筑风格，五进四重院落，东房西园建筑格局，保留了原有的明清合院和小园林风格。</p>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/6609c93d70cf3bc7b98fb58a0b7ac9accc112a54.jpeg@f_auto?token=c4cb0a32da8420c5f99d9be867d2125f" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ž����ʾ�</p>
+              <p>张居正故居</p>
             </div>
             <div>
-              <p>�ʾӱ��������彨������԰�ֲ��֣�ӵ���ձڡ�̫���á�̫ʦ�ӡ���ͤ�������á�����¥ �����ҹ������Ĳ�������¥�����е�Ⱦ��㡣��Ժ�����һ���ž������ܣ����Źٷ���ͷ����ñ�����ֳ��飬���ֱ�������Զ����</p>
+              <p>故居保留了明清建筑风格和园林布局，拥有照壁、太岳堂、太师居、碑亭、纯忠堂、捧日楼 张文忠公祠、文昌阁、蓬日楼、纯中殿等景点。在院落里，有一座张居正雕塑，身着官服，头戴官帽，右手持书，左手背后，凝视远方。</p>
             </div>
             <div>
               <div><img src="https://pics1.baidu.com/feed/5366d0160924ab18c8e8e749ef8095c07a890b5d.jpeg@f_auto?token=c0b839ff616d90d5881d9b1e7ce75e65" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ž����ʾ�</p>
+              <p>张居正故居</p>
             </div>
             <div>
-              <p>�ʾ���չ�ݣ����ž�������ƽ�¼�Ϊ���ߣ���Ϊ�������ͯ�������º�������������������������������衱�ĸ�ƪ�£�չʾ���ž��������һ����</p>
+              <p>故居有展馆，以张居正的生平事迹为主线，分为“早慧奇童”、“宦海沉浮”、“力挽狂澜”、“苍凉悲歌”四个篇章，展示了张居正传奇的一生。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/32fa828ba61ea8d304d02d0a4d704343241f5852.jpeg@f_auto?token=69eb73edb6eb316542f57ed652112260" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ž����ʾ�</p>
+              <p>张居正故居</p>
             </div>
             <div>
-              <p><strong>��ַ�������о�����������·2��</strong></p>
+              <p><strong>地址：荆州市荆州区荆州南路2号</strong></p>
             </div>
             <div>
-              <h3>�������ݲ����</h3>
+              <h3>三、荆州博物馆</h3>
             </div>
             <div>
               <blockquote>
-                <p>����һ���ǣ��Ӳ���ݿ�ʼ��Ҫ�������ݣ���Ҫ�Ӿ��ݲ���ݿ�ʼ�����ǿ��Դ������˽⾣�ݵ���Դ����չ����ʢ�������ԡ���������ʳ�ȶ��������н�����ر�����ʷ�Ļ���</p>
+                <p>读懂一座城，从博物馆开始。要读懂荆州，就要从荆州博物馆开始，我们可以从这里了解荆州的起源、发展、兴盛，从语言、建筑、饮食等多个方面进行解读，特别是历史文化。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/024f78f0f736afc30fe228015e6398c9b645126b.jpeg@f_auto?token=f508e9845c347b64c2277237ac1bc9a4" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݲ����</p>
+              <p>荆州博物馆</p>
             </div>
             <div>
-              <p>���ݲ���ݣ�ʼ����1958�꣬�Ծ����Ļ�Ϊ��ɫ��������չ�������������������ղ��뱣�������ŷ������о��ȶ��ֹ�����һ�壬��һ���ط��ۺ��Բ���ݡ�</p>
+              <p>荆州博物馆，始建于1958年，以荆楚文化为特色，集陈列展览、宣传教育、文物收藏与保护、考古发掘与研究等多种功能于一体，是一座地方综合性博物馆。</p>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/242dd42a2834349b4e40e1dc139066c337d3bea9.jpeg@f_auto?token=b1b591ba3a82ef8e1aae7bb6a7570198" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݲ����</p>
+              <p>荆州博物馆</p>
             </div>
             <div>
-              <p>������ղ��˴������������������Դ���ս���ĳ���Ϊ����������Ծ��ݸ���������ַ��Ĺ�ᣬ����ɽ����ɽ��л���š����ǹۡ���̨ɽ�����ϳǳ�Ĺ�����������ľ�����ɫ��??</p>
+              <p>博物馆收藏了从商至清各朝代的文物，以春秋战国的楚国为主，大多来自荆州附近楚国遗址和墓葬，如马山、望山、谢家桥、天星观、雨台山、纪南城楚墓，呈现鲜明的荆楚特色。??</p>
             </div>
             <div>
               <div><img src="https://pics2.baidu.com/feed/4ec2d5628535e5ddb26276aaacbcd4e2cf1b6285.jpeg@f_auto?token=d62fde3ec57709f0ddd8843c68506bd8" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݲ����</p>
+              <p>荆州博物馆</p>
             </div>
             <div>
-              <p>���У��ݲ��������ս��˿���������ì��ս���غ��������й��������������ѧר���������顷�����͡��������ɡ��ġ���������Ⱥ�����빣���ľ�ʻ滢���������ģ��Լ���ľ�ʻ���������Ƕ���</p>
+              <p>其中，馆藏文物包括战国丝绸、吴王夫差矛、战国秦汉漆器，中国世界上最早的数学专著《算数书》和萧和“二年造律”的《二年律令》等汉初简牍；漆木彩绘虎座凤鸟悬鼓，以及漆木彩绘凤鸟莲花盖豆。</p>
             </div>
             <div>
               <div><img src="https://pics3.baidu.com/feed/838ba61ea8d3fd1f52d6c406ea34561294ca5fb2.jpeg@f_auto?token=5a87901e765562d1c38879cd9d84d336" alt="1" width="640"></div>
             </div>
             <div>
-              <p>���ݲ����</p>
+              <p>荆州博物馆</p>
             </div>
             <div>
-              <p><strong>��ַ�������о�����������·166��</strong></p>
+              <p><strong>地址：荆州市荆州区荆州中路166号</strong></p>
             </div>
             <div>
-              <h3>�ġ�����������</h3>
+              <h3>四、楚王车马阵</h3>
             </div>
             <div>
               <blockquote>
-                <p>�׻�˵�����б���ٸ�����г����󡣳���������Ϊ�й����С����µ�һ������������ٸ�������Ǿ��ݿ���ʷ�ϵ��漣��</p>
+                <p>俗话说，北有兵马俑，南有车马阵。楚王车马阵为中国仅有、天下第一，和西安兵马俑齐名，是荆州考古史上的奇迹。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/0e2442a7d933c8959851f9110b6900fd82020030.jpeg@f_auto?token=7588e77a3ac95b6560579a000b091bce" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����������</p>
+              <p>楚王车马阵</p>
             </div>
             <div>
-              <p>���������󣬼��ܼ�ڣ��Ϊ�����ϳǴ��͹��Ļ���ַ����Ҫ��ɲ��֣��ǹ������������ģ��󡢱�����á��ֲ��������ĳ����ߵȼ�����Ĺ�أ�Ҳ�Ǵ���ս��ʱ�ڳ��Ļ����ˮƽ�Ľܳ�������</p>
+              <p>楚王车马阵，即熊家冢，为楚纪南城大型古文化遗址的重要组成部分，是国内乃至世界规模最大、保存最好、分布最完整的楚国高等级贵族墓地，也是春秋战国时期楚文化最高水平的杰出代表。</p>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/8b13632762d0f7031e67f1f8d28022302797c541.jpeg@f_auto?token=49acf95edc038bddce9773dc2be26e00" alt="4" width="640"></div>
             </div>
             <div>
-              <p>����������</p>
+              <p>楚王车马阵</p>
             </div>
             <div>
-              <p>������ʷ�ƾã��Ļ���������г�������ַ�������ꡢ�����긴ԭչʾ����ѳ��Ĺչʾ����԰�ּ���̬ũҵ�Ⱦ��ۣ�������ʮ�������ƻֺ�ĳ����ӣ����ƻֺ꣬��Ϊ�𺳡�</p>
+              <p>景区历史悠久，文化底蕴深厚，有车马阵遗址、楚王陵、王后陵复原展示区、殉葬墓展示区、园林及生态农业等景观，包括四十余座气势恢宏的车马坑，气势恢宏，极为震撼。</p>
             </div>
             <div>
               <div><img src="https://pics1.baidu.com/feed/9f2f070828381f301d7d61a8737b3f056f06f0d0.jpeg@f_auto?token=132e457cec191a6b69f9f026920bd42b" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����������</p>
+              <p>楚王车马阵</p>
             </div>
             <div>
-              <p>���У���ģ������һ�ų����ӣ�������Լʮ���ף��ϱ���Լһ����ʮ�ף�������Ϊֹ���ҹ����ֵ�����ĳ����ӣ������������ս����ս����չʾ�˳����ľ������Ļ���</p>
+              <p>其中，规模最大的是一号车马坑，东西宽约十二米，南北长约一百三十米，到今天为止是我国发现单体最长的车马坑，如出土了若干战车和战马，展示了楚国的军事与文化。</p>
             </div>
             <div>
               <div><img src="https://pics3.baidu.com/feed/b219ebc4b74543a92984c806c76df98fbb0114e0.jpeg@f_auto?token=866a902bdb369858f2af4f818fa57623" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����������</p>
+              <p>楚王车马阵</p>
             </div>
             <div>
-              <p><strong>��ַ�������о������������ų���</strong></p>
+              <p><strong>地址：荆州市荆州区川店镇张场村</strong></p>
             </div>
             <div>
-              <h3>�塢�ص���</h3>
+              <h3>五、关帝庙</h3>
             </div>
             <div>
               <blockquote>
-                <p>��԰�����塢�¾�ն���ۡ���Ӣս���������������ܡ��������ĳ󡢹����ն�������ų���ᡢ���Ͳ��ϵ¡����ؾ��ݡ����廢�Ͻ�����ʥ�������Ŵ����һ����</p>
+                <p>桃园三结义、温酒斩华雄、三英战吕布、降汉不降曹、颜良诛文丑、过五关斩六将、古城相会、义释曹孟德、镇守荆州、封五虎上将，武圣关羽有着传奇的一生。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics2.baidu.com/feed/6159252dd42a28344874897881cfbae714cebf7f.jpeg@f_auto?token=4e87401c57b783c9585c69891ade7d80" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ص���</p>
+              <p>关帝庙</p>
             </div>
             <div>
-              <p>�ص�����Ҳ�ƹع������ع��ݣ�ʼ�����������ʮ���꣬�˵������񺺴󽫹������ؾ��ݵĸ�ۡ�ʻ�������������ؽ����Ǿ��ݵı�־�Խ�������ɽ�����ݹ����������������ꡢ�����������ֲ���Ϊ<strong>���Ĵ�ع�����ʥ�ء�</strong>��</p>
+              <p>关帝庙，也称关公庙、关公馆，始建于明洪武二十九年，此地曾是蜀汉大将关羽镇守荆州的府邸故基，后历经多次重建，是荆州的标志性建筑，与山西解州关祠、湖北当阳关陵、河南洛阳关林并称为<strong>“四大关公纪念圣地”</strong>。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/0b46f21fbe096b63ace4f451d649f449eaf8acbe.jpeg@f_auto?token=a44290d43f325c161039dcfab2a9ec1e" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ص���</p>
+              <p>关帝庙</p>
             </div>
             <div>
-              <p>��������������������ܶ�������ǽ���ߣ����ƻֺ꣬�д�����¥�����йݵȽ�����������Ԫĩ������ֲ�ġ��������ӡ��������������ѿ�ή��������Ȼ֦�Ҷï���Ծ�ͦ�Ρ�</p>
+              <p>整座庙宇雕梁画栋，飞檐斗拱，红墙灰瓦，气势恢宏，有大殿、三义楼、陈列馆等建筑。庙中有元末明初种植的“夫妻银杏”，尽管雄树早已枯萎，雌树依然枝虬叶茂、苍劲挺拔。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/63d0f703918fa0ecee95adfdfced2ae33c6ddb7d.jpeg@f_auto?token=9a170bbebe3ce80b80f6e8e49a0c8f1d" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ص���</p>
+              <p>关帝庙</p>
             </div>
             <div>
-              <p>���ڳ��������֮�⣬�����桢�桢�������룬���ӹ�ƽ�������ּܲ����ǡ������Դ��롣ǧ��������������ҡ��塢���ǡ��š��ʡ��µȾ���������ģ���Ϊ�����Ļ�������ص�һ֧��</p>
+              <p>庙内除祭祀关羽之外，其曾祖、祖、父亦受祀，其子关平、部将周仓及杨仪、马良皆从祀。千百年来，关羽的忠、义、礼、智、信、仁、勇等精神深得人心，成为三国文化中最独特的一支。</p>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/d1160924ab18972b2f11ad2b3cb708849f510ab4.jpeg@f_auto?token=81085879ab6d5cf811a452eae41dabd7" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�ص���</p>
+              <p>关帝庙</p>
             </div>
             <div>
-              <p><strong>��ַ�������о���������·48��</strong></p>
+              <p><strong>地址：荆州市荆州区爱民路48号</strong></p>
             </div>
             <div>
-              <h3>������ˮ����</h3>
+              <h3>六、洈水景区</h3>
             </div>
             <div>
               <blockquote>
-                <p>�̲����졢ˮ��һɫ�������Ǿ��ݵġ�ǧ�������������е��������к���ɽ����ˮ��ˮ����ɽ�����͵��֣�������Ӱ������������ě�ˮ������</p>
+                <p>烟波浩渺、水天一色，这里是荆州的“千岛湖”。湖中有岛，岛中有湖，山绕着水，水环抱山，层峦叠嶂，湖光掠影，这就是著名的洈水景区。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/55e736d12f2eb938d412a8f20f18f638e5dd6f3f.jpeg@f_auto?token=09ec5f696d7cc10ef2c1ece8972b1868" alt="3" width="640"></div>
             </div>
             <div>
-              <p>��ˮ����</p>
+              <p>洈水景区</p>
             </div>
             <div>
-              <p>��ˮ�������ش�������Ͽ�����ݹųǡ��żҽ�����֮�䣬�ɛ�ˮ������ˮ����ɭ�ֹ�԰�����񶴵�����������ɣ���ɽ��ˮ���֡�Ȫ������һ�壬���н���ɽˮ֮���������б������֮׳��������<strong>������������</strong>֮������</p>
+              <p>洈水景区，地处长江三峡、荆州古城、张家界三地之间，由洈水湖、洈水国家森林公园和新神洞等三大区域组成，集山、水、林、泉、洞于一体，既有江南山水之秀丽，又有北国风光之壮美，素有<strong>“楚国西极”</strong>之美誉。</p>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/902397dda144ad34dd5e2ec00ad87ff930ad8518.jpeg@f_auto?token=836f494b00b20dbc7bcbface1f462271" alt="1" width="640"></div>
             </div>
             <div>
-              <p>��ˮ����</p>
+              <p>洈水景区</p>
             </div>
             <div>
-              <p>������տ���ĺ�ˮ����õ����ơ����̵�Ͽ�ȡ�����ĵ��죬��Ҫ�����Л�ˮ��ӡ���ˮ������ɽ�۵�����ˮ������԰���һ���������ڼ���������������񶴡��ս������������µȡ�</p>
+              <p>景区有湛蓝的湖水、变幻的烟云、翠绿的峡谷、起伏的岛屿，主要景点有洈水大坝、洈水湖、南山观岛区、水上游乐园、桃花岛、九岭岗纪念碑、明珠塔、新神洞、颜将军洞、灵鹫寺等。</p>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/472309f7905298228d3bfebc0db008c60b46d4ca.jpeg@f_auto?token=e26c7b4fc528c3ec8e9e6e91a5dbb637" alt="1" width="640"></div>
             </div>
             <div>
-              <p>��ˮ����</p>
+              <p>洈水景区</p>
             </div>
             <div>
-              <p>��ˮ��ӣ�λ�ڛ������Σ�����ɫ������ۣ���������ˮ�⣬����<strong>�����޵�һ�˹����ӡ�</strong>֮���������񶴣����桢�ۡ���������һ�壬�����������ۣ���;��ʯ���ڣ��й����š���ˮ������������Ȥζ���</p>
+              <p>洈水大坝，位于洈河中游，似绿色巨龙伸臂，守望辽阔水库，素有<strong>“亚洲第一人工土坝”</strong>之美誉。新神洞，集奇、雄、峻、险于一体，洞内蜿蜒曲折，沿途奇石绝壁，有过天桥、渡水道，险象环生，趣味无穷。</p>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/b3fb43166d224f4ae2926dddd08de35f9922d179.jpeg@f_auto?token=b308eb07a62e3380129fef23486709ad" alt="1" width="640"></div>
             </div>
             <div>
-              <p>��ˮ����</p>
+              <p>洈水景区</p>
             </div>
             <div>
-              <p><strong>��ַ�������������Л�ˮ��ˮ���8��</strong></p>
+              <p><strong>地址：荆州市松滋市洈水镇洈水大道8号</strong></p>
             </div>
             <div>
-              <h3>�ߡ�����԰</h3>
+              <h3>七、万寿园</h3>
             </div>
             <div>
               <blockquote>
-                <p>���ξ��ݣ������뵽��һ���Ǿ��ݹųǡ����ݲ���ݡ��ž����ʾӡ�����ʵ���ܶ��˲���֪�����ھ������ϵĳ������ϣ���һ�����ڵ��µ�������һ��Ҫȥ��һ����</p>
+                <p>漫游荆州，首先想到的一般是荆州古城、荆州博物馆、张居正故居……其实，很多人并不知道，在荆州西南的长江边上，有一座沉于地下的奇塔，一定要去看一看。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/18d8bc3eb13533fab5868d6f72a98e1240345bc2.jpeg@f_auto?token=94f31a3456f866048bc1ededf0809197" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����԰</p>
+              <p>万寿园</p>
             </div>
             <div>
-              <p>����԰�������ھ�����̹�����֮�ϣ�ʼ����������䣬���̰�ˮ�����ĵ��ţ���Ȼ�����أ����ĵ��������һ�������ι۹⡢����ż���������ʷ��һ��ķ羰��ʤ����</p>
+              <p>万寿园，坐落于荆江大堤观音矶之上，始建于南宋年间，依堤伴水，清幽淡雅，自然风光独特，人文底蕴深厚，是一座集旅游观光、文物古迹、防洪历史于一体的风景名胜区。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/a8773912b31bb051d19c1238ec00a9b94bede0ea.jpeg@f_auto?token=e8f24ddd671d5fa3969809b802f2d6fa" alt="11" width="640"></div>
             </div>
             <div>
-              <p>����԰</p>
+              <p>万寿园</p>
             </div>
             <div>
-              <p>�����������滷ˮ����������������ϵ����ٱ��������չ�����֮�⣬���������ڡ��Ű˿���Ӣ�ۼ���ͤ���Ļ�����ǽ�ڵȾ��㣬�Ǿ�����ʷ�������ʤ��</p>
+              <p>整个景区三面环水，风光秀丽，除古老的万寿宝塔与天险观音矶之外，另有四龙壁、九八抗洪英雄纪念亭、文化景观墙壁等景点，是具有历史意义的名胜。</p>
             </div>
             <div>
               <div><img src="https://pics3.baidu.com/feed/0824ab18972bd407d0a74fe89bf3ed5c0eb309cf.jpeg@f_auto?token=48483f68e2858c150608631020a72f26" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����԰</p>
+              <p>万寿园</p>
             </div>
             <div>
-              <p>���ٱ����������������������������ϣ��߲���棬�߶���ʮ���ף�Ϊ¥��ʽשʯ��ľ�ṹ����ǧ�������������Ǿ�����������ˮ���ı�־�Խ������ֳ�����������ͨ����������Ը�����ǳ���ˮ�ġ�������Ǩ����Ҫ��֤��</p>
+              <p>万寿宝塔，亦名“接引塔”，坐北朝南，七层八面，高度四十余米，为楼阁式砖石仿木结构。近千年来，宝塔既是荆江两岸饱经水患的标志性建筑，又承载了人们疏通江流的美好愿望，是长江水文、地理变迁的重要见证。</p>
             </div>
             <div>
               <div><img src="https://pics2.baidu.com/feed/aec379310a55b3197c85a01099d3f12bcefc17da.jpeg@f_auto?token=e2d65fb6e66593a8a614834289896cdf" alt="1" width="640"></div>
             </div>
             <div>
-              <p>����԰</p>
+              <p>万寿园</p>
             </div>
             <div>
-              <p><strong>��ַ��������ɳ��������·90��</strong></p>
+              <p><strong>地址：荆州市沙市区荆堤路90号</strong></p>
             </div>
             <div>
-              <h3>�ˡ�ɳ������ͷ</h3>
+              <h3>八、沙市洋码头</h3>
             </div>
             <div>
               <blockquote>
-                <p>�׻�˵��ǧ����̲�����������ͷ��ɳ����ͷ���Թ��������ǳ���������Ҫ�Ļ��Ｏɢ��֮һ��1895�꣬ɳ�г�Ϊ�й�������⿪�����Ĵ��ںӸۿ�֮һ�������˳�Ϊ������ͷ����</p>
+                <p>俗话说，千年古商埠，百年洋码头。沙市码头，自古以来就是长江流域重要的货物集散地之一。1895年，沙市成为中国最早对外开埠的四大内河港口之一，本地人称为“洋码头”。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics2.baidu.com/feed/a6efce1b9d16fdfa8addee376ef5ff5995ee7b39.jpeg@f_auto?token=98ebb23f15f40d649cae82daf4bcdda8" alt="1" width="640"></div>
             </div>
             <div>
-              <p>ɳ������ͷ</p>
+              <p>沙市洋码头</p>
             </div>
             <div>
-              <p>ɳ������ͷ�����������ޣ�����������ͷ�����ٳ���������������̣�ȫ��Լ��ǧ�ף������˲��ֹ�ҵ��������ʷ��������һ�����۹⡢�Ļ�����������ʳ��������һ����Ĵ�԰��</p>
+              <p>沙市洋码头，东起柳林洲，西至汽渡码头，南临长江，北靠荆江大堤，全长约二千米，保留了部分工业厂房和历史建筑，是一个集观光、文化、艺术、美食、演艺于一体的文创园。</p>
             </div>
             <div>
               <div><img src="https://pics3.baidu.com/feed/e61190ef76c6a7efbbab57932780dc5cf2de667a.jpeg@f_auto?token=543a2456bf36bf81f75feda309c59baa" alt="1" width="640"></div>
             </div>
             <div>
-              <p>ɳ������ͷ</p>
+              <p>沙市洋码头</p>
             </div>
             <div>
-              <p>�����Ĵ�԰�������Ĵ��칫�����������ҡ��Ĵ����ۡ��Ļ��糡�����в�������̬���޵�ҵ̬���ṩҹ�㡢ҹ�Ρ�ҹʳ��ҹ����ҹ����ҹ�顢ҹ�ݡ�ҹչ��ҹ�޵ȶ���ҵ̬�����ر��ʺ�ҹ�����ֵľۼ�����</p>
+              <p>整个文创园引进了文创办公、艺术工作室、文创零售、文化剧场、休闲餐饮、生态民宿等业态，提供夜秀、夜游、夜食、夜购、夜健、夜娱、夜演、夜展、夜宿等多种业态，是特别适合夜间娱乐的聚集区。</p>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/b7003af33a87e9504d405f66ca42204efaf2b4e9.jpeg@f_auto?token=07e08903bb68492c4916154e9a896fae" alt="1" width="640"></div>
             </div>
             <div>
-              <p>ɳ������ͷ</p>
+              <p>沙市洋码头</p>
             </div>
             <div>
-              <p>�ڰ��ƻ��糧����ַ���������Ϊ���������˶���԰���������򳡡����򳡡���ë�򳡡����򳡡���ͯ������ʩ��������ʩ���붫����������̬��԰��Ϊһ�壬�γɶ�����ɫ�ı����˶���������</p>
+              <p>在白云机电厂区旧址，这里变身为户外体育运动公园，设有足球场、篮球场、羽毛球场、网球场、儿童游乐设施等体育设施，与东侧柳林洲生态公园连为一体，形成独居特色的滨江运动休闲区。</p>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/38dbb6fd5266d01670b4bd5b4c51a70a34fa359f.jpeg@f_auto?token=7a290f8d84ca1012eb321e5b9abee461" alt="2" width="640"></div>
             </div>
             <div>
-              <p>ɳ������ͷ</p>
+              <p>沙市洋码头</p>
             </div>
             <div>
-              <p><strong>��ַ��������ɳ����ʤ���ֵ�����·55��</strong></p>
+              <p><strong>地址：荆州市沙市区胜利街道荆堤路55号</strong></p>
             </div>
             <div>
-              <h3>�š��»���</h3>
+              <h3>九、章华寺</h3>
             </div>
             <div>
               <blockquote>
-                <p>ÿһ�����ж��������Լ�����������һ���������������˳���»��£��������ھ��ݵ�ǧ���ɲ��ÿһ��������ʷ��ÿһ���е��̡�</p>
+                <p>每一座城市都有属于自己的寺庙，守一方安宁，保风调雨顺。章华寺，就是属于荆州的千年古刹，每一处都是历史，每一地有底蕴。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/a1ec08fa513d26975fe4e20f8f81c1f64316d831.jpeg@f_auto?token=183a72c8ca16599dfc413aeac9fb94e4" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�»���</p>
+              <p>章华寺</p>
             </div>
             <div>
-              <p>�»��£�ǰ���ǳ��������޽����빬����Ϊ���»�̨���������ս�ң���Ԫ��̩��������ޣ�װ�ε��ţ�����Իͣ���ͬ������Ԫ�¡����� ��Ȫ�²���Ϊ��<strong>����������֡�</strong>��</p>
+              <p>章华寺，前身是楚灵王所修建的离宫，称为“章华台”，后毁于战乱，于元代泰定年间重修，装饰典雅，殿宇辉煌，与同汉阳归元寺、当阳 玉泉寺并称为“<strong>湖北三大丛林”</strong>。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/8b13632762d0f7033ea09180d28022302797c5e0.jpeg@f_auto?token=183fe023479cf192d7f95752d043b6b7" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�»���</p>
+              <p>章华寺</p>
             </div>
             <div>
-              <p>�������ֹ�����Ϊ��͢ʽ������֣����ֺ�������̻Իͣ���ɽ�š����������Τ�Ե���۱����������ӵ�ؾ�¥�����á������á�ի�á������ҵȽ�����</p>
+              <p>寺庙布局规整，为宫廷式建筑格局，布局合理，金碧辉煌，有山门、天王殿、财神殿、韦驮殿、大雄宝殿、观音殿、弥陀殿、藏经楼、禅堂、净月堂、斋堂、方丈室等建筑。</p>
             </div>
             <div>
               <div><img src="https://pics7.baidu.com/feed/dc54564e9258d1098253b9d00d22bfb26d814da3.jpeg@f_auto?token=1ab4adefdf9260fbbf5a32c4033ece1f" alt="1" width="640"></div>
             </div>
             <div>
-              <p>�»���</p>
+              <p>章华寺</p>
             </div>
             <div>
-              <p>���˵���»��������й���һ��÷����÷��������ž����ƴ��������ȹż���Ϊ���������˲�����ʷ���ϣ����й���̽�չ���˳�ߵõ�λ��</p>
+              <p>除了殿宇，章华寺内有中国第一古梅“楚梅”、沉香古井、唐代银杏树等古迹，为寺庙增添了不少历史古韵，在中国佛教界展现了崇高得地位。</p>
             </div>
             <div>
               <div><img src="https://pics0.baidu.com/feed/960a304e251f95ca66e013f0136d0c33660952e3.jpeg@f_auto?token=562c59dcf221c88e0d3229ab01acf738" alt="6" width="640"></div>
             </div>
             <div>
-              <p>�»���</p>
+              <p>章华寺</p>
             </div>
             <div>
-              <p><strong>��ַ��������ɳ����̫ʦԨ·34��</strong></p>
+              <p><strong>地址：荆州市沙市区太师渊路34号</strong></p>
             </div>
             <div>
-              <h3>ʮ��������</h3>
+              <h3>十、大赛巷</h3>
             </div>
             <div>
               <blockquote>
-                <p>�Ͻ�����һ�����е��Ļ����̣�Ҳ�����ڳ��е���ʷ���䡣��ש��ġӡ�ŷ����ɣ��С���ﱥ����������Ϣ�������Ͼ������Ŷ����Ϻ��ĳ��������人�Ļ�������������е����Ǵ�������ǲ�������Ĵ��ڡ�</p>
+                <p>老街巷是一座城市的文化底蕴，也是属于城市的历史记忆。青砖上摹印着风雨沧桑，小巷里饱含了岁月信息，正如南京的老门东，上海的城隍庙，武汉的户部巷，荆州人心中的则是大赛巷，都是不可替代的存在。</p>
               </blockquote>
             </div>
             <div>
               <div><img src="https://pics5.baidu.com/feed/3c6d55fbb2fb4316b92659f9fade352e08f7d384.jpeg@f_auto?token=1a0fac3fd67a3b4731d4429abb3b548e" alt="1" width="640"></div>
             </div>
             <div>
-              <p>������</p>
+              <p>大赛巷</p>
             </div>
             <div>
-              <p>�����ԭ����կ�λ�ڷ������ֵ�ɳ����������·����һ��ȫ�����İ��׵�С�������������������ֺţ�����һЩС��ݣ�����ɳ��ζ��������<strong>������С�Ե�һ�֡�</strong>֮������</p>
+              <p>大赛巷，原名大寨巷，位于繁华热闹的沙市区北京中路，是一条全长三四百米的小巷，汇聚了许多著名的老字号，包括一些小茶馆，极具沙市味道，素有<strong>“荆州小吃第一街”</strong>之美誉。</p>
             </div>
             <div>
               <div><img src="https://pics2.baidu.com/feed/4e4a20a4462309f72ec0a965a8747ffed6cad6a6.jpeg@f_auto?token=524bce6fce9ded3a5a846e73adb2a16b" alt="1" width="640"></div>
             </div>
             <div>
-              <p>������</p>
+              <p>大赛巷</p>
             </div>
             <div>
-              <p>�߽����������Ʒ�����ص��ľ��ݱ�����ɫ��ʳ������С��Ѽ��ɰ�����ߡ�Բ����Ŵ�ס���ˮ���Ρ�ţ���׷۵ȣ�������ζ��֯��һ��ɢ���ž���ר����ζ����</p>
+              <p>走进大赛巷，可以品尝到地道的荆州本地特色美食，包括小胡鸭、砂锅米线、圆豆泡糯米、汽水粑粑、牛肉米粉等，各种香味交织在一起，散发着荆州专属的味道。</p>
             </div>
             <div>
               <div><img src="https://pics3.baidu.com/feed/314e251f95cad1c82efb146f9f441404c83d51ba.jpeg@f_auto?token=78c2f156c87ce6ea1010497bbb268ee1" alt="1" width="640"></div>
             </div>
             <div>
-              <p>������</p>
+              <p>大赛巷</p>
             </div>
             <div>
-              <p>��Ȼ���������ѱ��������յ�ש��ƽ������ʯ��֣�ȡ����֮���ǵƻ���ɺ�Ķ���ζ��������������˵���������Ŀ�е��о����������ů���Լ����Ͻ֡���������µ���̸�軰���̻���Ϣ��</p>
+              <p>虽然大赛巷早已别离了昔日的砖瓦平房、青石板街，取而代之的是灯火阑珊的都市味道，但是替代不了的是人们心目中的市井生活、人情冷暖，以及在老街、旧巷、古树下的闲谈茶话和烟火气息。</p>
             </div>
             <div>
               <div><img src="https://pics4.baidu.com/feed/0bd162d9f2d3572c893bebab5069102a63d0c370.jpeg@f_auto?token=79da3eb2c6460085e373295424e9516b" alt="1" width="640"></div>
             </div>
             <div>
-              <p>������</p>
+              <p>大赛巷</p>
             </div>
             <div>
-              <p><strong>��ַ��������ɳ����������·290-1��</strong></p>
+              <p><strong>地址：荆州市沙市区北京中路290-1号</strong></p>
             </div>
             <p>&nbsp;</p>
         </section>
-        <!-- ��������� -->
+        <!-- 侧边栏区域 -->
         <aside style="flex: 1;">
-            <h3>���ݹų�</h3>
+            <h3>荆州古城</h3>
             <div>
-              <div data-tag="paragraph" data-uuid="gnwonx1rke" data-idx=""><span data-text="true">���ݹųǣ��ųƽ���ǣ�λ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E7%9C%81/210064?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����ʡ</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����</a></span><span data-text="true">�о��������ش��������Ρ�����ƽԭ���أ��ǳ�</span><span data-ctrid-t82vayxxkdlo="t82VAyxXKdlo" data-text="true">�Ļ��������Ļ�����Ҫ�����֮һ��</span>?[2]</div>
-              <div data-tag="paragraph" data-uuid="t82UosMtJWsr" data-idx=""><span data-text="true">���ݹųǷ�Ϊ���㣬�����ˮ�ǣ��м���ש�ǣ����������ǡ����ڶ���ֱ��3.75����ϱ�ֱ��1.2��������4.5ƽ�������ǽ�ܳ�10.5�����8.83�ף������������ţ�ÿ�������Ͼ����г�¥��ש�Ǻ�Լ���ף�ǽ��ԫ�����������²���Լ9�ס�ǽ��������ʯ�ͳ�ש������ש��ͨ��9�ף��ܳ�11281�ף�ǽ����������ש��ʯ��Ŵ�׽�������</span></div>
+              <div data-tag="paragraph" data-uuid="gnwonx1rke" data-idx=""><span data-text="true">荆州古城，古称江陵城，位于</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E7%9C%81/210064?fromModule=lemma_inlink" target="_blank" data-from-module="summary">湖北省</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州</a></span><span data-text="true">市荆州区，地处长江中游、江汉平原腹地，是楚</span><span data-ctrid-t82vayxxkdlo="t82VAyxXKdlo" data-text="true">文化、三国文化的重要发祥地之一。</span>?[2]</div>
+              <div data-tag="paragraph" data-uuid="t82UosMtJWsr" data-idx=""><span data-text="true">荆州古城分为三层，外边是水城，中间是砖城，里面是土城。城内东西直径3.75公里，南北直径1.2公里，总面积4.5平方公里，城墙周长10.5公里，高8.83米，共有六座城门，每座城门上均建有城楼；砖城厚约１米，墙内垣用土夯筑，下部宽约9米。墙体外用条石和城砖砌筑；砖城通高9米，周长11281米；墙体用特制青砖加石灰糯米浆砌筑。</span></div>
             </div>
             <div id="J-lemma-structured">
               <div>
@@ -550,29 +550,29 @@
             <div><div></div>
             </div>
             <div><div data-index="1" data-tag="header" data-uuid="gnwom9dxpl" data-level="1">
-              <h2 name="1">��ʷ�ظ�</h2>
+              <h2 name="1">历史沿革</h2>
                 <div></div>
-                <span data-tts-catalog="1" data-tts-from="paragraph">����</span>
-                <div>�༭</div>
+                <span data-tts-catalog="1" data-tts-from="paragraph">播报</span>
+                <div>编辑</div>
               </div>
-              <div data-tag="paragraph" data-uuid="t82WHrnC3LGc" data-idx="0-1"><span data-text="true">�ش����ڽ��ݹų�����ʼ���Ͽ��轭���ء�</span></div>
-              <div data-tag="paragraph" data-uuid="t82XLC8fizZD" data-idx="0-2"><span data-text="true">����ʱ���ľ���Ϊʮ����ʷ�����ݣ������ݾ���һ��κ���Խ������ݾ�Ϊ�ݡ���֮�����������಻�̶���ֱ�����������ݲ���Ϊ�����̶�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnwoly4cee" data-idx="0-3"><span data-text="true">���ڹ�Ԫǰ689�������Ǩ��۫�����ݳǱ�5����ļ��ϳǣ���������ǳ����Ĺٴ���ͷ������������Ԫǰ671��ǰ626����λ�����ڴ������˱𹬣�ȡ��侹�����Ԫǰ278�꣬�ؽ�����ռ۫���������Ϊ�����ص��������������꣬���ٽ����ڴ˵ء�����ж������ۡ�����͵ۡ���Ԫ�ۡ���������ĩ�������ƴ��϶������Ϲ����ڴ˽����������������������������������������ϱ������Ρ����ȳ����������ڴ˵ء����ݳǵĳǹ�����ս��ĩ���γɡ��������г�ǽ���񽫹�����̫����Ȼ���������¡���Ԫ�ۡ���ƽ���߼��˵ȣ����Ծ��ݽ������ݣ�����ĩ�꣬�ǻ١����δ�����䣬���޳�ǽ�����vʮ�꣨��Ԫ1250�꣩�ڳǺ���Ԫ�������������������ݳǡ�Ԫĩ����Ԫ谳�����ʱ����Ա���ɻ��ؽ����ݳǡ���ĩ���������������ռ���ݳǣ�����ǽ��ٶ�롣��˳�����꣨��Ԫ1646�꣩�����������ǻ������������ݳǣ��������������ţ�����Ի�����ţ������ţ�С���ţ�Ի�����ţ�����Ի�����ţ�����Ի�ϼ��ţ�����Ի�����ţ�С����ԻԶ���š����ݳ��ִ�ש��Ϊ��ĩ��������������ǳʲ����򳤷��Σ�������3��75����ϱ���1��2�����ԫ�ܳ�10��5����������4��5ƽ�����1970������Ž�ͨ��ҵ��չ����Ҫ��������Ժ��׼����ԫ���¿�3�����׳��ţ�ԭ�е�6�����ţ�����9�����š�ש������������ǽ����ש�����������Ͽ�ͨ�С�ש�������⻷����ˮ�ǻ��ơ�ˮ���׳ƻ��Ǻӡ����ݳ�ǽ��9�����ң���ǽ��10�����ң���ǽ����3���ر�����24����̨��ԭ�г�¥6��������5������ս�ң����湰���ţ����ţ� ��¥����¥����ʮ���Ͱ�ʮ��������������ؽ������ų�¥�����þ�����Ի����¥�����ݳ�����ĩ������һ���޸�����������350����ʷ�� ���񱣴���ã����й��ִ�Ϊ�����ٵĹŴ���ԫ�н���õ�һ�����ǳ������ε���Ψһһ����õĹų�ԫ���ڹ���������ʢ���������ǡ��������塷���µĹ㷺������ʹ�þ��������ĺ������ݳ��ѳ�Ϊ�й������������ϵ�һ����Ҫ������������30�ദ�������ٺ��Ļ����㹩�ο�̽Ѱ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwolyvz2v" data-idx="0-4"><span data-text="true">���ݹųǻ����˷�����ʷ�Ļ������ݳ��ڼ�����ܸ����������ڶ�Ĺż���ʤ��������ˮ��Ϣ�����۳������Ĺʶ��������������ż����������˵�ʤ�٣��Ʒ��ǵ�㣬����ʤ�������ݹų�ǽ����������ߴ��������з����Ĺż�֮һ���ݡ����顤����־�����أ����ݹų�ǽ������ʷ������׷�ݵ�2800����ǰ��������ʱ�ڡ������¹ų�ԫ���ŷ���ʵ���ѧ��֤�����ݹų�ǽ���й�����ʱ�������Խ������ࡢ�����Ƿ�չ�ݱ������Ψһ�ų�ԫ��1998��3�£����Ź������Ⱥ󷢾�����γ������ʱ�ڵ�ש�ǣ�����������ʱ�ڵ����ǡ���ѹ���ֳ�ǽ10�����µ����ש�ǵķ��֣�ʹ���ݳ�ש�ǵ�������ʷ��ʼ���������ձ���ͬ����������400���ꡣ��ο��ŷ���֤ʵ��������ʱ���𣬾��ݹų�ǽû�з�������ı�Ǩ����λ�������50�����ҷ�Χ�ڣ�����ǽԶԶ����ש��ǽ��</span></div>
+              <div data-tag="paragraph" data-uuid="t82WHrnC3LGc" data-idx="0-1"><span data-text="true">秦代，于今荆州古城区域始置南郡设江陵县。</span></div>
+              <div data-tag="paragraph" data-uuid="t82XLC8fizZD" data-idx="0-2"><span data-text="true">西汉时，改九州为十三刺史部（州），荆州居其一。魏晋以降，荆州均为州、府之名。其治所多不固定，直到明初，荆州才作为城名固定下来</span></div>
+              <div data-tag="paragraph" data-uuid="gnwoly4cee" data-idx="0-3"><span data-text="true">早在公元前689年楚文王迁都郢（今荆州城北5公里的纪南城）后，这里就是楚国的官船码头。楚成王（公元前671－前626年在位）还在此修筑了别宫，取名渚宫。公元前278年，秦将白起攻占郢都，这里成为江陵县的治所。西汉初年，封临江王于此地。其后有东晋安帝、南齐和帝、梁元帝、后梁、隋末梁王、唐代南都、荆南国等在此建都。楚、西汉、东汉、三国、西晋、东晋、南北朝、宋、明等朝，封王侯于此地。荆州城的城郭，在战国末年形成。汉代已有城墙。蜀将关羽、吴太守朱然，东晋桓温、梁元帝、南平王高季兴等，都对荆州进行修葺，北宋末年，城毁。南宋淳熙年间，重修城墙，淳祐十年（公元1250年）挖城壕。元初，忽必烈下令拆除荆州城。元末，朱元璋称吴王时，派员依旧基重建荆州城。明末，张南忠率义军攻占荆州城，将城墙拆毁多半。清顺治三年（公元1646年），又依明代城基重新修筑荆州城，并重新命名城门：东门曰寅宾门，东南门（小东门）曰公安门，西门曰安澜门，南门曰南纪门，大北门曰拱极门，小北门曰远安门。荆州城现存砖城为明末清初建筑。整座城呈不规则长方形，东西长3．75公里，南北宽1．2公里，城垣周长10．5公里，城内面积4．5平方公里。1970年后，随着交通事业发展的需要，经国务院批准，城垣上新开3座三孔城门，原有的6座城门，共有9座城门。砖城内有土筑城墙，与砖城相依，城上可通行。砖城外有外环道与水城环绕。水城俗称护城河。荆州城墙高9米左右，城墙厚10米左右，城墙上有3座藏兵洞，24座炮台。原有城楼6栋，其中5栋毁于战乱，仅存拱极门（大北门） 城楼朝宗楼。二十世纪八十年代，政府拨款重建寅宾门城楼，沿用旧名，曰宾阳楼。荆州城自明末清初最后一次修复以来，已有350年历史， 至今保存完好，是中国现存为数很少的古代城垣中较完好的一座，是长江中游地区唯一一座完好的古城垣，在国内外享有盛名。尤其是《三国演义》故事的广泛流传，使得荆州名扬四海。荆州城已成为中国三国旅游线上的一个重要的旅游区，有30多处三国遗踪和文化景点供游客探寻。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwolyvz2v" data-idx="0-4"><span data-text="true">荆州古城积淀了丰厚的历史文化。荆州城内及其城周附近，有着众多的古迹名胜。大禹治水的息壤，雄楚立国的故都，三国纷争的遗迹，历代名人的胜踪，似繁星点点，数不胜数。荆州古城墙就是其中最具代表、最有分量的古迹之一。据《后汉书·地理志》记载，荆州古城墙的修造史，可以追溯到2800多年前的周厉王时期。经最新古城垣考古发掘实物科学验证：荆州古城墙是中国延续时代最长、跨越朝代最多、由土城发展演变而来的唯一古城垣。1998年3月，考古工作者先后发掘出了宋朝和五代时期的砖城；两晋、三国时期的土城。叠压在现城墙10米以下的五代砖城的发现，使荆州城砖城的修造历史从始于明代的普遍认同，又上溯了400多年。这次考古发掘还证实：从三国时代起，荆州古城墙没有发生过大的变迁，移位距离仅在50米左右范围内；土城墙远远早于砖城墙。</span></div>
               <div data-tag="paragraph" data-uuid="t82XZJNM6f9F" data-idx="0-5">
                 <div data-tag="module" data-uuid="t82YfFWUuyRu" data-module-type="album">
                   <div></div>
                   <div>
                     <div>
-                      <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767/4087895769/0b7b02087bf40ad162d937ea117406dfa9ec8a13603b?fr=lemma&fromModule=lemma_content-image" title="���ݹų�"></a></div>
+                      <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767/4087895769/0b7b02087bf40ad162d937ea117406dfa9ec8a13603b?fr=lemma&fromModule=lemma_content-image" title="荆州古城"></a></div>
                     </div>
                   </div>
                   <div></div>
                 </div>
-                <span data-text="true">2000��8�£����Ź������ھ��ݳ�С�������࣬������һ�γ���20�׵������ɻ���亻����ʯ��Ŵ�׽���ǽ���˶γ�ǽ�侭500���꣬�����Լ�����ʯ������������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom9dxwa" data-idx="0-6"><span data-text="true">�����������߶����Ӿ��ݳ�ǽ���ﱣ���ͻ������ι��������Ｏ�ʽ�1.3��Ԫ�����ھ��ݳ�ǽ������Χ��Լ30��ƽ����Υ�½����Ĳ�������⻷���Ľ��衢���Ǻӵ��迢����ˮ�������ܱ߻������Ρ���2004�꿪ʼ����һֱ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7/290153?fromModule=lemma_inlink" target="_blank" data-from-module="">�����Ļ��Ų�</a></span><span data-text="true">�걨������</span></div>
-              <div data-tag="paragraph" data-uuid="t82Y0gJdLz3i" data-idx="0-7"><span data-text="true">2005�꣬ͨ������ʡ������ʽ���������ֵݽ��������Ļ��Ų�Ԥ����������</span></div>
-              <div data-tag="paragraph" data-uuid="t82Y0Bk1ElLo" data-idx="0-8"><span data-text="true">2007��1�£����������ͬ�⽫���ݳ�ǽ���������Ͼ����˳ǹ��ĸ������ǽ���롶�й������Ļ��Ų�Ԥ����������</span></div>
+                <span data-text="true">2000年8月，考古工作者在荆州城小北门西侧，发现了一段长近20米的明代成化年间夯筑的石灰糯米浆城墙。此段城墙虽经500多年，至今仍坚如磐石，世所罕见。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom9dxwa" data-idx="0-6"><span data-text="true">荆州市政府高度重视荆州城墙文物保护和环境整治工作，共筹集资金1.3亿元，用于荆州城墙保护范围内约30万平方米违章建筑的拆除、内外环道的建设、护城河的疏竣和污水治理及周边环境整治。从2004年开始，就一直着手</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7/290153?fromModule=lemma_inlink" target="_blank" data-from-module="">世界文化遗产</a></span><span data-text="true">申报工作。</span></div>
+              <div data-tag="paragraph" data-uuid="t82Y0gJdLz3i" data-idx="0-7"><span data-text="true">2005年，通过湖北省政府正式向国家文物局递交“世界文化遗产预备名单”。</span></div>
+              <div data-tag="paragraph" data-uuid="t82Y0Bk1ElLo" data-idx="0-8"><span data-text="true">2007年1月，国家文物局同意将荆州城墙与西安、南京、兴城共四个明清城墙列入《中国世界文化遗产预备名单》。</span></div>
               <div data-index="2" data-tag="header" data-uuid="tdyq5h4FyxEJ" data-level="1">
                 <h2 name="2">&nbsp;</h2>
                 <div></div>
@@ -581,70 +581,70 @@
               <div data-index="3" data-tag="header" data-uuid="h4v4ogzvgc" data-level="1"></div>
               <div data-index="3-1" data-tag="header" data-uuid="t82WMHyyaHjL" data-level="2">
                 <div></div>
-                <h3>��������</h3>
+                <h3>名称由来</h3>
               </div>
               <div data-tag="paragraph" data-uuid="t82WN1aYlS8n" data-idx="2-2">
                 <div data-tag="module" data-uuid="t82Ygn9pA9sz" data-module-type="album">
                   <div></div>
                   <div>
                     <div>
-                      <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767/5187852498/ac345982b2b7d0a20cf403a7eebb61094b36acaf2cf7?fr=lemma&fromModule=lemma_content-image" title="���ݹų�"></a></div>
+                      <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767/5187852498/ac345982b2b7d0a20cf403a7eebb61094b36acaf2cf7?fr=lemma&fromModule=lemma_content-image" title="荆州古城"></a></div>
                     </div>
                   </div>
                   <div></div>
                 </div>
-                <span data-text="true">����֮��Դ�ڡ����顤������������������Ω���ݡ���Ϊ�ž���֮һ����ԭ�������Ѹ��ʵľ�ɽ�����������ǹŴ������ı�ƣ�����������ھ�ɽ���ʹ�ʱ������ͨ�á�</span></div>
+                <span data-text="true">荆州之名源于《尚书·禹贡》：“荆及衡阳惟荆州”，为古九州之一；以原境内蜿蜒高耸的荆山而得名。荆是古代楚国的别称，因楚曾建国于荆山，故古时荆、楚通用。</span></div>
               <div data-index="3-2" data-tag="header" data-uuid="t82VGjqCOAAY" data-level="2">
                 <div></div>
-                <h3>���ʫ��</h3>
+                <h3>相关诗词</h3>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwr1" data-idx="2-4"><span data-text="true">���Ǿ��ݳ�¥���ž���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwso" data-idx="2-5"><span data-text="true">�����������������ԾС�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwu9" data-idx="2-6"><span data-text="true">��¥���ųߣ����������硣</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwvu" data-idx="2-7"><span data-text="true">Ͼ��ʱ�������Ľ��ٹʶ���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwxe" data-idx="2-8"><span data-text="true">���ۼ��¼����ż�����ͼ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwyz" data-idx="2-9"><span data-text="true">����ɽ���ڣ����������⡣</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zwzc" data-idx="2-10"><span data-text="true">��������֣����������⡣</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx0x" data-idx="2-11"><span data-text="true">��������������ʱ����ۮ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx2h" data-idx="2-12"><span data-text="true">�������д������������ݡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx42" data-idx="2-13"><span data-text="true">��ϯ����Ͽ�������������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx5n" data-idx="2-14"><span data-text="true">��ƽ���쾳���ذ�Ī�۷�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx77" data-idx="2-15"><span data-text="true">�԰ս��ż���������ʹ����</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zx8r" data-idx="2-16"><span data-text="true">�˾�����޴��΢����ɣ�ܡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxac" data-idx="2-17"><span data-text="true">ֱ�������������������ޡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxbw" data-idx="2-18"><span data-text="true">���ȶ����֣�������˫�졣</span>?[1]</div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxdh" data-idx="2-19"><span data-text="true">�����ݸ衿���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxf1" data-idx="2-20"><span data-text="true">�׵۳Ǳ���粨����������˭�ҹ���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxgm" data-idx="2-21"><span data-text="true">���������ɶ꣬��˿���ͷ���ࡣ</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxi6" data-idx="2-22"><span data-text="true">���ȷ�����檺Ρ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxiq" data-idx="2-23"><span data-text="true">�����ݲ������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxkb" data-idx="2-24"><span data-text="true">��¥����ʱ��������������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxlv" data-idx="2-25"><span data-text="true">��ˮ�����أ����ݽ���֡�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxng" data-idx="2-26"><span data-text="true">������Ǻ�������˼��ò��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxp0" data-idx="2-27"><span data-text="true">��ҹһ���ˣ�ΨӦ�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxql" data-idx="2-28"><span data-text="true">�������С�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxr4" data-idx="2-29"><span data-text="true">��������ĺ���ƣ�ɽͷ��δ�����ݡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxso" data-idx="2-30"><span data-text="true">�ͤ����·��������������ʯ���ߡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxu9" data-idx="2-31"><span data-text="true">������������㣬ҹ��������ޡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxvt" data-idx="2-32"><span data-text="true">����������������ƻ費����������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxxj" data-idx="2-33"><span data-text="true">��ɴ��象���������k����������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zxzh" data-idx="2-34"><span data-text="true">���������ƻ��𣬻��ùٴ�����ˮ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy13" data-idx="2-35"><span data-text="true">Ů��ͣ�������£�����ɨ��ͩ���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy2o" data-idx="2-36"><span data-text="true">Ȯ�����˺�Ϫ�̣��˼�������ɽ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy49" data-idx="2-37"><span data-text="true">��������޹ʯ�ȣ���¹�Ƚ����Ѩ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy5u" data-idx="2-38"><span data-text="true">���߹���һɽ�ȣ�Ұţ����˫���ۡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy7f" data-idx="2-39"><span data-text="true">б�ֺ�ˮ��ǧɽ��ɽ��ˮ�̾��Źء�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zy8z" data-idx="2-40"><span data-text="true">��ǰ�ʸ���ɳ·��������ԭ���紦��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyak" data-idx="2-41"><span data-text="true">˭�ҵ������������������˴Ӵ�ȥ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyc5" data-idx="2-42"><span data-text="true">����ɽ��಻�ܣ���֦���ϸ�֦�䡣</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zydq" data-idx="2-43"><span data-text="true">������Զ�Ĳ����������Զ���̨Ϧ��</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyfa" data-idx="2-44"><span data-text="true">���򽻺���Թ飬���ѻ�������͡�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zygv" data-idx="2-45"><span data-text="true">׳��������˼�ң�������ͷ�����ġ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyig" data-idx="2-46"><span data-text="true">�����ݸ���ס�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyiv" data-idx="2-47"><span data-text="true">侹�����������ǳ����ɡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zykg" data-idx="2-48"><span data-text="true">����̤��飬��ů�����¡�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zyl4" data-idx="2-49"><span data-text="true">���պ��Ϸ磬������߷���</span></div>
-              <div data-tag="paragraph" data-uuid="gnwom6zymp" data-idx="2-50"><span data-text="true">ɳͷ�ɸ��ϣ�ʼ����������</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwr1" data-idx="2-4"><span data-text="true">【登荆州城楼】张九龄</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwso" data-idx="2-5"><span data-text="true">天宇何其旷，江城坐自拘。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwu9" data-idx="2-6"><span data-text="true">层楼百馀尺，迢递在西隅。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwvu" data-idx="2-7"><span data-text="true">暇日时登眺，荒郊临故都。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwxe" data-idx="2-8"><span data-text="true">累累见陈迹，寂寂想雄图。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwyz" data-idx="2-9"><span data-text="true">古往山川在，今来郡邑殊。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zwzc" data-idx="2-10"><span data-text="true">北疆虽入郑，东距岂防吴。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx0x" data-idx="2-11"><span data-text="true">几代传荆国，当时敌陕郛。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx2h" data-idx="2-12"><span data-text="true">上流空有处，中土复何虞。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx42" data-idx="2-13"><span data-text="true">枕席夷三峡，关梁豁五湖。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx5n" data-idx="2-14"><span data-text="true">承平无异境，守隘莫论夫。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx77" data-idx="2-15"><span data-text="true">自罢金门籍，来参竹使符。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zx8r" data-idx="2-16"><span data-text="true">端居向林薮，微尚在桑榆。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxac" data-idx="2-17"><span data-text="true">直似王陵戆，非如宁武愚。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxbw" data-idx="2-18"><span data-text="true">今兹对南浦，乘雁与双凫。</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxdh" data-idx="2-19"><span data-text="true">【荆州歌】李白</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxf1" data-idx="2-20"><span data-text="true">白帝城边足风波，瞿塘五月谁敢过。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxgm" data-idx="2-21"><span data-text="true">荆州麦熟茧成蛾，缲丝忆君头绪多。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxi6" data-idx="2-22"><span data-text="true">拨谷飞鸣奈妾何。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxiq" data-idx="2-23"><span data-text="true">【荆州泊】李端</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxkb" data-idx="2-24"><span data-text="true">南楼西下时，月里闻来棹。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxlv" data-idx="2-25"><span data-text="true">桂水舳舻回，荆州津济闹。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxng" data-idx="2-26"><span data-text="true">移帷望星汉，引带思容貌。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxp0" data-idx="2-27"><span data-text="true">今夜一江人，唯应妾身觉。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxql" data-idx="2-28"><span data-text="true">【荆门行】王建</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxr4" data-idx="2-29"><span data-text="true">江边行人暮悠悠，山头殊未见荆州。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxso" data-idx="2-30"><span data-text="true">岘亭西南路多曲，栎林深深石镞镞。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxu9" data-idx="2-31"><span data-text="true">看炊红米煮白鱼，夜向鸡鸣店家宿。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxvt" data-idx="2-32"><span data-text="true">南中三月蚊蚋生，黄昏不闻人语声。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxxj" data-idx="2-33"><span data-text="true">生纱帷疏薄如雾，隔衣噆肤耳边鸣。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zxzh" data-idx="2-34"><span data-text="true">欲明不待灯火起，唤得官船过蛮水。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy13" data-idx="2-35"><span data-text="true">女儿停客茆屋新，开门扫地桐花里。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy2o" data-idx="2-36"><span data-text="true">犬声扑扑寒溪烟，人家烧竹种山田。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy49" data-idx="2-37"><span data-text="true">巴云欲雨薰石热，麋鹿度江虫出穴。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy5u" data-idx="2-38"><span data-text="true">大蛇过处一山腥，野牛惊跳双角折。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy7f" data-idx="2-39"><span data-text="true">斜分汉水横千山，山青水绿荆门关。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zy8z" data-idx="2-40"><span data-text="true">向前问个长沙路，旧是屈原沈溺处。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyak" data-idx="2-41"><span data-text="true">谁家丹旐已南来，逢著流人从此去。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyc5" data-idx="2-42"><span data-text="true">月明山鸟多不栖，下枝飞上高枝啼。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zydq" data-idx="2-43"><span data-text="true">主人念远心不怿，罗衫卧对章台夕。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyfa" data-idx="2-44"><span data-text="true">红烛交横各自归，酒醒还是他乡客。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zygv" data-idx="2-45"><span data-text="true">壮年留滞尚思家，况复白头在天涯。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyig" data-idx="2-46"><span data-text="true">【荆州歌二首】刘禹锡</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyiv" data-idx="2-47"><span data-text="true">渚宫杨柳暗，麦城朝雉飞。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zykg" data-idx="2-48"><span data-text="true">可怜踏青伴，乘暖著轻衣。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zyl4" data-idx="2-49"><span data-text="true">今日好南风，商旅相催发。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwom6zymp" data-idx="2-50"><span data-text="true">沙头樯竿上，始见春江阔。</span></div>
             </div>
             <div>
               <div>
@@ -652,7 +652,7 @@
                   <div>
                     <div>
                       <div>
-                        <h1>�ž����ʾ�</h1>
+                        <h1>张居正故居</h1>
                         <div></div>
                       </div>
                       </div>
@@ -661,8 +661,8 @@
               </div>
             </div>
             <div><div><div><div type="defaultTab"><div>
-              <div data-tag="paragraph" data-uuid="gnzkyq2pfw" data-idx=""><span data-text="true">�ž����ʾ�λ�ں���ʡ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����</a></span><span data-text="true">�йųǶ������ڵ����ξ�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA/1461119?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����AAA�����ξ���</a></span><span data-text="true">��</span></div>
-                      <div data-tag="paragraph" data-uuid="uprdZIShuDOi" data-idx=""><span data-text="true">�ž����ʾӣ�����˼���ž����ʾӾ��������ֵ��ϡ�������ʷԭ����ʾӻ���ս�ҡ��ǹų�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E5%BC%80%E5%8F%91/2498083?fromModule=lemma_inlink" target="_blank" data-from-module="summary">���ο���</a></span><span data-text="true">�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AD%90%E9%A1%B9%E7%9B%AE/6866890?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����Ŀ</a></span><span data-text="true">����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82%E6%97%85%E6%B8%B8%E5%B1%80/1850462?fromModule=lemma_inlink" target="_blank" data-from-module="summary">���������ξ�</a></span><span data-text="true">��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E5%BA%9C%E7%BB%84%E7%BB%87/159482?fromModule=lemma_inlink" target="_blank" data-from-module="summary">������֯</a></span><span data-text="true">ʵʩ��</span></div>
+              <div data-tag="paragraph" data-uuid="gnzkyq2pfw" data-idx=""><span data-text="true">张居正故居位于湖北省</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州</a></span><span data-text="true">市古城东大门内的旅游景区，是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA/1461119?fromModule=lemma_inlink" target="_blank" data-from-module="summary">国家AAA级旅游景区</a></span><span data-text="true">。</span></div>
+                      <div data-tag="paragraph" data-uuid="uprdZIShuDOi" data-idx=""><span data-text="true">张居正故居，顾名思义张居正故居就在这条街道上。由于历史原因，其故居毁于战乱。是古城</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E5%BC%80%E5%8F%91/2498083?fromModule=lemma_inlink" target="_blank" data-from-module="summary">旅游开发</a></span><span data-text="true">建设的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AD%90%E9%A1%B9%E7%9B%AE/6866890?fromModule=lemma_inlink" target="_blank" data-from-module="summary">子项目</a></span><span data-text="true">，由</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82%E6%97%85%E6%B8%B8%E5%B1%80/1850462?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州市旅游局</a></span><span data-text="true">、荆州区</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E5%BA%9C%E7%BB%84%E7%BB%87/159482?fromModule=lemma_inlink" target="_blank" data-from-module="summary">政府组织</a></span><span data-text="true">实施。</span></div>
                     </div>
                     <div id="div">
                       <div>
@@ -674,45 +674,45 @@
                       </div>
                     </div>
                     <div><div data-index="1" data-tag="header" data-uuid="gnzkyst47x" data-level="1">
-                      <h2 name="1">�ʾӼ��</h2>
+                      <h2 name="1">故居简介</h2>
                         <div></div>
                         <div></div>
                       </div>
-                      <div data-tag="paragraph" data-uuid="gnzkyogbcz" data-idx="0-1"><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767?fromModule=lemma_inlink" target="_blank" data-from-module="">���ݹų�</a></span><span data-text="true">һ�����ž��������Ľ��������Ѿã�����˼���ž����ʾӾ��������ֵ��ϡ�������ʷԭ����ʾӻ���ս�ҡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="sCb0NVAIWWxc" data-idx="0-2"><span data-text="true">Ϊ�˸������ṩ�廳�������ž����ĳ����������о����ؽ��ž����ʾӡ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5%E7%A2%91%E8%8B%91/8686461?fromModule=lemma_inlink" target="_blank" data-from-module="">���걮Է</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE/797988?fromModule=lemma_inlink" target="_blank" data-from-module="">����λ��</a></span><span data-text="true">�����ž����ʾӸ��������������������Դ�ؽ��ʾӣ�������ԭ�н������۲��֡�</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyogbcz" data-idx="0-1"><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/1184767?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州古城</a></span><span data-text="true">一条以张居正命名的街巷由来已久，顾名思义张居正故居就在这条街道上。由于历史原因，其故居毁于战乱。</span></div>
+                      <div data-tag="paragraph" data-uuid="sCb0NVAIWWxc" data-idx="0-2"><span data-text="true">为了给后人提供缅怀、纪念张居正的场所，荆州市决定重建张居正故居。因“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5%E7%A2%91%E8%8B%91/8686461?fromModule=lemma_inlink" target="_blank" data-from-module="">江陵碑苑</a></span><span data-text="true">”</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE/797988?fromModule=lemma_inlink" target="_blank" data-from-module="">地理位置</a></span><span data-text="true">处于张居正故居附近，因此利用其闲置资源重建故居，并以其原有建筑景观布局。</span></div>
                       <div data-tag="paragraph" data-uuid="gnzkyst4c9" data-idx="0-3">
-                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/a8ad9413614c7697f7039e97?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�ž����ʾ�"><img src="https://bkimg.cdn.bcebos.com/pic/a8ad9413614c7697f7039e97?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165"></a>�ž����ʾ�</div>
-                        <span data-text="true">�ž����ʾӽ����ǹų�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E5%BC%80%E5%8F%91/2498083?fromModule=lemma_inlink" target="_blank" data-from-module="">���ο���</a></span><span data-text="true">�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AD%90%E9%A1%B9%E7%9B%AE/6866890?fromModule=lemma_inlink" target="_blank" data-from-module="">����Ŀ</a></span><span data-text="true">����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82%E6%97%85%E6%B8%B8%E5%B1%80/1850462?fromModule=lemma_inlink" target="_blank" data-from-module="">���������ξ�</a></span><span data-text="true">��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E5%BA%9C%E7%BB%84%E7%BB%87/159482?fromModule=lemma_inlink" target="_blank" data-from-module="">������֯</a></span><span data-text="true">ʵʩ��λ�ھ��ݱ�Է�����ڣ���������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%BE%E9%98%B3%E6%A5%BC/17537669?fromModule=lemma_inlink" target="_blank" data-from-module="">����¥</a></span><span data-text="true">�������ؽ����ž����ʾ�������ǰ��ס������Ϊԭ�ͣ���������ʱ���ĺ�Ժ��С��԰���ͻ����ӳ�ʾ�ԭ�е�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8E%86%E5%8F%B2%E9%A3%8E%E8%B2%8C/1950681?fromModule=lemma_inlink" target="_blank" data-from-module="">��ʷ��ò</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BA%BA%E6%96%87%E7%8E%AF%E5%A2%83/8739923?fromModule=lemma_inlink" target="_blank" data-from-module="">���Ļ���</a></span><span data-text="true">����ԭ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8E%86%E5%8F%B2%E5%BB%BA%E7%AD%91/2335920?fromModule=lemma_inlink" target="_blank" data-from-module="">��ʷ����</a></span><span data-text="true">���ۣ�չʾ�ž�����ƽʷ���Ļ���</span>?[1]</div>
+                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/a8ad9413614c7697f7039e97?fr=lemma&fromModule=lemma_content-image" target="_blank" title="张居正故居"><img src="https://bkimg.cdn.bcebos.com/pic/a8ad9413614c7697f7039e97?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165"></a>张居正故居</div>
+                        <span data-text="true">张居正故居建设是古城</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E5%BC%80%E5%8F%91/2498083?fromModule=lemma_inlink" target="_blank" data-from-module="">旅游开发</a></span><span data-text="true">建设的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AD%90%E9%A1%B9%E7%9B%AE/6866890?fromModule=lemma_inlink" target="_blank" data-from-module="">子项目</a></span><span data-text="true">，由</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82%E6%97%85%E6%B8%B8%E5%B1%80/1850462?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州市旅游局</a></span><span data-text="true">、荆州区</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E5%BA%9C%E7%BB%84%E7%BB%87/159482?fromModule=lemma_inlink" target="_blank" data-from-module="">政府组织</a></span><span data-text="true">实施。位于荆州碑苑景区内，紧靠东门</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%BE%E9%98%B3%E6%A5%BC/17537669?fromModule=lemma_inlink" target="_blank" data-from-module="">宾阳楼</a></span><span data-text="true">景区，重建的张居正故居以他生前居住的老屋为原型，属于明清时期四合院、小花园风格，突出反映故居原有的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8E%86%E5%8F%B2%E9%A3%8E%E8%B2%8C/1950681?fromModule=lemma_inlink" target="_blank" data-from-module="">历史风貌</a></span><span data-text="true">和</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BA%BA%E6%96%87%E7%8E%AF%E5%A2%83/8739923?fromModule=lemma_inlink" target="_blank" data-from-module="">人文环境</a></span><span data-text="true">，还原</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8E%86%E5%8F%B2%E5%BB%BA%E7%AD%91/2335920?fromModule=lemma_inlink" target="_blank" data-from-module="">历史建筑</a></span><span data-text="true">景观，展示张居正生平史迹文化。</span>?[1]</div>
                       <div data-index="2" data-tag="header" data-uuid="gnzkyst4e1" data-level="1">
                         <div></div>
-                        <h2 name="2">����ṹ</h2>
+                        <h2 name="2">景点结构</h2>
                         <div></div>
-                        <span data-tts-catalog="2" data-tts-from="paragraph">����</span>
-                        <div>�༭</div>
+                        <span data-tts-catalog="2" data-tts-from="paragraph">播报</span>
+                        <div>编辑</div>
                       </div>
-                      <div data-tag="paragraph" data-uuid="gnzkyst4fd" data-idx="1-1"><span data-text="true">�ݡ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E6%97%A5%E6%8A%A5/8738931?fromModule=lemma_inlink" target="_blank" data-from-module="">�����ձ�</a></span><span data-text="true">������������ɵ��ž����ʾӰ�������������Ժ�䡢����԰���ձڡ������ҹ������Ĳ������ء�����¥�������á����Ź㳡�Ⱦ��ۡ�</span>?[2]</div>
-                      <div data-tag="paragraph" data-uuid="gnzkyst4ha" data-idx="1-2"><span data-text="true">��������ѧʿ��������Է�����йݡ��Ļ�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A2%91%E5%BB%8A/704402?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">���׸���֤Ⱥ��ȡ�</span>?[3]</div>
-                      <div data-tag="paragraph" data-uuid="gnzkyp11qw" data-idx="1-3"><span data-text="true">��������ǰ����׿����Ĺ��������ʮ�꣨��Ԫ1582�꣩��ʯ����һ���ĳߣ��Կ��С�����̫ʦ̫�������ҹ�֮Ĺ������ʯ����¯����̨���Թ��� ������������֮�顣</span></div>
-                      <div data-tag="paragraph" data-uuid="gnzkyp11sh" data-idx="1-4"><span data-text="true">�ߵ�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BF%81%E4%BB%B2/10990669?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">��ʯ�ˣ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%9F%B3%E9%A9%AC/660733?fromModule=lemma_inlink" target="_blank" data-from-module="">ʯ��</a></span><span data-text="true">��������Ĺ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%9F%B3%E5%85%BD/1535923?fromModule=lemma_inlink" target="_blank" data-from-module="">ʯ��</a></span><span data-text="true">�� ������Լ�뾶15�״�������֮���׸�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%9F%E5%A2%99/5449881?fromModule=lemma_inlink" target="_blank" data-from-module="">��ǽ</a></span><span data-text="true">���ഫ�����硶�������������ָ������������Сʱ����������ȡ���������</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyst4fd" data-idx="1-1"><span data-text="true">据《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B9%96%E5%8C%97%E6%97%A5%E6%8A%A5/8738931?fromModule=lemma_inlink" target="_blank" data-from-module="">湖北日报</a></span><span data-text="true">》报道，新落成的张居正故居包括仿明清四重院落、西花园、照壁、张文忠公祠、文昌阁、神龟池、捧日楼、纯忠堂、南门广场等景观。</span>?[2]</div>
+                      <div data-tag="paragraph" data-uuid="gnzkyst4ha" data-idx="1-2"><span data-text="true">还包括大学士府、九鸟苑、陈列馆、文化艺术</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A2%91%E5%BB%8A/704402?fromModule=lemma_inlink" target="_blank" data-from-module="">碑廊</a></span><span data-text="true">、首辅论证群雕等。</span>?[3]</div>
+                      <div data-tag="paragraph" data-uuid="gnzkyp11qw" data-idx="1-3"><span data-text="true">鉴于其生前功绩卓著，墓筑于万历十年（公元1582年），石碑高一丈四尺，镌刻有“明相太师太傅张文忠公之墓”，有石雕、香炉、蜡台，以供奉 祭祀他的在天之灵。</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyp11sh" data-idx="1-4"><span data-text="true">走道两侧有</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BF%81%E4%BB%B2/10990669?fromModule=lemma_inlink" target="_blank" data-from-module="">翁仲</a></span><span data-text="true">（石人）、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%9F%B3%E9%A9%AC/660733?fromModule=lemma_inlink" target="_blank" data-from-module="">石马</a></span><span data-text="true">及其它镇墓</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%9F%B3%E5%85%BD/1535923?fromModule=lemma_inlink" target="_blank" data-from-module="">石兽</a></span><span data-text="true">， 距中心约半径15米处有垒筑之三米高</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%9F%E5%A2%99/5449881?fromModule=lemma_inlink" target="_blank" data-from-module="">土墙</a></span><span data-text="true">。相传，京剧《二进宫》的杨波便指的是他，因他小时候曾被父辈取名“杨波”。</span></div>
                       <div data-index="3" data-tag="header" data-uuid="gnzkyol6oy" data-level="1">
                         <div></div>
-                        <h2 name="3">�������</h2>
+                        <h2 name="3">人物介绍</h2>
                         <div></div>
                         <div></div>
                       </div>
                       <div data-tag="paragraph" data-uuid="gnzkyol6qv" data-idx="2-1">
-                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/9f1011b3b14956e0d9335a91?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�ž���"><img src="https://bkimg.cdn.bcebos.com/pic/9f1011b3b14956e0d9335a91?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_528" width="215" height="264"></a>�ž���</div>
-                        <span data-text="true">�ž�����1525��5��-1582��7�£�������󣬺�̫�����ֺ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%87%E5%BF%A0/5682146?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5/4726?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�������ݣ��ˡ��������μҡ��ĸ�ң�����Ϊ������֮�ܡ���Ҳ��ʷ���ĸ���������ࡣ</span></div>
-                      <div data-tag="paragraph" data-uuid="sCb0PpuYNMcF" data-idx="2-2"><span data-text="true">��˵�ž���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%BA%E7%94%9F%E5%89%8D/53343936?fromModule=lemma_inlink" target="_blank" data-from-module="">����ǰ</a></span><span data-text="true">�����游���˸��Σ�����һ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%86%E6%9C%88/453636?fromModule=lemma_inlink" target="_blank" data-from-module="">Բ��</a></span><span data-text="true">����ˮ����յ����ܡ�Ƭ������Ȼ��һֻ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%99%BD%E9%BE%9F/4782328?fromModule=lemma_inlink" target="_blank" data-from-module="">�׹�</a></span><span data-text="true">��ˮ�������������游�϶��׹������С��������ſڸ���ȡ�˸��������׹硱��ϣ���������ܹ�����ҫ�档</span></div>
-                      <div data-tag="paragraph" data-uuid="sCb0R8aCnjfX" data-idx="2-3"><span data-text="true">5����ѧ��7����ͨ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%AD%E7%BB%8F/0?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">���壬12</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B2%81%E8%80%83/6501180?fromModule=lemma_inlink" target="_blank" data-from-module="">�꿼</a></span><span data-text="true">������ţ�13��ʱ�Ͳμ������ԣ�д��һƪ�ǳ�Ư�������£�ֻ�����Ѳ������������ž�����ĥ�����꣬��δ�о١�16�����˾��ˣ�23��?</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%98%89%E9%9D%96/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�ξ�</a></span><span data-text="true">��ʮ���꣨1547�꣩��ʿ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BC%96%E4%BF%AE%E5%AE%98/22837869?fromModule=lemma_inlink" target="_blank" data-from-module="">���޹�</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BE%8D%E8%AE%B2%E5%AD%A6%E5%A3%AB/63629?fromModule=lemma_inlink" target="_blank" data-from-module="">�̽�ѧʿ</a></span><span data-text="true">����¡�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9A%86%E5%BA%86/0?fromModule=lemma_inlink" target="_blank" data-from-module="">¡��</a></span><span data-text="true">Ԫ�꣨1567�꣩��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%8F%E9%83%A8%E5%B7%A6%E4%BE%8D%E9%83%8E/13826228?fromModule=lemma_inlink" target="_blank" data-from-module="">����������</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%9C%E9%98%81%E5%A4%A7%E5%AD%A6%E5%A3%AB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�����ѧʿ</a></span><span data-text="true">��¡��ʱ��߹���Ϊ�׸���Ϊ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%8F%E9%83%A8%E5%B0%9A%E4%B9%A6/6150893?fromModule=lemma_inlink" target="_blank" data-from-module="">��������</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BB%BA%E6%9E%81%E6%AE%BF%E5%A4%A7%E5%AD%A6%E5%A3%AB/6943326?fromModule=lemma_inlink" target="_blank" data-from-module="">�������ѧʿ</a></span><span data-text="true">����������,���߹�Ϊ�׸�����ʱ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%98%8E%E7%A5%9E%E5%AE%97/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">���ף�һ�о������¾����ž������ֲþ���</span></div>
-                      <div data-tag="paragraph" data-uuid="gnzkyp11u4" data-idx="2-4"><span data-text="true">�����ž��������������Σ�ʵ�����θ��µ�ʱ����ʷ��̨��������ǰ������һ״��˵����ר��������������˽���������ᡱ���ž���֪���ˣ�������˵������֮�����ߣ�Σ��Ҳ��������Ϊ��������������֮���У�������Ҳ������˳������Ү���򸺹����߹�������Ү����������ר��֮����������Щ������������ӭͷʹ����</span></div>
-                      <div data-tag="paragraph" data-uuid="gnzkyp11vp" data-idx="2-5"><span data-text="true">�������꣬���ĸ���ȥ��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%81%E5%BB%BA%E7%A4%BC%E6%95%99/2249325?fromModule=lemma_inlink" target="_blank" data-from-module="">�⽨���</a></span><span data-text="true">����Ӧ�ûؼҡ����ơ����������ǵ����·׷����������ף���Ȼ���������¡���û�лؼ����ơ�����������һЩ�˵Ĺ�����˵��������̰λ�������������ź��������س�̾�������������ӣ����������ļ�����ƺͻʵ۵�֧���£���Щ���������ˣ���һ�����ܵ��˳�ְ�Ĵ��֡�</span></div>
+                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/9f1011b3b14956e0d9335a91?fr=lemma&fromModule=lemma_content-image" target="_blank" title="张居正"><img src="https://bkimg.cdn.bcebos.com/pic/9f1011b3b14956e0d9335a91?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_528" width="215" height="264"></a>张居正</div>
+                        <span data-text="true">张居正（1525年5月-1582年7月），字叔大，号太岳，谥号</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%87%E5%BF%A0/5682146?fromModule=lemma_inlink" target="_blank" data-from-module="">文忠</a></span><span data-text="true">，湖北</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5/4726?fromModule=lemma_inlink" target="_blank" data-from-module="">江陵</a></span><span data-text="true">（即荆州）人。明代政治家、改革家，被称为“宰相之杰”，也是史上颇富争议的宰相。</span></div>
+                      <div data-tag="paragraph" data-uuid="sCb0PpuYNMcF" data-idx="2-2"><span data-text="true">据说张居正</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%BA%E7%94%9F%E5%89%8D/53343936?fromModule=lemma_inlink" target="_blank" data-from-module="">出生前</a></span><span data-text="true">其曾祖父做了个梦：梦中一轮</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9C%86%E6%9C%88/453636?fromModule=lemma_inlink" target="_blank" data-from-module="">圆月</a></span><span data-text="true">落在水瓮里，照得四周—片光明，然后一只</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%99%BD%E9%BE%9F/4782328?fromModule=lemma_inlink" target="_blank" data-from-module="">白龟</a></span><span data-text="true">从水中慢慢浮起。曾祖父认定白龟就是这小曾孙，于是信口给他取了个乳名“白圭”，希望他来日能够光宗耀祖。</span></div>
+                      <div data-tag="paragraph" data-uuid="sCb0R8aCnjfX" data-idx="2-3"><span data-text="true">5岁入学，7岁能通</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%AD%E7%BB%8F/0?fromModule=lemma_inlink" target="_blank" data-from-module="">六经</a></span><span data-text="true">大义，12</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B2%81%E8%80%83/6501180?fromModule=lemma_inlink" target="_blank" data-from-module="">岁考</a></span><span data-text="true">中了秀才，13岁时就参加了乡试，写了一篇非常漂亮的文章，只因湖广巡抚顾辚有意让张居正多磨练几年，才未中举。16岁中了举人，23岁?</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%98%89%E9%9D%96/0?fromModule=lemma_inlink" target="_blank" data-from-module="">嘉靖</a></span><span data-text="true">二十六年（1547年）进士，由</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BC%96%E4%BF%AE%E5%AE%98/22837869?fromModule=lemma_inlink" target="_blank" data-from-module="">编修官</a></span><span data-text="true">至</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BE%8D%E8%AE%B2%E5%AD%A6%E5%A3%AB/63629?fromModule=lemma_inlink" target="_blank" data-from-module="">侍讲学士</a></span><span data-text="true">令翰林事。</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9A%86%E5%BA%86/0?fromModule=lemma_inlink" target="_blank" data-from-module="">隆庆</a></span><span data-text="true">元年（1567年）任</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%8F%E9%83%A8%E5%B7%A6%E4%BE%8D%E9%83%8E/13826228?fromModule=lemma_inlink" target="_blank" data-from-module="">吏部左侍郎</a></span><span data-text="true">兼</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%9C%E9%98%81%E5%A4%A7%E5%AD%A6%E5%A3%AB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">东阁大学士</a></span><span data-text="true">。隆庆时与高拱并为宰辅，为</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%8F%E9%83%A8%E5%B0%9A%E4%B9%A6/6150893?fromModule=lemma_inlink" target="_blank" data-from-module="">吏部尚书</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BB%BA%E6%9E%81%E6%AE%BF%E5%A4%A7%E5%AD%A6%E5%A3%AB/6943326?fromModule=lemma_inlink" target="_blank" data-from-module="">建极殿大学士</a></span><span data-text="true">。万历初年,代高拱为首辅。当时</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%98%8E%E7%A5%9E%E5%AE%97/0?fromModule=lemma_inlink" target="_blank" data-from-module="">明神宗</a></span><span data-text="true">年幼，一切军政大事均由张居正主持裁决。</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyp11u4" data-idx="2-4"><span data-text="true">正当张居正大力整顿吏治，实行政治革新的时候，御史刘台在神宗面前告了他一状，说他“专擅威福、罔上行私，横黩无厌”。张居正知道了，对神宗说；“臣之所处者，危地也；言者以为擅作威福，而臣之所行，正威福也。将巽顺以悦下耶？则负国；竭公以事上耶？则无以逃专擅之讥。”对那些攻击他的人以迎头痛击。</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyp11vp" data-idx="2-5"><span data-text="true">万历五年，他的父亲去世。按照</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%81%E5%BB%BA%E7%A4%BC%E6%95%99/2249325?fromModule=lemma_inlink" target="_blank" data-from-module="">封建礼教</a></span><span data-text="true">，他应该回家“守制”。但他考虑到国事纷繁、主上年幼，仍然“吉服视事”，没有回家守制。这又引起了一些人的攻击，说他“忘亲贪位”。吏部尚书张翰甚至捶胸长叹道：“三纲沦矣！”但在他的坚决抵制和皇帝的支持下，这些攻击他的人，都一个个受到了撤职的处分。</span></div>
                       <div data-tag="paragraph" data-uuid="gnzkyp11xa" data-idx="2-6">
-                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/a2cc7cd98d1001e9517033e0b90e7bec55e79794?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�ž����ʾ�"><img src="https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e9517033e0b90e7bec55e79794?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165"></a>�ž����ʾ�</div>
-                        <span data-text="true">1582�꣬�ž���ȥ���ˣ���ȥ�򹥻������ܵ����ֵ��ˣ�һ�����ٸ�ԭְ���й��ų���������ǰ˵����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%86%AF%E4%BF%9D/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�뱣</a></span><span data-text="true">���������ᡱ����˵</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BB%96%E5%AE%B6/3613501?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">���������츮������ʷ�����ָ��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%BE%BD%E7%8E%8B/12629561?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">������������Ϊ������ԩ����˵�ɸ�������ƣ�ȫ��������ҡ����ڱ���Щ�����Ի��ˣ��칫��������״��������ȥ������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%98%E7%A7%A9/9676879?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�������������ֺţ��鳭�����ļҲ�����������¾ʬ�����ĳ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BC%A0%E6%95%AC%E4%BF%AE/6579638?fromModule=lemma_inlink" target="_blank" data-from-module="">�ž���</a></span><span data-text="true">�����������������������͵������ε������������ҵĽ������֪���ļҲ��������ԵĶ�ʮ��֮һ��</span></div>
-                      <div data-tag="paragraph" data-uuid="gnzkyoskzy" data-idx="2-7"><span data-text="true">��1621������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E7%94%B1%E6%A0%A1/8760087?fromModule=lemma_inlink" target="_blank" data-from-module="">����У</a></span><span data-text="true">��λ���ָ����ž����Ĺ��ȣ��������������ֱ����������(1630��)</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A4%BC%E9%83%A8%E4%BE%8D%E9%83%8E/6150950?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E5%96%BB%E4%B9%89/10481633?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��Ϊ����ԩ������ԩ�����𲽵õ��˾�������������Ҳ�ٸ�ԭְ��</span></div>
-                      <div data-tag="paragraph" data-uuid="sCb0UoPhX2AO" data-idx="2-8"><span data-text="true">�ž������������ڸ������Σ���������һЩ���ݷḻ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E6%B2%BB%E8%AE%BA%E6%96%87/10470408?fromModule=lemma_inlink" target="_blank" data-from-module="">��������</a></span><span data-text="true">�͸�����ֿ��ʫƪ���С������ҹ�ȫ���������� ��</span></div>
-                      <div data-tag="paragraph" data-uuid="sCb0U7ctUmhk" data-idx="2-9"><span data-text="true">�ž���ǰ������10�꣬ʵ����һϵ�иĸ��ʩ���յ�һ����Ч������������������أ�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%80%E6%9D%A1%E9%9E%AD%E6%B3%95/0?fromModule=lemma_inlink" target="_blank" data-from-module="">һ���޷�</a></span><span data-text="true">���ı�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%B5%8B%E7%A8%8E%E5%88%B6%E5%BA%A6/2488253?fromModule=lemma_inlink" target="_blank" data-from-module="">��˰�ƶ�</a></span><span data-text="true">��ʹ���������Ĳ���״���������ƣ�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%88%9A%E7%BB%A7%E5%85%89/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�ݼ̹�</a></span><span data-text="true">�����������������ǿ�����߷����������������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%8C%E4%BA%91%E7%BF%BC/2731723?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%AE%B7%E6%AD%A3%E8%8C%82/7013309?fromModule=lemma_inlink" target="_blank" data-from-module="">����ï</a></span><span data-text="true">��ƽ���Ϸ������������ҡ�</span></div>
+                        <div><a href="https://baike.baidu.com/pic/%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%95%85%E5%B1%85/2875619/0/a2cc7cd98d1001e9517033e0b90e7bec55e79794?fr=lemma&fromModule=lemma_content-image" target="_blank" title="张居正故居"><img src="https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e9517033e0b90e7bec55e79794?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165"></a>张居正故居</div>
+                        <span data-text="true">1582年，张居正去世了，过去因攻击他而受到处分的人，一个个官复原职。中官张诚在神宗面前说他与</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%86%AF%E4%BF%9D/0?fromModule=lemma_inlink" target="_blank" data-from-module="">冯保</a></span><span data-text="true">“交结恣横”。并说</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BB%96%E5%AE%B6/3613501?fromModule=lemma_inlink" target="_blank" data-from-module="">他家</a></span><span data-text="true">“宝藏逾天府”。御史羊可立指责他构陷</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%BE%BD%E7%8E%8B/12629561?fromModule=lemma_inlink" target="_blank" data-from-module="">辽王</a></span><span data-text="true">。辽妃又上书为辽王辩冤，并说辽府金宝以万计，全部入居正家。神宗被这些谗言迷惑了，遂公布他的罪状，下令削去了他的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%98%E7%A7%A9/9676879?fromModule=lemma_inlink" target="_blank" data-from-module="">官秩</a></span><span data-text="true">，剥夺了他的谥号，查抄了他的家产，几乎劈棺戮尸，他的长子</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BC%A0%E6%95%AC%E4%BF%AE/6579638?fromModule=lemma_inlink" target="_blank" data-from-module="">张敬修</a></span><span data-text="true">被捕人狱，其他亲属都被送到“烟瘴地面充军”。抄家的结果，才知他的家产不及严嵩的二十分之一。</span></div>
+                      <div data-tag="paragraph" data-uuid="gnzkyoskzy" data-idx="2-7"><span data-text="true">到1621年熹宗</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E7%94%B1%E6%A0%A1/8760087?fromModule=lemma_inlink" target="_blank" data-from-module="">朱由校</a></span><span data-text="true">即位，恢复了张居正的官秩，重新予以葬祭。直到崇祯三年(1630年)</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A4%BC%E9%83%A8%E4%BE%8D%E9%83%8E/6150950?fromModule=lemma_inlink" target="_blank" data-from-module="">礼部侍郎</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E5%96%BB%E4%B9%89/10481633?fromModule=lemma_inlink" target="_blank" data-from-module="">罗喻义</a></span><span data-text="true">等为他鸣冤，他的冤案才逐步得到了纠正。他的子孙也官复原职。</span></div>
+                      <div data-tag="paragraph" data-uuid="sCb0UoPhX2AO" data-idx="2-8"><span data-text="true">张居正不仅热心于革新政治，还留下了一些内容丰富的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%94%BF%E6%B2%BB%E8%AE%BA%E6%96%87/10470408?fromModule=lemma_inlink" target="_blank" data-from-module="">政治论文</a></span><span data-text="true">和感情真挚的诗篇。有《张文忠公全集》传世。 　</span></div>
+                      <div data-tag="paragraph" data-uuid="sCb0U7ctUmhk" data-idx="2-9"><span data-text="true">张居正前后当宰相10年，实行了一系列改革措施，收到一定成效。他清查地主隐瞒的田地，推行</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%80%E6%9D%A1%E9%9E%AD%E6%B3%95/0?fromModule=lemma_inlink" target="_blank" data-from-module="">一条鞭法</a></span><span data-text="true">，改变</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%B5%8B%E7%A8%8E%E5%88%B6%E5%BA%A6/2488253?fromModule=lemma_inlink" target="_blank" data-from-module="">赋税制度</a></span><span data-text="true">，使明朝政府的财政状况有所改善；用名将</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%88%9A%E7%BB%A7%E5%85%89/0?fromModule=lemma_inlink" target="_blank" data-from-module="">戚继光</a></span><span data-text="true">、李成梁等练兵，加强北部边防，整饬边镇防务；用</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%8C%E4%BA%91%E7%BF%BC/2731723?fromModule=lemma_inlink" target="_blank" data-from-module="">凌云翼</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%AE%B7%E6%AD%A3%E8%8C%82/7013309?fromModule=lemma_inlink" target="_blank" data-from-module="">殷正茂</a></span><span data-text="true">等平定南方少数民族叛乱。</span></div>
                     </div>
                   </div>
                 </div>
@@ -724,7 +724,7 @@
                   <div>
                     <div>
                       <div>
-                        <h1>���ݲ����</h1>
+                        <h1>荆州博物馆</h1>
                         <div></div>
                       </div>
                       </div>
@@ -733,46 +733,46 @@
                 </div>
             </div>
             <div><div><div><div type="defaultTab"><div>
-              <div data-tag="paragraph" data-uuid="go0iuw3awe" data-idx=""><span data-text="true">���ݲ����λ�ں���ʡ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82/0?fromModule=lemma_inlink" target="_blank" data-from-module="summary">������</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8C%BA/11018517?fromModule=lemma_inlink" target="_blank" data-from-module="summary">������</a></span><span data-text="true">����·166�ţ���һ���ط��ۺ��Բ���ݣ�ռ�����4.8��ƽ���ס����ݲ���ݵ�ǰ����1951�꽨���ĺ���ʡ��ʷ�ݾ��ݹ����顣1997�꣬����ݸ���Ϊʡ�����в���ݡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="unkiyJN8CfQX" data-idx=""><span data-text="true">���ݲ����ռ�����5����ƽ���ף����������2.3��ƽ���ף��̻����11000��ƽ���ס����ݲ�������С������Ƕ���������ҫ�ʡ�����ɽ���񡷡�������ľ����ǧ��Ҥ�𡷡������졪�����ɽ168�ź�Ĺչ�����������ϡ������غ�������Ʒչ������Ԫ����ʷ�Ļ����еȾ���Ũ���ط���ɫ��ר����С����ݲ����Ϊ���������������Ĳ���ҵ��չ������ͻ�����ף���ù��Ҽ�����15�Σ�ʡ������30�Σ�������50�ಿר����������1000��ƪ���ġ�</span>?[8-9]?[15]<span data-text="true">����2022��ĩ�����ݲ���ݲ�Ʒ��17950��/�ף��������5235��/�ף���չ��̻212���Σ��ٰ����չ��40����</span>?[14]</div>
-                      <div data-tag="paragraph" data-uuid="uniSm1wOIRso" data-idx=""><span data-text="true">2008�꣬���ݲ���ݱ������������Ϊ��������һ������ݡ�</span>?[12]<span data-text="true">2000�꣬�������ξ����辣�ݲ����AAAA�����ξ��㡣</span></div>
+              <div data-tag="paragraph" data-uuid="go0iuw3awe" data-idx=""><span data-text="true">荆州博物馆位于湖北省</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%B8%82/0?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州市</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8C%BA/11018517?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州区</a></span><span data-text="true">荆中路166号，是一座地方综合性博物馆，占地面积4.8万平方米。荆州博物馆的前身是1951年建立的湖北省文史馆荆州工作组。1997年，博物馆更名为省荆州市博物馆。</span></div>
+                      <div data-tag="paragraph" data-uuid="unkiyJN8CfQX" data-idx=""><span data-text="true">荆州博物馆占地面积5万余平方米，建筑面积达2.3万平方米，绿化面积11000多平方米。荆州博物馆设有《漫天星斗》《吉金耀彩》《荆山有玉》《书于竹木》《千年窑火》《五大夫遂——凤凰山168号汉墓展》《丹漆神韵——楚秦汉漆器精品展》、开元观历史文化陈列等具有浓郁地方特色的专题陈列。荆州博物馆为荆州乃至湖北的文博事业发展作出了突出贡献，获得国家级奖励15次，省级奖励30次，出版了50多部专著，发表了1000多篇论文。</span>?[8-9]?[15]<span data-text="true">截至2022年末，荆州博物馆藏品有17950件/套，珍贵文物5235件/套，开展社教活动212场次，举办陈列展览40场。</span>?[14]</div>
+                      <div data-tag="paragraph" data-uuid="uniSm1wOIRso" data-idx=""><span data-text="true">2008年，荆州博物馆被国家文物局评为首批国家一级博物馆。</span>?[12]<span data-text="true">2000年，国家旅游局授予荆州博物馆AAAA级旅游景点。</span></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div data-index="2" data-tag="header" data-uuid="go0iuvm5t9" data-level="1">
-              <h2 name="2">��λ����</h2>
+              <h2 name="2">方位布局</h2>
               <div></div>
               <div></div>
             </div>
             <div data-tag="paragraph" data-uuid="uniVu2Sygm4N" data-idx="1-1">
-              <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/7c1ed21b0ef41bd527a29f2158da81cb38db3d75?fr=lemma&fromModule=lemma_content-image" target="_blank" title="չ��ƽ��ͼ"><img src="https://bkimg.cdn.bcebos.com/pic/7c1ed21b0ef41bd527a29f2158da81cb38db3d75?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_447" width="220" height="223.72881355932202"></a>չ��ƽ��ͼ</div>
-              <span data-text="true">���ݲ����ռ�����4.8��ƽ���ף��������2.3��ƽ���ף�����ռ�����5����ƽ���ף��������2.3��ƽ���ף��̻����11000��ƽ���ף�չ�����4409ƽ���ף��ⷿ���10000ƽ���ף������ռ����150ƽ���ס����ݲ���ݿ���������Ũ���ط���ɫ�Ļ������У�ϵͳչʾ������ʷ�Ļ������ﾫƷ��</span>?[9]?[14-15]</div>
+              <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/7c1ed21b0ef41bd527a29f2158da81cb38db3d75?fr=lemma&fromModule=lemma_content-image" target="_blank" title="展馆平面图"><img src="https://bkimg.cdn.bcebos.com/pic/7c1ed21b0ef41bd527a29f2158da81cb38db3d75?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_447" width="220" height="223.72881355932202"></a>展馆平面图</div>
+              <span data-text="true">荆州博物馆占地面积4.8万平方米，建筑面积2.3万平方米，馆舍占地面积5万余平方米，建筑面积2.3万平方米，绿化面积11000多平方米，展厅面积4409平方米，库房面积10000平方米，教育空间面积150平方米。荆州博物馆开设多个具有浓郁地方特色的基本陈列，系统展示荆州历史文化和文物精品。</span>?[9]?[14-15]</div>
           <div data-index="3" data-tag="header" data-uuid="unkdwYX61nUk" data-level="1">
             <div></div>
-              <h2 name="3">����չ��</h2>
+              <h2 name="3">陈列展览</h2>
               <div></div>
             <div></div>
             </div>
             <div data-index="3-1" data-tag="header" data-uuid="unkdAD8URSPI" data-level="2">
-              <h3>����չ��</h3>
+              <h3>基本展览</h3>
             </div>
             <ul data-tag="list" data-uuid="unkei3lUMxHY">
               <li>
-                <div data-tag="paragraph" data-uuid="unkei3m3a2JX" data-idx=""><span data-text="true">�����Ƕ���ͬ�ԡ�������ƽԭԭʼ�Ļ�չ</span></div>
+                <div data-tag="paragraph" data-uuid="unkei3m3a2JX" data-idx=""><span data-text="true">漫天星斗月同辉——江汉平原原始文化展</span></div>
               </li>
             </ul>
-            <div data-tag="paragraph" data-uuid="unkegU1NYjhg" data-idx="2-3"><span data-text="true">�������Ƕ���ͬ�ԡ�������ƽԭԭʼ�Ļ�չ��չʾ�˷��ﷱ�ٵĽ���ƽԭ��ԭʼ�Ļ����Լ���ɽ��ַ����Ϫ�Ļ����Ǳ�Ϫ�Ļ����������Ļ����������Ļ���ʯ�Һ��Ļ�����ʯ�Һ��Ļ����ߴ�ԭʼ�Ļ�Ϊ���壬�����˽���ƽԭʷǰʱ�����Ļ��������ò��</span>?[16]</div>
+            <div data-tag="paragraph" data-uuid="unkegU1NYjhg" data-idx="2-3"><span data-text="true">《漫天星斗月同辉——江汉平原原始文化展》展示了发达繁荣的江汉平原的原始文化，以鸡公山遗址、大溪文化、城背溪文化、油子岭文化、屈家岭文化、石家河文化、后石家河文化这七大原始文化为主体，再现了江汉平原史前时代的文化和社会面貌。</span>?[16]</div>
             <div data-tag="paragraph" data-uuid="unkesz1FRhLP" data-idx="2-4">
               <div></div>
             </div>
             <ul data-tag="list" data-uuid="unkeKrDxYqAW">
               <li>
-                <div data-tag="paragraph" data-uuid="unkeKrDE9dga" data-idx=""><span data-text="true">����ҫ�ʡ������ݳ���ͭ��չ</span></div>
+                <div data-tag="paragraph" data-uuid="unkeKrDE9dga" data-idx=""><span data-text="true">吉金耀彩——荆州出土铜器展</span></div>
               </li>
             </ul>
-            <div data-tag="paragraph" data-uuid="unkeIh69Utxl" data-idx="2-6"><span data-text="true">������ҫ�ʡ������ݳ���ͭ��չ��չʾ���й��Ŵ������������ǻ۵Ľᾧ�ԻͲ���������ͭ����Ҳ�ǹŴ��Ի����������ļ��г��֡���չ��չ�����ǽ���ƽԭ���ŷ�������Ŵ���ͭ���еľ����������ǹ�2�ų�Ĺ��������ͭ�����������ų������İ�Խ�����Լ�������ꪵȣ���ͼչ�ֳ�����ʢʱ�ڵ���ͭ�Ļ�����չ���֡����������ܵ����𡱡����ʶ���ԭ��¹Ⱥ�ۡ������غ�һͳ�������ϡ�������Ԫ������չʾ����ƽԭ��������ͭ����</span>?[16]</div>
+            <div data-tag="paragraph" data-uuid="unkeIh69Utxl" data-idx="2-6"><span data-text="true">《吉金耀彩——荆州出土铜器展》展示了中国古代先民勤劳与智慧的结晶辉煌灿烂商周青铜器，也是古代辉煌礼乐文明的集中呈现。本展览展出的是江汉平原考古发掘出土古代青铜器中的精华，有天星观2号楚墓出土的青铜礼乐器、考古出土的四把越王剑以及吴王光戟等，试图展现楚国鼎盛时期的青铜文化。该展览分“殷商南土周道尊尊”、“问鼎中原逐鹿群雄”、“秦汉一统楚风遗韵”三个单元，集中展示江汉平原出土的青铜器。</span>?[16]</div>
             <div data-tag="paragraph" data-uuid="unkeEllajlas" data-idx="2-7">
               <div data-tag="module" data-uuid="unkeFVop4dMa" data-module-type="album">
                 <div>
@@ -792,10 +792,10 @@
             </div>
             <ul data-tag="list" data-uuid="unkePHGe3xsx">
               <li>
-                <div data-tag="paragraph" data-uuid="unkePHGF8knn" data-idx=""><span data-text="true">����ߢӢ�������ݳ�������չ</span></div>
+                <div data-tag="paragraph" data-uuid="unkePHGF8knn" data-idx=""><span data-text="true">楚玉撷英——荆州出土玉器展</span></div>
               </li>
             </ul>
-            <div data-tag="paragraph" data-uuid="unkeOUNxWCDk" data-idx="2-9"><span data-text="true">������ߢӢ�������ݳ�������չ��չʾ�˴���ׯ�صĳ��������ǳ��������켼����Ŵ��ֹ�ҵ������չ�֣��ǳ�����ֺ�֮���ľ������֡���չ���֡�������񻷡���������諣����������������塱���������塱��������/����/��������������س����������Ļ������������������š��߸���Ԫ����ȸĳ�ǰ�������ˡ�����/����/��������������س����������Ļ������������������š���������Ԫ��չʾ���س�������������Ʒ��Ҳ��ӳ����ʱ�ڳ������й�֮�����Ļ�����Ľ�����</span>?[16]</div>
+            <div data-tag="paragraph" data-uuid="unkeOUNxWCDk" data-idx="2-9"><span data-text="true">《楚玉撷英——荆州出土玉器展》展示了大气庄重的楚玉器，是楚玉器制造技术与古代手工业文明的展现，是楚王陵恢宏之气的精彩再现。该展览分“玉璧与玉环”、“玉珩（璜）”、“象生形玉佩”、“组玉佩”、“玉鎏/玉剑饰/玉带钩”、“楚地出土其他玉文化玉器”、“珠玉琳琅”七个单元，相比改陈前，增加了“玉鎏/玉剑饰/玉带钩”、“楚地出土其他玉文化玉器”、“珠玉琳琅”这三个单元，展示楚地出土的其他玉饰品，也反映东周时期楚地与列国之间玉文化方面的交流。</span>?[16]</div>
             <div data-tag="paragraph" data-uuid="unkeElu03boE" data-idx="2-10">
               <div data-tag="module" data-uuid="unkeMO43ZHdJ" data-module-type="album">
                 <div>
@@ -815,10 +815,10 @@
             </div>
             <ul data-tag="list" data-uuid="unkeUtF7h8iU">
               <li>
-                <div data-tag="paragraph" data-uuid="unkeUtFf4o2H" data-idx=""><span data-text="true">������ľ�������ݳ������չ</span></div>
+                <div data-tag="paragraph" data-uuid="unkeUtFf4o2H" data-idx=""><span data-text="true">书于竹木——荆州出土简牍展</span></div>
               </li>
             </ul>
-            <div data-tag="paragraph" data-uuid="unkeTMMR72lR" data-idx="2-12"><span data-text="true">��������ľ�������ݳ������չ��չʾ�˷����صļ�����֣��ǳ��������ļ�֤�����Ļ����������������ݵĹ�Ĺ���г����˴���ս�����ش�������ʱ�ڵļ�빣������漰���Ρ����ɡ����á����¡���ʷ����ѧ����ѧ��������ҽѧ��������ɥ��ȶ�����򡣸�չ���֡�ս�����򡱡����ش���빡�����������빡�������Ԫ��չʾ�������������ŷ������������ϵĴ���ƪ�¡�</span>?[16]</div>
+            <div data-tag="paragraph" data-uuid="unkeTMMR72lR" data-idx="2-12"><span data-text="true">《书于竹木——荆州出土简牍展》展示了风格独特的简牍文字，是楚汉文明的见证，是文化交流的桥梁。荆州的古墓葬中出土了大量战国、秦代、西汉时期的简牍，内容涉及政治、法律、经济、军事、历史、哲学、数学、历法、医学、巫术、丧葬等多个领域。该展览分“战国楚简”、“秦代简牍”、“西汉简牍”三个单元，展示的是历年来考古发掘出土简牍资料的代表篇章。</span>?[16]</div>
             <div data-tag="paragraph" data-uuid="unkeElCYc0hN" data-idx="2-13">
               <div data-tag="module" data-uuid="unkeRm2zremx" data-module-type="album">
                 <div>
@@ -838,10 +838,10 @@
             </div>
             <ul data-tag="list" data-uuid="unkeZVTDLUTd">
               <li>
-                <div data-tag="paragraph" data-uuid="unkeZVTYYAqO" data-idx=""><span data-text="true">��Է���䡪�����ݳ����Ŵ�����չ</span></div>
+                <div data-tag="paragraph" data-uuid="unkeZVTYYAqO" data-idx=""><span data-text="true">陶苑奇珍——荆州出土古代瓷器展</span></div>
               </li>
             </ul>
-            <div data-tag="paragraph" data-uuid="unkeZgVN1fSr" data-idx="2-15"><span data-text="true">����Է���䡪�����ݳ����Ŵ�����չ��չʾ�˰�������Ĵ����������ǹᴩǧ��ʱ�����ʷ�������Ǵ��澣������ı��ؿ⡣��չ��չ�����ݿ��ŷ�������ĸ���ʷʱ�ڴ�����Ʒ����������������Ԫ��ʱ�ھ��ݵ�������ַ��Ĺ������Ĵ���Ϊ�������ֳ����෱�ࡢ���ηḻ���ص㣬�����������ܽ�ȫ��ط�ӳ���й�������չ�ļ�����Ҫ�׶Σ�����չʾ�������ƴɹ����ĸ߳����գ�ͬʱҲ��ӳ����ͬʱ������ͬ���򡢲�ͬ�ײ���������Ļ����С�������Ȥ���������ȷ���Ĳ�����仯��</span>?[16]</div>
+            <div data-tag="paragraph" data-uuid="unkeZgVN1fSr" data-idx="2-15"><span data-text="true">《陶苑奇珍——荆州出土古代瓷器展》展示了包罗万象的瓷器，瓷器是贯穿千年时光的历史长索，是储存荆楚奇珍的宝藏库。本展览展出荆州考古发掘出土的各历史时期瓷器精品，其中以两晋至宋元明时期荆州地区古遗址、墓葬出土的瓷器为主，呈现出器类繁多、器形丰富的特点，所出土瓷器能较全面地反映出中国瓷器发展的几个主要阶段，不仅展示了历代制瓷工匠的高超技艺，同时也反映出不同时代、不同地域、不同阶层的人们在文化传承、审美情趣、艺术风格等方面的差异与变化。</span>?[16]</div>
             <div data-tag="paragraph" data-uuid="unkeElKqMM2N" data-idx="2-16">
               <div data-tag="module" data-uuid="unkeXij3NMsT" data-module-type="album">
                 <div>
@@ -861,9 +861,9 @@
             </div>
             <div data-index="3-2" data-tag="header" data-uuid="unkfaaJeeRgJ" data-level="2">
               <div></div>
-              <h3>��ʱչ��</h3>
+              <h3>临时展览</h3>
             </div>
-            <div data-tag="paragraph" data-uuid="unkdxwgK1avo" data-idx="2-18"><span data-text="true">2024��6��28����10��20�գ��ɾ��ݲ���ݡ������²���ݡ����격��ݡ��򽭲���ݡ�������ͭ������Ժ�������з���������ݡ������г²�����������ϳﱸ���Ƴ��ġ�ʢ�����鷨���䱦�����ƴ���Ʒ������չ���ھ��ݲ������չ����չ��</span>?[17]</div>
+            <div data-tag="paragraph" data-uuid="unkdxwgK1avo" data-idx="2-18"><span data-text="true">2024年6月28日至10月20日，由荆州博物馆、法门寺博物馆、昭陵博物馆、镇江博物馆、宝鸡青铜器博物院、宝鸡市凤翔区博物馆、宝鸡市陈仓区博物馆联合筹备、推出的“盛世遗珠法门珍宝——唐代精品文物特展”在荆州博物馆临展厅开展。</span>?[17]</div>
             <div data-tag="paragraph" data-uuid="unkfuPH0xKxN" data-idx="2-19">
               <div data-tag="module" data-uuid="unkfx9QZ4MIM" data-module-type="album">
                 <div>
@@ -889,42 +889,42 @@
                 </div>
               </div>
             </div>
-            <div data-tag="paragraph" data-uuid="unkfuPKnN0Ol" data-idx="2-20"><span data-text="true">2024��6��24����7��30�գ��ɾ��ݲ���ݺͲ��ݲ�������Ͼٰ�ġ�����ߢ�䡪�����ݳ�����������չ���ھ��ݲ���ݿ�չ��</span>?[18]</div>
+            <div data-tag="paragraph" data-uuid="unkfuPKnN0Ol" data-idx="2-20"><span data-text="true">2024年6月24日至7月30日，由荆州博物馆和博州博物馆联合举办的“楚玉撷珍——荆州出土楚国玉器展”在荆州博物馆开展。</span>?[18]</div>
           <div data-index="4" data-tag="header" data-uuid="go0iuuhkdw" data-level="1">
             <div></div>
-              <h2 name="4">��Ҫ�ݲ�</h2>
+              <h2 name="4">重要馆藏</h2>
               <div></div>
             </div>
             <div data-index="4-1" data-tag="header" data-uuid="unitvhqZvsxW" data-level="2">
-              <h3>��Ҫ����</h3>
+              <h3>重要文物</h3>
             </div>
-            <div data-tag="paragraph" data-uuid="unituUJDdcaE" data-idx="3-2"><span data-text="true">����2022�꣬���ݲ���ݲ�Ʒ��17950��/�ף��������5235��/�ף����й���һ������492���ס����ݲ������ϸ���̽��裬��������������12����������У���ս��˿���������ì����ս���غ����������й�Ҳ���������������ѧר��������������͡��������ɡ��ġ���������Ⱥ�����빣���������ʬ���ù���ϸ��ֻ������裬�Ⱥ󷢾���7000������Ĺ��ͽ�20��ƽ���׵Ĺ��Ļ���ַ��</span>?[14]</div>
+            <div data-tag="paragraph" data-uuid="unituUJDdcaE" data-idx="3-2"><span data-text="true">截至2022年，荆州博物馆藏品有17950件/套，珍贵文物5235件/套，其中国家一级文物492件套。荆州博物馆配合各项工程建设，发掘出土珍贵文物12万余件。其中，有战国丝绸；吴王夫差矛；有战国秦汉漆器；有中国也是世界上最早的数学专著《算数书和萧和“二年造律”的《二年律令》等汉初简牍；有西汉男尸。该馆配合各种基本建设，先后发掘了7000多座古墓葬和近20万平方米的古文化遗址。</span>?[14]</div>
             <div data-tag="module" data-uuid="go0iuvm5yj" data-module-type="table">
               <div>
                 <table>
                   <tbody>
                     <tr>
-                      <th width="76" align="center" rowspan="1" colspan="1"><div data-tag="paragraph" data-uuid="go0iuvmpce" data-idx=""><span data-text="true">�ֱ�</span></div></th>
-                      <th width="402" align="left" rowspan="1" colspan="1"><div data-tag="paragraph" data-uuid="unnzBsibGD2x" data-idx=""><span data-text="true">����������ʮ���꣨1402�꣩��</span></div>
-                          <div data-tag="paragraph" data-uuid="unnzBsiw1TSV" data-idx=""><span data-text="true">������Ĺ�������������ֱ�ͨ���̽�ӡ���׭�顰���������������������ֲ�Ϊľ���̽�����̿������֣���Ҫ������������馰�����������������Ϊ��ƽ����ѩ�������԰��֡�</span>?[23]</div></th>
+                      <th width="76" align="center" rowspan="1" colspan="1"><div data-tag="paragraph" data-uuid="go0iuvmpce" data-idx=""><span data-text="true">谥宝</span></div></th>
+                      <th width="402" align="left" rowspan="1" colspan="1"><div data-tag="paragraph" data-uuid="unnzBsibGD2x" data-idx=""><span data-text="true">明代洪武三十五年（1402年）。</span></div>
+                          <div data-tag="paragraph" data-uuid="unnzBsiw1TSV" data-idx=""><span data-text="true">湘献王墓出土，湘献王谥宝通体鎏金，印面雕篆书“湘献王宝”。王与王妃谥册为木板鎏金，正面刻楷书文字，简要记载明成祖朱棣哀悼湘献王及王妃，为其平反昭雪，并赐以褒谥。</span>?[23]</div></th>
                       <th width="305" align="left" rowspan="1" colspan="1"><div data-tag="paragraph" data-uuid="go0iuvmpod" data-idx="">
-                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/d31b0ef41bd5ad6eddc4e44f89922edbb6fd52669647?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�������������̽�ľ���ֱ������ֲᡱ"><img src="https://bkimg.cdn.bcebos.com/pic/d31b0ef41bd5ad6eddc4e44f89922edbb6fd52669647?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_440" width="100%" height="100%"></a>�������������̽�ľ���ֱ������ֲᡱ</div>
+                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/d31b0ef41bd5ad6eddc4e44f89922edbb6fd52669647?fr=lemma&fromModule=lemma_content-image" target="_blank" title="湘献王与王妃鎏金木“谥宝”“谥册”"><img src="https://bkimg.cdn.bcebos.com/pic/d31b0ef41bd5ad6eddc4e44f89922edbb6fd52669647?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_440" width="100%" height="100%"></a>湘献王与王妃鎏金木“谥宝”“谥册”</div>
                       </div></th>
                     </tr>
                     <tr>
-                      <td width="76" align="center" rowspan="1" colspan="1" data-uuid="go0iuvmpur"><div data-tag="paragraph" data-uuid="go0iuvmpz9" data-idx=""><span data-text="true">ͭ��</span></div></td>
-                      <td width="402" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmq11"><div data-tag="paragraph" data-uuid="go0iuw2zrn" data-idx=""><span data-text="true">ս�����ھ�51.6��ͨ��42���ס�</span></div>
-                          <div data-tag="paragraph" data-uuid="go0iuvmq3j" data-idx=""><span data-text="true">���������ǹ۶���Ĺ������ƽ���أ���΢�����������θ�����Ʋ���Ƚϴ������в���������������һ��͹�⣬������ǳ�������ĸ����µ��������ޣ�ƽ�ף���װ�����������㡣���������ء�����͹�⼰͹�����ϵ���������ϸ�ܡ����ȵ����ƣ�͹�����µ������������ơ����׸��ŽϺ�����ơ�</span>?[21]</div></td>
+                      <td width="76" align="center" rowspan="1" colspan="1" data-uuid="go0iuvmpur"><div data-tag="paragraph" data-uuid="go0iuvmpz9" data-idx=""><span data-text="true">铜鼎</span></div></td>
+                      <td width="402" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmq11"><div data-tag="paragraph" data-uuid="go0iuw2zrn" data-idx=""><span data-text="true">战国，口径51.6、通高42厘米。</span></div>
+                          <div data-tag="paragraph" data-uuid="go0iuvmq3j" data-idx=""><span data-text="true">荆州市天星观二号墓出土。平折沿，口微敛，二长方形附耳外撇弧度较大，器身中部束腰，束腰处有一周凸棱，腹部较浅，附有四个精致的龙形爬兽，平底，下装三个兽面蹄足。器耳、口沿、束腰凸棱及凸棱以上的器身满饰细密、繁缛的蟠螭纹，凸棱以下的器身满饰蟠虺纹。器底附着较厚的烟炱。</span>?[21]</div></td>
                       <td width="305" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmq5c"><div data-tag="paragraph" data-uuid="go0iuvmqb9" data-idx="">
-                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/b2de9c82d158ccbfec58a0da10d8bc3eb035416d?fr=lemma&fromModule=lemma_content-image" target="_blank" title="ͭ��"><img src="https://bkimg.cdn.bcebos.com/pic/b2de9c82d158ccbfec58a0da10d8bc3eb035416d?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="100%" height="100%"></a>ͭ��</div>
+                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/b2de9c82d158ccbfec58a0da10d8bc3eb035416d?fr=lemma&fromModule=lemma_content-image" target="_blank" title="铜鼎"><img src="https://bkimg.cdn.bcebos.com/pic/b2de9c82d158ccbfec58a0da10d8bc3eb035416d?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="100%" height="100%"></a>铜鼎</div>
                       </div></td>
                     </tr>
                     <tr>
-                      <td width="76" align="center" rowspan="1" colspan="1" data-uuid="go0iuvmqgt"><div data-tag="paragraph" data-uuid="go0iuvmql0" data-idx=""><span data-text="true">�Է��ƶ���</span></div></td>
-                      <td width="402" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmqms"><div data-tag="paragraph" data-uuid="go0iuw2zbk" data-idx=""><span data-text="true">ս�����ھ�15.5��5����4.5���ס�</span></div>
-                          <div data-tag="paragraph" data-uuid="go0iuvmqpf" data-idx=""><span data-text="true">�����о�������ɽһ��Ĺ������ľ̥����Բ�οڣ��������̳������Ρ������Ϳ����ڲ��ۺ��ᣬ�����۰����ᡣ�����ڲࡢ���漰������η��ƣ���������α��η��ơ������ơ��������������������β������˫�</span>?[22]</div></td>
+                      <td width="76" align="center" rowspan="1" colspan="1" data-uuid="go0iuvmqgt"><div data-tag="paragraph" data-uuid="go0iuvmql0" data-idx=""><span data-text="true">对凤纹耳杯</span></div></td>
+                      <td width="402" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmqms"><div data-tag="paragraph" data-uuid="go0iuw2zbk" data-idx=""><span data-text="true">战国，口径15.5×5、高4.5厘米。</span></div>
+                          <div data-tag="paragraph" data-uuid="go0iuvmqpf" data-idx=""><span data-text="true">荆州市荆州区马山一号墓出土。木胎。椭圆形口，耳面上翘呈新月形。器表和口沿内侧髹黑漆，器内髹暗红漆。器沿内侧、耳面及外侧绘变形凤纹，两端外侧饰变形凤纹、卷云纹。器底饰有用银粉描绘首尾相连的双凤。</span>?[22]</div></td>
                       <td width="305" align="left" rowspan="1" colspan="1" data-uuid="go0iuvmqr8"><div data-tag="paragraph" data-uuid="go0iuvmqwl" data-idx="">
-                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/8326cffc1e178a826fef6940ff03738da877e87b?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�Է��ƶ���"><img src="https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a826fef6940ff03738da877e87b?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="100%" height="100%"></a>�Է��ƶ���</div>
+                        <div><a href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86/5430999/0/8326cffc1e178a826fef6940ff03738da877e87b?fr=lemma&fromModule=lemma_content-image" target="_blank" title="对凤纹耳杯"><img src="https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a826fef6940ff03738da877e87b?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="100%" height="100%"></a>对凤纹耳杯</div>
                       </div></td>
                     </tr>
                   </tbody>
@@ -932,18 +932,18 @@
               </div>
             </div>
             <div data-index="4-2" data-tag="header" data-uuid="unitwoyKr6BX" data-level="2">
-              <div><a name="���ﱣ��"></a><a name="4-2"></a></div>
-              <h3>���ﱣ��</h3>
+              <div><a name="文物保护"></a><a name="4-2"></a></div>
+              <h3>文物保护</h3>
             </div>
-            <div data-tag="paragraph" data-uuid="go0iuvmrel" data-idx="3-5"><span data-text="true">���ݲ���ݵ����ﱣ�����й�����20������ʮ�����ʼ������Ŭ�������˹Ŵ���ˮ��ľ������빵���ˮ�����͹Ŵ�˿֯Ʒ�ļӹ̱��������⡣�������＼�������Ŵ�˿֯Ʒ��ʵ�飬�㷺�����ڹŴ���������ı����С�</span></div>
+            <div data-tag="paragraph" data-uuid="go0iuvmrel" data-idx="3-5"><span data-text="true">荆州博物馆的文物保护科研工作从20世纪七十年代开始，经过努力，攻克古代饱水漆木器、简牍的脱水保护和古代丝织品的加固保护等难题。运用生物技术保护古代丝织品的实验，广泛运用于古代各类文物的保护中。</span></div>
             <div>
               <div>
-                <h1>�ص���</h1>
-                <div><span data-text="true">���ݹص�����Ҳ�ƹع�������ƹع��ݣ�λ�ں���ʡ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����</a></span><span data-text="true">�����ţ�ʼ�����������ʮ���꣨1396�꣩������������ؽ�����˳�����꣨1650�꣩��Ӻ��ʮ�꣨1732�꣩�������޲�������</span></div>
+                <h1>关帝庙</h1>
+                <div><span data-text="true">荆州关帝庙，也称关公庙，亦称关公馆，位于湖北省</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E/6058?fromModule=lemma_inlink" target="_blank" data-from-module="summary">荆州</a></span><span data-text="true">市南门，始建于明洪武二十九年（1396年），明万历年间重建，清顺治七年（1650年）、雍正十年（1732年）两次重修并扩建。</span></div>
               </div>
             </div>
             <div>
-              <div data-tag="paragraph" data-uuid="gnwgamb6pq" data-idx=""><span data-text="true">�ص�����Ϊ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="summary">����AAA�����ξ���</a></span><span data-text="true">��</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgamb6pq" data-idx=""><span data-text="true">关帝庙，为</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="summary">国家AAA级旅游景区</a></span><span data-text="true">。</span></div>
             </div>
             <div>
             <dl>
@@ -968,15 +968,15 @@
             <div>
               <div></div>
               <div data-index="1" data-tag="header" data-uuid="gnwgadrx88" data-level="1">
-                <h2 name="1">��ʷ��Դ</h2>
+                <h2 name="1">历史起源</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgad5lpy" data-idx="0-1"><span data-text="true">��ƹع��ݣ��ع�����λ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/0?fromModule=lemma_inlink" target="_blank" data-from-module="">���ݹų�</a></span><span data-text="true">���Ź�����ַ��ռ��4500ƽ���ף�������ַ���ǹ������ؾ���10����ĸ�ۡ�ʻ���Ҳ�ǹ�������Ϯ����ĵط����ڡ������Ϊ���š��������¥�ͳ���¥�ȹ�ռ����ǧ�����ƽ���ס����������¥�ֱ𹩷��Ź������԰���������ء��ž��ܡ�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwgaln2cz" data-idx="0-2"><span data-text="true">�����ִ������������ֲ�����������꣨���Լ���ٶ��꣩�������������µ����������۵���ϡ�����񣬾��ݹص����ѱ���Ϊ���������������ص�����ʤ����</span>?[1-3]</div>
+              <div data-tag="paragraph" data-uuid="gnwgad5lpy" data-idx="0-1"><span data-text="true">亦称关公馆，关公庙。位于</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%8F%A4%E5%9F%8E/0?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州古城</a></span><span data-text="true">南门关庙旧址，占地4500平方米，关庙旧址既是关羽镇守荆州10余年的府邸故基，也是关羽后代世袭江陵的地方所在。殿宇分为仪门、正殿、三义楼和陈列楼等共占地四千五百余平方米。正殿和三义楼分别供奉着关羽和桃园结义刘、关、张巨塑。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgaln2cz" data-idx="0-2"><span data-text="true">庙内现存明万历年间栽植雌雄银杏两株（距今约六百多年），关羽青龙偃月刀、赤兔马槽等珍稀文物。如今，荆州关帝庙已被列为国家三国旅游线重点游览胜迹。</span>?[1-3]</div>
               <div data-index="2" data-tag="header" data-uuid="gnwgaln2en" data-level="1">
                 <div></div>
-                <h2 name="2">��������</h2>
+                <h2 name="2">重修扩建</h2>
                 <div></div>
                 <div></div>
               </div>
@@ -988,45 +988,45 @@
                   <div></div>
                 </div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgaln2ht" data-idx="1-2"><span data-text="true">���ݹص�����ʼ�����������ʮ���꣨1396�꣩��������ʱ�ؽ�����˳�����꣨1650�꣩��Ӻ��ʮ�꣨1732�꣩�������޲�������</span></div>
-              <div data-tag="paragraph" data-uuid="gnwgadrx9y" data-idx="1-3"><span data-text="true">ʷ�ϼ��أ��˵����񺺴󽫹������ؾ��ݵĸ�ۡ�ʻ����������������ܶ�����ſ�����ʮ�����ࡣ����Ϊ�������������ؾ���ʱ�������差�������ģ���Ϊ�����ɱ�������������������Ժա�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwgad5lrp" data-idx="1-4"><span data-text="true">���ݹص����Խ��󣬹�ģ������������Ӻ��ʮ�꣬���ڳ���������⣬�����桢�桢�������룬���ӹ�ƽ�������ּܲ����ǡ������Դ��롣һʱ�����ݹص�������ɭ�ϡ���ģ��ΰ���ź����ǣ��վ��ֻ��ڼ䣬�����⵽������һ���������ʧ������</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnwgaln2ht" data-idx="1-2"><span data-text="true">荆州关帝庙，始建于明洪武二十九年（1396年），明万历时重建，清顺治七年（1650年）、雍正十年（1732年）两次重修并扩建。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgadrx9y" data-idx="1-3"><span data-text="true">史料记载，此地乃蜀汉大将关羽镇守荆州的府邸故基，关羽曾在这里总督荆襄九郡诸事十年有余。关羽为三国蜀汉名将，守荆州时，北伐襄樊、威震华夏，后为东吴俘杀。关羽死后，历代封谥显赫。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgad5lrp" data-idx="1-4"><span data-text="true">荆州关帝庙自建后，规模不断扩大。至清雍正十年，庙内除奉祀关羽外，其曾祖、祖、父亦受祀，其子关平、部将周仓及杨仪、马良皆从祀。一时，荆州关帝庙庙宇森严、规模宏伟。遗憾的是，日军侵华期间，庙宇遭到了致命一击，殿宇毁失殆尽。</span>?[1]</div>
               <div data-index="3" data-tag="header" data-uuid="gnwgadrxd5" data-level="1">
-                <h2 name="3">���ֽṹ</h2>
+                <h2 name="3">布局结构</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgadrxeq" data-idx="2-1"><span data-text="true">1987�꣬��������������Ǭ¡��־�عŹ�����������ͼ������ԭ������ַ�ϸ������ݹص�����</span></div>
-              <div data-tag="paragraph" data-uuid="gnwgadrxh0" data-idx="2-2"><span data-text="true">���������������죬�����Ѵ��ԭò��������Ԫĩ������ֲ�ġ��������ӡ������������ѻ٣�������Ȼ֦�Ҷï���Ծ�ͦ�Ρ����������ԭ������񣬵�������š��������¥�����йݵȡ����н�����һ�ɻ��ߺ�ǽ�����������������̽ǣ����ƻֺ롢�����������������ţ��Ϸ�������Ǭ¡���ҡ����ϼ͡�����������Ϸ�������ͬ�λʵ������Ҷ�����ġ������ڹ�����Ӻ�����͵ġ�Ǭ���������Ҷ����ڹ�����������࣬��������������ƮƮ���������ݣ��ع�����Ĺ�ƽ���֣ܲ����Եô���ý����뺷���͡�</span></div>
-              <div data-tag="paragraph" data-uuid="gnwgadrxik" data-idx="2-3"><span data-text="true">��������ڱ��ϣ��й������ؾ��ݡ�����ӭ�׾������������Ͳܲ١������������ᡱ������Ԯ����������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%B4%E6%B7%B9%E4%B8%83%E5%86%9B/69847?fromModule=lemma_inlink" target="_blank" data-from-module="">ˮ���߾�</a></span><span data-text="true">�������ι��ƶ������������һꡱ�Ⱦ޷��ڻ��������˹����ҡ��塢�ʡ��µĸߴ�����;����˶����ľ���֮�顣���ͽ���¥֮������ϣ���һ�����ϵĹص�ʯ����</span>?[1]</div>
+              <div data-tag="paragraph" data-uuid="gnwgadrxeq" data-idx="2-1"><span data-text="true">1987年，江陵县政府按清乾隆县志载古关庙建筑布局图样，在原关庙遗址上复建荆州关帝庙。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgadrxh0" data-idx="2-2"><span data-text="true">如今的庙宇数经改造，虽早已大非原貌，但庙内元末明初所植的“夫妻银杏”，尽管雄树已毁，雌树依然枝虬叶茂、苍劲挺拔。整个庙宇仿原关庙风格，殿宇分仪门、正殿、结义楼、陈列馆等。所有建筑，一律灰瓦红墙、雕梁画栋、飞檐翘角，气势恢弘、独具魅力。步入仪门，上方高悬清乾隆御匾“泽安南纪”；大殿正门上方，有清同治皇帝御赐匾额“威震华夏”；殿内挂着清雍正御赐的“乾坤正气”匾额。大殿内关羽塑像高丈余，身披重铠，长髯飘飘、威风凛凛；关公两侧的关平、周仓，亦显得粗犷矫健、彪悍勇猛。</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgadrxik" data-idx="2-3"><span data-text="true">大殿两旁内壁上，有关羽“镇守荆州”、“迎亲救主”、“义释曹操”、“单刀赴会”、“驰援当阳”、“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%B4%E6%B7%B9%E4%B8%83%E5%86%9B/69847?fromModule=lemma_inlink" target="_blank" data-from-module="">水淹七军</a></span><span data-text="true">”、“刮骨疗毒”、“父子忠魂”等巨幅壁画，再现了关羽忠、义、仁、勇的高大形象和荆州人对他的景仰之情。大殿和结义楼之间的甬道上，有一尊威严的关帝石雕像。</span>?[1]</div>
               <div data-index="4" data-tag="header" data-uuid="gnwgamzn5i" data-level="1">
                 <div></div>
-                <h2 name="4">��Ʊ��Ϣ</h2>
+                <h2 name="4">门票信息</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgamzn75" data-idx="3-1"><span data-text="true">2020��2��20�գ���������������A�����ξ���5���ڶ�Ԯ��ҽ�ƶ�Ա����Ʊ�����ݹع���λ�����С�</span>?[4]</div>
-              <div data-tag="paragraph" data-uuid="gnwgao7der" data-idx="3-2"><span data-text="true">2020��8��7�գ�����ʡ������ȫʡA�����ξ�����ȫ���ο�����Ʊ���˴λ��8��8�տ�ʼ��һֱ��������ף����ݹع���λ�����С�</span>?[5]</div>
+              <div data-tag="paragraph" data-uuid="gnwgamzn75" data-idx="3-1"><span data-text="true">2020年2月20日，湖北宣布：所有A级旅游景区5年内对援鄂医疗队员免门票。荆州关公馆位列其中。</span>?[4]</div>
+              <div data-tag="paragraph" data-uuid="gnwgao7der" data-idx="3-2"><span data-text="true">2020年8月7日，湖北省宣布，全省A级旅游景区对全国游客免门票，此次活动从8月8日开始，一直持续到年底，荆州关公馆位列其中。</span>?[5]</div>
               <div data-index="5" data-tag="header" data-uuid="gnwgadrxk5" data-level="1">
                 <div></div>
-                <h2 name="5">����</h2>
+                <h2 name="5">庙会活动</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgadrxlq" data-idx="4-1"><span data-text="true">ÿ�����º�ũ��5��13�գ��ص�����Ҫ���д������ᣬ��ʱ�������������������ƣ���������������������������׽��ӣ��ѹص����������ڵú���𡣾����˾�������ݹع����ѳ�������ǧ���ϰ�ס����������������ʤ���������ݾ����ڴ����������ķű��ڣ��е���ӭף�ݡ����񣬴˽�����Ϊ����ʤ�֡���������ڣ������������ƣ�ˣ����С�����Ƕ�Ҫ�ȵ��ص����ڰݰݹع������عųǽ���������</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgadrxlq" data-idx="4-1"><span data-text="true">每年正月和农历5月13日，关帝庙都要举行大型庙会，届时，荆州人在这里玩龙灯，划采莲船，骑马射箭，吹喇叭套轿子，把关帝庙内外闹腾得红红火火。荆州人敬仰、崇拜关公，已成了延续千年的习俗。当年关羽出兵伐吴获胜归来，荆州军民在大北门外敲锣打鼓放鞭炮，夹道欢迎祝捷。而今，此街仍名为“得胜街”。逢年过节，荆州人玩龙灯，耍龙的小伙子们都要先到关帝庙内拜拜关公，再沿古城街巷舞龙。</span></div>
               <div data-index="6" data-tag="header" data-uuid="gnwgaln2jl" data-level="1">
-                <h2 name="6">���ϰ��</h2>
+                <h2 name="6">民间习俗</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgaln2l6" data-idx="5-1"><span data-text="true">���ݳ�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E7%BA%AA%E5%BF%B5%E5%93%81/3374942?fromModule=lemma_inlink" target="_blank" data-from-module="">���μ���Ʒ</a></span><span data-text="true">��Ҳ���Թع��Ļ�Ϊ��Ҫ���ݵģ������й������˿֯�־ӡ�йع��ľ��±��������йع���Ƭ��С����ȵȡ����ݳ��ڵı��ݡ��̵��������լ����ϲ���ڴ��ù���ع����еĻ�һ��һ�ݡ����ݵĴ���С��������ÿ�˶��ܽ��ϼ��ι������ؾ��ݵĹ��¡�</span></div>
+              <div data-tag="paragraph" data-uuid="gnwgaln2l6" data-idx="5-1"><span data-text="true">荆州城生产的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%85%E6%B8%B8%E7%BA%AA%E5%BF%B5%E5%93%81/3374942?fromModule=lemma_inlink" target="_blank" data-from-module="">旅游纪念品</a></span><span data-text="true">，也有以关公文化为主要内容的，如绣有关羽像的丝织手绢，印有关公的精致背包，还有关公画片、小塑像等等。荆州城内的宾馆、商店和许多民宅，多喜欢在大堂供奉关公像，有的还一日一拜。荆州的大人小孩，几乎每人都能讲上几段关羽镇守荆州的故事。</span></div>
               <div data-index="7" data-tag="header" data-uuid="gnwgaln2mr" data-level="1">
                 <div></div>
-                <h2 name="7">�ش�����</h2>
+                <h2 name="7">重大意义</h2>
                 <div></div>
                 <div></div>
               </div>
-              <div data-tag="paragraph" data-uuid="gnwgadrxna" data-idx="6-1"><span data-text="true">�ع������徫���������ֲ�ھ�����ء�����̨�庣Ͽ�����Ľ����ս�Ƶ���������й��ͺ���Ľ����������࣬Խ��Խ���̨�۰ĺ�������������ݳ��ݹع������㻹Ը������������ص��ˣ��������ھ��ݹص������ò�ͬ���������̹ع������徫�񣬸��ع��Ļ��������µ�ʱ���ں���</span>?[6]</div>
+              <div data-tag="paragraph" data-uuid="gnwgadrxna" data-idx="6-1"><span data-text="true">关公的忠义精神，已深深根植于荆楚大地。随着台湾海峡两岸的交流日渐频繁，随着中国和海外的交往日益增多，越来越多的台港澳和外国朋友来荆州朝拜关公，进香还愿。来自世界各地的人，经常聚在荆州关帝庙，用不同的语言赞颂关公的忠义精神，给关公文化赋予了新的时代内涵。</span>?[6]</div>
             </div>
             <div>
               <div>
@@ -1034,7 +1034,7 @@
                   <div>
                     <div>
                       <div>
-                        <h1>�»���</h1>
+                        <h1>章华寺</h1>
                         <div></div>
                       </div>
                       </div>
@@ -1048,53 +1048,53 @@
                     <div>
                       <div></div>
                       <div data-index="1" data-tag="header" data-uuid="go0dyi2ks1" data-level="1">
-                        <div><a name="��ʷ�ظ�"></a><a name="1"></a></div>
-                        <h2 name="1">��ʷ�ظ�</h2>
+                        <div><a name="历史沿革"></a><a name="1"></a></div>
+                        <h2 name="1">历史沿革</h2>
                         <div></div>
                         <div></div>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyi2ktu" data-idx="0-1"><span data-text="true">�빬ʱ��</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyi2ktu" data-idx="0-1"><span data-text="true">离宫时期</span></div>
                       <div data-tag="paragraph" data-uuid="go0dyj2hni" data-idx="0-2">
                         <div data-tag="module" data-uuid="cswzm" data-module-type="album">
                           <div></div>
                           <div>
                             <div>
-                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327797704/42166d224f4a20a469ef0b3c99529822730ed053?fr=lemma&fromModule=lemma_content-image" title="�»���">�»���(5��)</a></div>
+                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327797704/42166d224f4a20a469ef0b3c99529822730ed053?fr=lemma&fromModule=lemma_content-image" title="章华寺">章华寺(5张)</a></div>
                             </div>
                           </div>
                           <div></div>
                         </div>
-                        <span data-text="true">�ഫ�»�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">�»�̨</a></span><span data-text="true">����ַ���޽��ģ��»�̨���ֳ��»�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">���꣨��Ԫǰ535�꣩�޽����빬���������ر�ϲ��ϸ��Ů���ڹ���������裬����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%AB%E5%A5%B3/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��Ů</a></span><span data-text="true">Ϊ������������ʳ�̶�������ϸ�����»������С�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BB%86%E8%85%B0%E5%AE%AB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">ϸ����</a></span><span data-text="true">��֮�ơ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7d88" data-idx="0-3"><span data-text="true">��</span><span data-text="true">�»���</span><span data-text="true">���ڱ��ң����»�̨��ַ�ϣ�Ԫ���޽��»��£���������ޡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7d9x" data-idx="0-4"><span data-text="true">����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9D%90%E4%B8%9C%E6%9C%9D%E8%A5%BF/10700521?fromModule=lemma_inlink" target="_blank" data-from-module="">��������</a></span><span data-text="true">�����8790ƽ���ס��������ΰ��װ�ε��ţ����þ�Ȼ���򣬷�������������</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2hqt" data-idx="0-5"><span data-text="true">һ��ɽ�ţ��ƹ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%B1%E6%B1%A0/1571833?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">���������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9F%A6%E9%A9%AE/2457002?fromModule=lemma_inlink" target="_blank" data-from-module="">Τ��</a></span><span data-text="true">����۱��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">�ؾ�¥</a></span><span data-text="true">�������õ����彨�������ڲ����������������������</span></div>
+                        <span data-text="true">相传章华寺是在</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">章华台</a></span><span data-text="true">的遗址上修建的，章华台，又称章华宫，是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">楚灵王</a></span><span data-text="true">六年（公元前535年）修建的离宫。楚灵王特别喜欢细腰女子在宫内轻歌曼舞，不少</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%AB%E5%A5%B3/0?fromModule=lemma_inlink" target="_blank" data-from-module="">宫女</a></span><span data-text="true">为求媚于王，少食忍饿，以求细腰，章华宫又有“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BB%86%E8%85%B0%E5%AE%AB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">细腰宫</a></span><span data-text="true">”之称。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7d88" data-idx="0-3"><span data-text="true">后</span><span data-text="true">章华宫</span><span data-text="true">毁于兵乱，在章华台遗址上，元代修建章华寺，清代又重修。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7d9x" data-idx="0-4"><span data-text="true">寺庙</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9D%90%E4%B8%9C%E6%9C%9D%E8%A5%BF/10700521?fromModule=lemma_inlink" target="_blank" data-from-module="">坐东朝西</a></span><span data-text="true">，面积8790平方米。庙宇建筑宏伟，装饰典雅，殿堂井然有序，佛像栩栩如生。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2hqt" data-idx="0-5"><span data-text="true">一进山门，绕过荷</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%B1%E6%B1%A0/1571833?fromModule=lemma_inlink" target="_blank" data-from-module="">共池</a></span><span data-text="true">，见天王殿、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9F%A6%E9%A9%AE/2457002?fromModule=lemma_inlink" target="_blank" data-from-module="">韦驮</a></span><span data-text="true">殿、大雄宝殿、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">藏经楼</a></span><span data-text="true">、方丈堂等主体建筑。寺内藏有缅甸国王敬赠的两尊玉佛。</span></div>
                       <div data-tag="paragraph" data-uuid="go0dyj2hrz" data-idx="0-6">
-                        <div><a href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/0/911386224969e3cfd7cae281?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�»���"><img src="https://bkimg.cdn.bcebos.com/pic/911386224969e3cfd7cae281?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165.44"></a>�»���</div>
-                        <span data-text="true">��Ժ���������������</span><span data-text="true">��ɮĹ��</span><span data-text="true">������6λ��ʦ��ǡ���Ժ���й���һ��÷--</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E6%A2%85/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��÷</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B2%89%E9%A6%99/32563?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�ž����ƴ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%93%B6%E6%9D%8F%E6%A0%91/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">�ȹż���</span>?[3]</div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2htk" data-idx="0-7"><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8B%8F%E4%B8%9C%E5%9D%A1/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�ն���</a></span><span data-text="true">��</span><span data-text="true">��侹�</span><span data-text="true">��ʫ˵������ʱ���˼ܹ����˼������봹,��¥�ٳ��պ�ˮ����������ǧ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A8%A5%E7%9C%89/2342998?fromModule=lemma_inlink" target="_blank" data-from-module="">��ü</a></span><span data-text="true">��.˵�ǡ���¥�ٳߡ���һ��Ҳ�����ŵġ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyhyocz" data-idx="0-8"><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">������ӹ���������һ���һ�����صĹ�񱣺�ر𰮺�ϸ�������˼�ǧ��ϸ��Ů�Ӿ����»�������ҹ���裬�������֣�����»����ֽ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BB%86%E8%85%B0%E5%AE%AB/4793607?fromModule=lemma_inlink" target="_blank" data-from-module="">ϸ����</a></span><span data-text="true">��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvgbc" data-idx="0-9"><span data-text="true">���ֵĹ�Ů���ϳ������ֻ���߼�����������Ů�ʹ���ֻ�ü�ʳ�����ս���������裬����������٣�������ʫ��˵����������ϸ�������˶���������ƴ�ʫ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9D%8E%E5%95%86%E9%9A%90/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��</span><span data-text="true">������</span><span data-text="true">��ʫ�б����˶Թ�Ů�ǵ�ͬ�飺</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvgcx" data-idx="0-10"><span data-text="true">�󱯷綯��é�������ᾡ���ǽ���</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvgfi" data-idx="0-11"><span data-text="true">δ֪�����ܶ��٣����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%AB%E5%8E%A8/8686297?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">Ϊϸ�����������Ļ����������Լ����������������ĵܵ�</span><span data-text="true">���ӱ�</span><span data-text="true">�������䣬���ӵ�Ұ�⣬��ʳ���ã������ڻĽ���������ʫ�������Ľ�֣�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvgh3" data-idx="0-12"><span data-text="true">ãã˥��û�»�����Ц���������ݡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvgio" data-idx="0-13"><span data-text="true">̨��δ�ɸ�ܾ�����������Ұ�˼ҡ�</span></div>
+                        <div><a href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/0/911386224969e3cfd7cae281?fr=lemma&fromModule=lemma_content-image" target="_blank" title="章华寺"><img src="https://bkimg.cdn.bcebos.com/pic/911386224969e3cfd7cae281?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_330" width="220" height="165.44"></a>章华寺</div>
+                        <span data-text="true">寺院建有民国以来历年</span><span data-text="true">高僧墓塔</span><span data-text="true">，供奉6位法师灵骨。寺院有中国第一古梅--</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E6%A2%85/0?fromModule=lemma_inlink" target="_blank" data-from-module="">楚梅</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B2%89%E9%A6%99/32563?fromModule=lemma_inlink" target="_blank" data-from-module="">沉香</a></span><span data-text="true">古井、唐代</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%93%B6%E6%9D%8F%E6%A0%91/0?fromModule=lemma_inlink" target="_blank" data-from-module="">银杏树</a></span><span data-text="true">等古迹。</span>?[3]</div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2htk" data-idx="0-7"><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8B%8F%E4%B8%9C%E5%9D%A1/0?fromModule=lemma_inlink" target="_blank" data-from-module="">苏东坡</a></span><span data-text="true">的</span><span data-text="true">《渚宫</span><span data-text="true">》诗说：“当时楚人架宫殿，意思绝妙般与垂,飞楼百尺照湖水，上有燕赵千</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A8%A5%E7%9C%89/2342998?fromModule=lemma_inlink" target="_blank" data-from-module="">娥眉</a></span><span data-text="true">”.说是“飞楼百尺”是一点也不夸张的。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyhyocz" data-idx="0-8"><span data-text="true">这</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">楚灵王</a></span><span data-text="true">不但昏庸腐化，而且还有一个奇特的怪癖：特别爱好细腰，挑了几千名细腰女子居于章华宫中日夜轮舞，供他玩乐，因此章华宫又叫</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BB%86%E8%85%B0%E5%AE%AB/4793607?fromModule=lemma_inlink" target="_blank" data-from-module="">细腰宫</a></span><span data-text="true">。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvgbc" data-idx="0-9"><span data-text="true">腰粗的宫女被赶出宫做粗活或者加以囚禁，宫女和大臣们只得减食挨饿勒紧腰带以求宠，结果饿死不少，后人有诗句说：“灵王好细腰，国人多饿死。”唐代诗人</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9D%8E%E5%95%86%E9%9A%90/0?fromModule=lemma_inlink" target="_blank" data-from-module="">李商隐</a></span><span data-text="true">在</span><span data-text="true">《梦泽</span><span data-text="true">》诗中表达了对宫女们的同情：</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvgcx" data-idx="0-10"><span data-text="true">泽悲风动白茅，楚王葬尽满城娇。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvgfi" data-idx="0-11"><span data-text="true">未知歌舞能多少，虚减</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%AB%E5%8E%A8/8686297?fromModule=lemma_inlink" target="_blank" data-from-module="">宫厨</a></span><span data-text="true">为细腰。梦灵王的荒淫导致了自己的灭亡，后来他的弟弟</span><span data-text="true">公子比</span><span data-text="true">发动政变，他逃到野外，求食不得，饿死于荒郊。后来有诗记灵王的结局：</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvgh3" data-idx="0-12"><span data-text="true">茫茫衰草没章华，因笑灵王昔好奢。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvgio" data-idx="0-13"><span data-text="true">台土未干歌管绝，可怜身入野人家。</span></div>
                       <div data-index="1-1" data-tag="header" data-uuid="go0dyfn0su" data-level="2">
-                        <div><a name="��̨��ʱ��"></a><a name="1-1"></a></div>
-                        <h3>��̨��ʱ��</h3>
+                        <div><a name="章台寺时期"></a><a name="1-1"></a></div>
+                        <h3>章台寺时期</h3>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2hve" data-idx="0-15"><span data-text="true">����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%83%E5%9B%BD/3708867?fromModule=lemma_inlink" target="_blank" data-from-module="">�߹�</a></span><span data-text="true">���ۣ�����������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">�»�̨</a></span><span data-text="true">Ҳ�ķ��ˡ�������д�ǻ��ߵ��龰�ǣ����ؿ�Ұ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%BC%E9%98%81/0?fromModule=lemma_inlink" target="_blank" data-from-module="">¥��</a></span><span data-text="true">С��Ψ������غ��ꡣ��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dbu" data-idx="0-16"><span data-text="true">����ʮ�����ͣ�����Ԫ��̩����䣬�ڹ��»�̨��ַ�Ͻ���һ���������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8F%B0%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��̨��</a></span><span data-text="true">��������»��¡�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7ddh" data-idx="0-17"><span data-text="true">���»��¹�ģ�����ò��ΰ���������£��������ġ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7df2" data-idx="0-18"><span data-text="true">�뺺����Ԫ�¡�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BD%93%E9%98%B3%E7%8E%89%E6%B3%89%E5%AF%BA/12589633?fromModule=lemma_inlink" target="_blank" data-from-module="">������Ȫ��</a></span><span data-text="true">����Ϊ����������֡��µ����彨����</span><span data-text="true">�����ҵ�</span><span data-text="true">��</span><span data-text="true">������</span><span data-text="true">��</span><span data-text="true">Τ�Ե�</span><span data-text="true">��</span><span data-text="true">���ױ���</span><span data-text="true">��</span><span data-text="true">�ع�����</span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�ؾ�¥</a></span><span data-text="true">�ȡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dydvglt" data-idx="0-19"><span data-text="true">ÿһ�ض��ǻ��������������ݻ���������衢�����ӳ��</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2hve" data-idx="0-15"><span data-text="true">随着</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%83%E5%9B%BD/3708867?fromModule=lemma_inlink" target="_blank" data-from-module="">七国</a></span><span data-text="true">争雄，楚政崩溃，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">章华台</a></span><span data-text="true">也荒废了。苏轼描写那荒芜的情景是：“池空野迥</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%BC%E9%98%81/0?fromModule=lemma_inlink" target="_blank" data-from-module="">楼阁</a></span><span data-text="true">小，唯有深竹藏狐狸。”</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dbu" data-idx="0-16"><span data-text="true">到了十四世纪，初的元朝泰定年间，在古章华台遗址上建了一座庙宇，初名</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8F%B0%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">章台寺</a></span><span data-text="true">，后改名章华寺。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7ddh" data-idx="0-17"><span data-text="true">这章华寺规模宏大，庙貌雄伟，气象肃穆，环境清幽。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7df2" data-idx="0-18"><span data-text="true">与汉阳归元寺、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BD%93%E9%98%B3%E7%8E%89%E6%B3%89%E5%AF%BA/12589633?fromModule=lemma_inlink" target="_blank" data-from-module="">当阳玉泉寺</a></span><span data-text="true">并称为湖北三大丛林。寺的主体建筑有</span><span data-text="true">大雄室殿</span><span data-text="true">、</span><span data-text="true">天主殿</span><span data-text="true">、</span><span data-text="true">韦驮殿</span><span data-text="true">、</span><span data-text="true">财首宝殿</span><span data-text="true">、</span><span data-text="true">关公宝殿</span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/0?fromModule=lemma_inlink" target="_blank" data-from-module="">藏经楼</a></span><span data-text="true">等。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dydvglt" data-idx="0-19"><span data-text="true">每一重都是画栋雕梁、盘龙据虎、翠彩轩翔、金碧掩映。</span></div>
                       <div data-index="1-2" data-tag="header" data-uuid="go0dyev7b1" data-level="2">
-                        <div><a name="Ԫ��"></a><a name="1-2"></a></div>
-                        <h3>Ԫ��</h3>
+                        <div><a name="元朝"></a><a name="1-2"></a></div>
+                        <h3>元朝</h3>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyev7cm" data-idx="0-21"><span data-text="true">Ԫ������ʮ���꣨��Ԫ1363�꣩��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BA%A2%E5%B7%BE%E5%86%9B/6096474?fromModule=lemma_inlink" target="_blank" data-from-module="">�����</a></span><span data-text="true">����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E5%8F%8B%E8%B0%85/1932?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">���Գ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%89%E7%8E%8B/4325?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�����ܣ�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E7%90%86/63332?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�в���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E5%85%83%E7%92%8B/2096071?fromModule=lemma_inlink" target="_blank" data-from-module="">��Ԫ�</a></span><span data-text="true">׷ɱ�������꣬��̨����ս���������˵�һ���ƻ���</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyev7cm" data-idx="0-21"><span data-text="true">元至正二十三年（公元1363年），</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BA%A2%E5%B7%BE%E5%86%9B/6096474?fromModule=lemma_inlink" target="_blank" data-from-module="">红巾军</a></span><span data-text="true">首领</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E5%8F%8B%E8%B0%85/1932?fromModule=lemma_inlink" target="_blank" data-from-module="">陈友谅</a></span><span data-text="true">（自称</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%89%E7%8E%8B/4325?fromModule=lemma_inlink" target="_blank" data-from-module="">汉王</a></span><span data-text="true">）兵败，其子</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E7%90%86/63332?fromModule=lemma_inlink" target="_blank" data-from-module="">陈理</a></span><span data-text="true">残部被</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E5%85%83%E7%92%8B/2096071?fromModule=lemma_inlink" target="_blank" data-from-module="">朱元璋</a></span><span data-text="true">追杀退至江陵，章台寺在战乱中遭受了第一次破坏。</span></div>
                       <div data-index="1-3" data-tag="header" data-uuid="go0dyev7e7" data-level="2">
-                        <div><a name="����"></a><a name="1-3"></a></div>
-                        <h3>����</h3>
+                        <div><a name="明朝"></a><a name="1-3"></a></div>
+                        <h3>明朝</h3>
                       </div>
                       <div data-tag="paragraph" data-uuid="go0dyj2hyo" data-idx="0-23">
                         <div data-tag="module" data-uuid="r8sz" data-module-type="album">
@@ -1103,100 +1103,100 @@
                           </div>
                           <div></div>
                         </div>
-                        <span data-text="true">�������꣨Լ��Ԫ1368�꣩��̨��Ϊ��Ԫ���ڵ����ٹ���Ժ֮�ӣ�������»��¡�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2i08" data-idx="0-24"><span data-text="true">�������ʮһ�꣨��Ԫ1388�꣩��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E5%85%83%E7%92%8B/25626?fromModule=lemma_inlink" target="_blank" data-from-module="">��Ԫ�</a></span><span data-text="true">֮�ӳ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E6%A1%A2/18976?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">פ�ؾ��������»����ưܲ����������丸��׷ɱ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E5%8F%8B%E8%B0%85/1932?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">�йأ��첦��������Ա���ڸ����»���</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyev7fs" data-idx="0-25"><span data-text="true">���������꣨��Ԫ 1402�꣩��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9D%96%E9%9A%BE%E4%B9%8B%E5%8F%98/4962186?fromModule=lemma_inlink" target="_blank" data-from-module="">����֮��</a></span><span data-text="true">������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E6%A3%A3/183597?fromModule=lemma_inlink" target="_blank" data-from-module="">���</a></span><span data-text="true">�ǻ��󣬾�˵���ĵ���ɮװ�������ϣ�;��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5/4726?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">�����»��¹ҵ����졣</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IlGC155PA" data-idx="0-26"><span data-text="true">���ξ�Ԫ�꣨��Ԫ1522�֮꣩��������˵��ַ��»���ʱ���˷ϡ�</span></div>
+                        <span data-text="true">明朝初年（约公元1368年）章台寺为避元文宗帝亲临过寺院之嫌，遂更名章华寺。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2i08" data-idx="0-24"><span data-text="true">明洪武二十一年（公元1388年），</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E5%85%83%E7%92%8B/25626?fromModule=lemma_inlink" target="_blank" data-from-module="">朱元璋</a></span><span data-text="true">之子楚王</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E6%A1%A2/18976?fromModule=lemma_inlink" target="_blank" data-from-module="">朱桢</a></span><span data-text="true">驻守荆楚，见章华寺破败不堪，因与其父皇追杀</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%99%88%E5%8F%8B%E8%B0%85/1932?fromModule=lemma_inlink" target="_blank" data-from-module="">陈友谅</a></span><span data-text="true">有关，遂拨银两，动员民众复兴章华。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyev7fs" data-idx="0-25"><span data-text="true">明建文四年（公元 1402年），</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9D%96%E9%9A%BE%E4%B9%8B%E5%8F%98/4962186?fromModule=lemma_inlink" target="_blank" data-from-module="">靖难之变</a></span><span data-text="true">，燕王</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%9C%B1%E6%A3%A3/183597?fromModule=lemma_inlink" target="_blank" data-from-module="">朱棣</a></span><span data-text="true">登基后，据说建文帝着僧装出走云南，途经</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B1%9F%E9%99%B5/4726?fromModule=lemma_inlink" target="_blank" data-from-module="">江陵</a></span><span data-text="true">，在章华寺挂单三天。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IlGC155PA" data-idx="0-26"><span data-text="true">明嘉靖元年（公元1522年）之后，因皇室兴道抑佛，章华寺时有兴废。</span></div>
                       <div data-index="1-4" data-tag="header" data-uuid="go0dyev7hd" data-level="2">
-                        <div><a name="�峯"></a><a name="1-4"></a></div>
-                        <h3>�峯</h3>
+                        <div><a name="清朝"></a><a name="1-4"></a></div>
+                        <h3>清朝</h3>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2i1u" data-idx="0-28"><span data-text="true">��ĩ�����Լ��Ԫ1644�꣩���»���������ս��ɦ�š�����ƻ������念�����꣨��Ԫ1665�꣩ƽ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%89%E8%97%A9%E4%B9%8B%E4%B9%B1/616398?fromModule=lemma_inlink" target="_blank" data-from-module="">����֮��</a></span><span data-text="true">�����念��ʮ���꣨��Ԫ1673�꣩����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B9%B3%E8%A5%BF%E7%8E%8B/3666578?fromModule=lemma_inlink" target="_blank" data-from-module="">ƽ����</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%B4%E4%B8%89%E6%A1%82/253974?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��ƽ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%9A%E4%B9%8B%E4%BF%A1/6195049?fromModule=lemma_inlink" target="_blank" data-from-module="">��֮��</a></span><span data-text="true">��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%80%BF%E7%B2%BE%E5%BF%A0/1253530?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">�������ҡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dgx" data-idx="0-29"><span data-text="true">������ɱ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BA%91%E5%8D%97%E5%B7%A1%E6%8A%9A/2989924?fromModule=lemma_inlink" target="_blank" data-from-module="">����Ѳ��</a></span><span data-text="true">���ι��ʱ����ϣ�������ֱ�����ϣ��������񣬺ܿ�ռ�����ȫ�����ؽ�������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B8%85%E5%BB%B7/6529238?fromModule=lemma_inlink" target="_blank" data-from-module="">��͢</a></span><span data-text="true">���š�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dii" data-idx="0-30"><span data-text="true">����һ����Ϊ˫������ս����ս�����»����׵���壬��ʱ���꣬�����»�ɮɢ��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj2i50" data-idx="0-31"><span data-text="true">��Ӻ����Ǭ¡ʱ�ڣ��»��¼��������ˣ��������������Ƿ��δ���д����ɫ��</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5ImWLQEqcf" data-idx="0-32"><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%98%89%E5%BA%86/10924673?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%81%93%E5%85%89/10953324?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%92%B8%E4%B8%B0/653?fromModule=lemma_inlink" target="_blank" data-from-module="">�̷�</a></span><span data-text="true">��ͬ��ʱ�ڣ���Ժ�ֱ������Է�ʦ�����շ�ʦ��������ʦ��ס�������м������ˣ�����������꣬�»����ѷ�չ��Ϊ��ɳ������һģ�����֡�</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2i1u" data-idx="0-28"><span data-text="true">明末清初（约公元1644年），章华寺又屡遭战争搔扰。大的破坏则在清康熙四年（公元1665年）平定“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%89%E8%97%A9%E4%B9%8B%E4%B9%B1/616398?fromModule=lemma_inlink" target="_blank" data-from-module="">三藩之乱</a></span><span data-text="true">”。清康熙十二年（公元1673年）冬，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B9%B3%E8%A5%BF%E7%8E%8B/3666578?fromModule=lemma_inlink" target="_blank" data-from-module="">平西王</a></span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%90%B4%E4%B8%89%E6%A1%82/253974?fromModule=lemma_inlink" target="_blank" data-from-module="">吴三桂</a></span><span data-text="true">、平南王</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%9A%E4%B9%8B%E4%BF%A1/6195049?fromModule=lemma_inlink" target="_blank" data-from-module="">尚之信</a></span><span data-text="true">、靖南王</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%80%BF%E7%B2%BE%E5%BF%A0/1253530?fromModule=lemma_inlink" target="_blank" data-from-module="">耿精忠</a></span><span data-text="true">发动叛乱。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dgx" data-idx="0-29"><span data-text="true">吴三桂杀</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%BA%91%E5%8D%97%E5%B7%A1%E6%8A%9A/2989924?fromModule=lemma_inlink" target="_blank" data-from-module="">云南巡抚</a></span><span data-text="true">朱治国率兵北上，经贵州直捣湖南，势如破竹，很快占领湖南全境，沿江布防与</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B8%85%E5%BB%B7/6529238?fromModule=lemma_inlink" target="_blank" data-from-module="">清廷</a></span><span data-text="true">对峙。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dii" data-idx="0-30"><span data-text="true">荆州一带成为双方拉锯战的主战场，章华寺首当其冲，历时八年，导致寺毁僧散。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj2i50" data-idx="0-31"><span data-text="true">清雍正、乾隆时期，章华寺几次欲复兴，但因各方面条件欠佳未能有大的起色。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5ImWLQEqcf" data-idx="0-32"><span data-text="true">清</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%98%89%E5%BA%86/10924673?fromModule=lemma_inlink" target="_blank" data-from-module="">嘉庆</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%81%93%E5%85%89/10953324?fromModule=lemma_inlink" target="_blank" data-from-module="">道光</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%92%B8%E4%B8%B0/653?fromModule=lemma_inlink" target="_blank" data-from-module="">咸丰</a></span><span data-text="true">、同治时期，寺院分别在守性法师、觉空法师、松青禅师等住持下又有几次振兴，至清光绪初年，章华寺已发展成为荆沙地区第一模范丛林。</span></div>
                       <div data-tag="paragraph" data-uuid="go0dyj7dk3" data-idx="0-33">
                         <div data-tag="module" data-uuid="a68n4" data-module-type="album">
                           <div></div>
                           <div>
                             <div>
-                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327790639/6159252dd42a28345c97e4ea5fb5c9ea15cebf1a?fr=lemma&fromModule=lemma_content-image" title="�»���"></a></div>
+                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327790639/6159252dd42a28345c97e4ea5fb5c9ea15cebf1a?fr=lemma&fromModule=lemma_content-image" title="章华寺"></a></div>
                             </div>
                           </div>
                           <div></div>
                         </div>
-                        <span data-text="true">�������ʮ���꣨��Ԫ1896�꣩�����´�ʦ����Ԫ1865-1941�꣩�����»��·��ɣ���Ժ���нϴ�չ��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dlo" data-idx="0-34"><span data-text="true">���´�ʦ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A6%85%E5%87%80%E5%8F%8C%E4%BF%AE/1381056?fromModule=lemma_inlink" target="_blank" data-from-module="">����˫��</a></span><span data-text="true">������ȫ�ߣ���������������͢�����ӡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyev7ki" data-idx="0-35"><span data-text="true">�������ʮһ�꣨��Ԫ1905�꣩�����´�ʦ��ּ�뾩�����Ͻ���Ϊ�ʹ����彲��˵������ù����ʵۡ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%85%88%E7%A6%A7%E5%A4%AA%E5%90%8E/14921944?fromModule=lemma_inlink" target="_blank" data-from-module="">����̫��</a></span><span data-text="true">�Ļ�ϲ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B8%85%E5%BB%B7/6529238?fromModule=lemma_inlink" target="_blank" data-from-module="">��͢</a></span><span data-text="true">��ʥּ���͡����ء�һ�����Ǽݰ븱��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%BE%99%E6%A4%85/4270476?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">���ѣ����лƶ��������ģ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%97%E4%BC%9E/6229369?fromModule=lemma_inlink" target="_blank" data-from-module="">��ɡ</a></span><span data-text="true">������ȹ�����Ʒ���շ⾻�´�ʦΪ��Ʒ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A4%A7%E5%83%A7/1059221?fromModule=lemma_inlink" target="_blank" data-from-module="">��ɮ</a></span><span data-text="true">����뷽�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">�ؾ�¥</a></span><span data-text="true">���ؽ����۱������Ҫ���ü�������Ժ����ռ�ش��ʮ��Ķ����ɮ����֯Ϊ����֮�ڣ���ʢ���������ˡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dna" data-idx="0-36"><span data-text="true">���ټ���֮��ͳ������֮����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%A4%A7%E7%8F%AD%E9%A6%96/5814070?fromModule=lemma_inlink" target="_blank" data-from-module="">�Ĵ����</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%AB%E5%A4%A7%E6%89%A7%E4%BA%8B/791827?fromModule=lemma_inlink" target="_blank" data-from-module="">�˴�ִ��</a></span><span data-text="true">������ִ��һ�����Ա�������С��𺣵ơ��¿���</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dov" data-idx="0-37"><span data-text="true">�����Ͻ�����Է��ʢ��ÿ�ꡰ���ڡ����䣬���ӱ鼰���£���Ϊ��ʱ����������Ĵ��ֺͳ�����������Ӱ�����Ժ֮һ��</span></div>
+                        <span data-text="true">清光绪二十二年（公元1896年），净月大师（公元1865-1941年）接任章华寺方丈，寺院又有较大发展。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dlo" data-idx="0-34"><span data-text="true">因净月大师</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%A6%85%E5%87%80%E5%8F%8C%E4%BF%AE/1381056?fromModule=lemma_inlink" target="_blank" data-from-module="">禅净双修</a></span><span data-text="true">，福慧全具，声威大振，引起清廷的重视。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyev7ki" data-idx="0-35"><span data-text="true">清光绪三十一年（公元1905年），净月大师奉旨入京，在紫禁城为皇公贵族讲经说法，深得光绪皇帝、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%85%88%E7%A6%A7%E5%A4%AA%E5%90%8E/14921944?fromModule=lemma_inlink" target="_blank" data-from-module="">慈禧太后</a></span><span data-text="true">的欢喜，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B8%85%E5%BB%B7/6529238?fromModule=lemma_inlink" target="_blank" data-from-module="">清廷</a></span><span data-text="true">颁圣旨，赐《龙藏》一部，銮驾半副，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%BE%99%E6%A4%85/4270476?fromModule=lemma_inlink" target="_blank" data-from-module="">龙椅</a></span><span data-text="true">三把，另有黄缎五龙袈裟，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%97%97%E4%BC%9E/6229369?fromModule=lemma_inlink" target="_blank" data-from-module="">旗伞</a></span><span data-text="true">、如意等宫中珍品，钦封净月大师为四品</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A4%A7%E5%83%A7/1059221?fromModule=lemma_inlink" target="_blank" data-from-module="">大僧</a></span><span data-text="true">正，敕建</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">藏经楼</a></span><span data-text="true">，重建大雄宝殿等主要殿堂及佛像，寺院建筑占地达八十五亩，其僧团组织为荆楚之冠，鼎盛达三百余人。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dna" data-idx="0-36"><span data-text="true">按临济宗之传统，方丈之下设</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%A4%A7%E7%8F%AD%E9%A6%96/5814070?fromModule=lemma_inlink" target="_blank" data-from-module="">四大班首</a></span><span data-text="true">，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%AB%E5%A4%A7%E6%89%A7%E4%BA%8B/791827?fromModule=lemma_inlink" target="_blank" data-from-module="">八大执事</a></span><span data-text="true">，另有执事一百零八员，还办有《佛海灯》月刊。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dov" data-idx="0-37"><span data-text="true">道风严谨、法苑兴盛，每年“冬期”传戒，弟子遍及天下，成为当时湖北佛教最大的丛林和长江流域最有影响的寺院之一。</span></div>
                       <div data-index="1-5" data-tag="header" data-uuid="go0dyev7l2" data-level="2">
-                        <div><a name="��ս"></a><a name="1-5"></a></div>
-                        <h3>��ս</h3>
+                        <div><a name="抗战"></a><a name="1-5"></a></div>
+                        <h3>抗战</h3>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyev7mm" data-idx="0-39"><span data-text="true"><a href="https://baike.baidu.com/item/%E6%8A%97%E6%97%A5%E6%88%98%E4%BA%89/128498?fromModule=lemma_inlink" target="_blank" data-from-module="">����ս��</a></span><span data-text="true">ʱ�ڣ��ձ����Ծ�ǿ��פ���»��£��ٻ���Ժ��ʩ������ɮ��ֹ������٣�����Ժ���ɱ�һ��ʦ�෽�����������֡�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyi2kw3" data-idx="0-40"><span data-text="true">���»��¡�������</span><span data-text="true">�й����Э��᳤</span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%9B%E5%AD%A6%E9%99%A2/1938519?fromModule=lemma_inlink" target="_blank" data-from-module="">�й���ѧԺ</a></span><span data-text="true">Ժ��</span><span data-text="true">�ԙk��</span><span data-text="true">���������֡��ɴ˿�һ���»������й������������ռλ���ˣ���ʵ���������䣨��Ԫ1875-1908�꣩���»��¸�ɮ���±���͢��Ϊ</span><span data-text="true">��Ʒ��ɮ</span><span data-text="true">����</span><span data-text="true">��������</span><span data-text="true">��</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IpmABwfEy" data-idx="0-41"><span data-text="true">��Ͻ���ݡ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%9C%E6%98%8C/171993?fromModule=lemma_inlink" target="_blank" data-from-module="">�˲�</a></span><span data-text="true">����ʩ�������ȵ������������Ӵˣ��»��³�Ϊ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E6%B5%81%E5%9F%9F/721919?fromModule=lemma_inlink" target="_blank" data-from-module="">��������</a></span><span data-text="true">����Ӱ�������֮һ��</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyev7mm" data-idx="0-39"><span data-text="true"><a href="https://baike.baidu.com/item/%E6%8A%97%E6%97%A5%E6%88%98%E4%BA%89/128498?fromModule=lemma_inlink" target="_blank" data-from-module="">抗日战争</a></span><span data-text="true">时期，日本侵略军强行驻扎章华寺，毁坏寺院设施，被寺僧阻止后，欲火焚，经退院方丈本一法师多方交涉才幸免大灾。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyi2kw3" data-idx="0-40"><span data-text="true">“章华寺”三字是</span><span data-text="true">中国佛教协会会长</span><span data-text="true">，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%9B%E5%AD%A6%E9%99%A2/1938519?fromModule=lemma_inlink" target="_blank" data-from-module="">中国佛学院</a></span><span data-text="true">院长</span><span data-text="true">赵檏初</span><span data-text="true">先生的题字。由此可一窥章华寺在中国佛教领域中所占位置了！其实在清光绪年间（公元1875-1908年），章华寺高僧净月被清廷封为</span><span data-text="true">四品大僧</span><span data-text="true">正和</span><span data-text="true">钦命方丈</span><span data-text="true">。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IpmABwfEy" data-idx="0-41"><span data-text="true">管辖荆州、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%AE%9C%E6%98%8C/171993?fromModule=lemma_inlink" target="_blank" data-from-module="">宜昌</a></span><span data-text="true">、恩施、郧阳等地所有寺庙。从此，章华寺成为</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%95%BF%E6%B1%9F%E6%B5%81%E5%9F%9F/721919?fromModule=lemma_inlink" target="_blank" data-from-module="">长江流域</a></span><span data-text="true">最有影响的寺庙之一。</span></div>
                       <div data-index="2" data-tag="header" data-uuid="go0dyi2kxo" data-level="1">
-                        <div><a name="��Ժ���"></a><a name="2"></a></div>
-                        <h2 name="2">��Ժ���</h2>
+                        <div><a name="寺院格局"></a><a name="2"></a></div>
+                        <h2 name="2">寺院格局</h2>
                         <div></div>
-                        <span data-tts-catalog="2" data-tts-from="paragraph">����</span>
-                        <div>�༭</div>
+                        <span data-tts-catalog="2" data-tts-from="paragraph">播报</span>
+                        <div>编辑</div>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyi2kz9" data-idx="1-1"><span data-text="true">�����������ȿ������������������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%92%9F%E6%A5%BC/2799979?fromModule=lemma_inlink" target="_blank" data-from-module="">��¥</a></span><span data-text="true">�͹�¥������ķֱ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%B3%E5%85%AC/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�ع�</a></span><span data-text="true">�Ͳ���</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyi2kz9" data-idx="1-1"><span data-text="true">进入寺门首先看到的是天王殿，两边是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%92%9F%E6%A5%BC/2799979?fromModule=lemma_inlink" target="_blank" data-from-module="">钟楼</a></span><span data-text="true">和鼓楼，供奉的分别是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%85%B3%E5%85%AC/0?fromModule=lemma_inlink" target="_blank" data-from-module="">关公</a></span><span data-text="true">和财神。</span></div>
                       <div data-tag="paragraph" data-uuid="go0dyi2l0k" data-idx="1-2">
-                        <div><a href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/0/814b07d815545e0933fa1c8c?fr=lemma&fromModule=lemma_content-image" target="_blank" title="�»���"><img src="https://bkimg.cdn.bcebos.com/pic/814b07d815545e0933fa1c8c?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_308" width="220" height="154.44"></a>�»���</div>
-                        <span data-text="true">�����������Ǵ��۱�����ĸ���ͬ��Ҳ�ǳ���������֮�֡�ֻ�ǱȽ��ر�����ڡ����۱�����������ϻ��С����͡����֣��������»����������ܵĶ��衣</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dqn" data-idx="1-3"><span data-text="true">�ڴ��۱������ǰ����һ��ų�ȫ����һ�Ĺ�÷-��÷������˼���ഫ�Ǵӳ�������������һ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%BB%84%E6%A2%85/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��÷</a></span><span data-text="true">��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7ds8" data-idx="1-4"><span data-text="true">�»��������ţ���һ�ǳ�÷���ڶ��������ƴ����������ˡ�������</span><span data-text="true">����ž�</span><span data-text="true">����ϧ��Ȼû�п����������������ƽʱ�����Ĵ�һ������·�ߵ���Щ��Ҫ��׳��ɣ�Ķࡣ������ǰ��ı����һ���Ϊ�ǿ��ӻ������������Ҳ��Ϊ����Ĥ�ݵĶ����ˣ�������Ʈ����д����������ĺ첼����������������ǻ�����Ρ�</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IsXlWbqdW" data-idx="1-5"><span data-text="true">������ǰ����ȥ���Կ���������¶������Ҳ���»�������֮���Թ���</span><span data-text="true">������</span><span data-text="true">����¶�������������������66.88�ף����߲�ν֮�߼���ͼ����������ڵ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%A7%82%E9%9F%B3%E5%A3%81%E7%94%BB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�����ڻ�</a></span><span data-text="true">���ǰ��պ�.��.��.��.Ԫ.��.�����������ͬ�����ƿ̻��ġ�</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IuKpUii7z" data-idx="1-6"><span data-text="true">����ʯ������Ϊ�������������롣��ʦ�����ơ���¹��500�����̬���졣���������ľ���ʯ��Ⱥ��56���������ǣ��������д���56����ͭ���壬΢�������������ö���</span></div>
+                        <div><a href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/0/814b07d815545e0933fa1c8c?fr=lemma&fromModule=lemma_content-image" target="_blank" title="章华寺"><img src="https://bkimg.cdn.bcebos.com/pic/814b07d815545e0933fa1c8c?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_308" width="220" height="154.44"></a>章华寺</div>
+                        <span data-text="true">天王殿后面就是大雄宝殿，这四个字同样也是出自赵先生之手。只是比较特别的是在“大雄宝殿”四字牌匾上还有“御赐”二字，昭显着章华寺曾经蒙受的恩宠。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dqn" data-idx="1-3"><span data-text="true">在大雄宝殿的右前方有一株号称全国第一的古梅-楚梅，顾名思义相传是从楚国流传下来的一株</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%BB%84%E6%A2%85/0?fromModule=lemma_inlink" target="_blank" data-from-module="">黄梅</a></span><span data-text="true">。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7ds8" data-idx="1-4"><span data-text="true">章华寺有三古，第一是楚梅，第二就是这唐代的银杏树了。第三是</span><span data-text="true">沉香古井</span><span data-text="true">，可惜居然没有看到。这棵银杏树跟平时看到的大不一样，比路边的那些都要粗壮沧桑的多。不看它前面的碑文我还以为是棵杏花树。这棵唐杏也成为人们膜拜的对象了，满树都飘扬着写有祈福话语的红布条，承载着人们满腔的期盼。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IsXlWbqdW" data-idx="1-5"><span data-text="true">从唐杏前望过去可以看到观音甘露宝塔，也是章华寺镇寺之塔以供奉</span><span data-text="true">观音菩</span><span data-text="true">萨甘露主尊塑像而得名，塔高66.88米，共七层谓之七级浮图。塔外和塔内的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%A7%82%E9%9F%B3%E5%A3%81%E7%94%BB/0?fromModule=lemma_inlink" target="_blank" data-from-module="">观音壁画</a></span><span data-text="true">都是按照汉.隋.唐.宋.元.明.清各个朝代不同风格绘制刻画的。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IuKpUii7z" data-idx="1-6"><span data-text="true">塔身石栏玉柱为飞龙。白象。麒麟。雄师。彩云。白鹿等500余个形态各异。栩栩如生的精美石雕群，56个飞龙挑角，飞龙口中垂含56个纯铜风铃，微风徐来，铃声悦耳。</span></div>
                       <div data-tag="paragraph" data-uuid="go0dyj7dts" data-idx="1-7">
                         <div data-tag="module" data-uuid="r8su" data-module-type="album">
-                          <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327780908/7aad4ae7f8e5b167b93820db?fr=lemma&fromModule=lemma_content-image" title="�»��¾�ɫ"><img src="https://bkimg.cdn.bcebos.com/pic/7aad4ae7f8e5b167b93820db?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,w_440"></a></div>
+                          <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327780908/7aad4ae7f8e5b167b93820db?fr=lemma&fromModule=lemma_content-image" title="章华寺景色"><img src="https://bkimg.cdn.bcebos.com/pic/7aad4ae7f8e5b167b93820db?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,w_440"></a></div>
                           <div>
                             <div>
-                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327780908/7aad4ae7f8e5b167b93820db?fr=lemma&fromModule=lemma_content-image" title="�»��¾�ɫ"></a></div>
+                              <div><a target="_blank" href="https://baike.baidu.com/pic/%E7%AB%A0%E5%8D%8E%E5%AF%BA/8597296/2327780908/7aad4ae7f8e5b167b93820db?fr=lemma&fromModule=lemma_content-image" title="章华寺景色"></a></div>
                             </div>
                           </div>
                           <div></div>
                         </div>
-                        <span data-text="true">������7�㹩�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BC%85%E7%94%B8%E7%8E%89/7351594?fromModule=lemma_inlink" target="_blank" data-from-module="">�����</a></span><span data-text="true">�����������¶��ǡ�������˽����Ӧ��ν֮����˷���Ԣ����ΰ���������˷����ú�ƽ��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dvd" data-idx="1-8"><span data-text="true">���ٲ�ʢ����4��8�׵�</span><span data-text="true">�����շ�</span><span data-text="true">��������������ν֮��ƽ���ȡ�Ԣ����������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E5%B9%B3%E5%AE%89/9032862?fromModule=lemma_inlink" target="_blank" data-from-module="">�ļ�ƽ��</a></span><span data-text="true">���顣</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dwy" data-idx="1-9"><span data-text="true">�����ǿ���١��Ȳ�ǰ�����ڹ�¥�ĺ�����һ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%93%81%E5%A1%94/0?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">��������һ�໹���а�̨���˹�ݡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dxk" data-idx="1-10"><span data-text="true">�����������ط��Ľ�����������˵������һ�����ڹ�����6λ��ɮ�Ĺǻң��²����˵�ľ������������ˡ�ֻ��ϧ��ʱ����ѯ�ʵ��ص�ɮ���ˡ������ĺ�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">�޺���</a></span><span data-text="true">�����湩�����ڶ��޺��������˾��ȵ���λ����������ķ��ࡣ</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IwxPa2C1X" data-idx="1-11"><span data-text="true">��һλ�ǹ�����һλ���ܽ����ķ�һλ�ƹ�ǰ�̵ķ𣬻���һλ�ܲƸ����ر�����������������滹����ͬ��4��𣬵��Ƿ���ȴ��һ����</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7dz5" data-idx="1-12"><span data-text="true">�»���λ�ں���ʡɳ��̫ʦԨ��Ϊ������ɲ��</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e0q" data-idx="1-13"><span data-text="true">�����ڱ��ļ��أ�����ʼ����Ԫ��̩����䣬��1325�����ҡ�����»������ޡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyhojjn" data-idx="1-14"><span data-text="true">��������1.2��ƽ���ס���ɽ�š����������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9F%A6%E9%A9%AE/2457002?fromModule=lemma_inlink" target="_blank" data-from-module="">Τ��</a></span><span data-text="true">����۱��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%A7%82%E9%9F%B3%E6%AE%BF/10873972?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BC%A5%E9%99%80%E6%AE%BF/3696935?fromModule=lemma_inlink" target="_blank" data-from-module="">���ӵ�</a></span><span data-text="true">��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">�ؾ�¥</a></span><span data-text="true">�����á�����á������á�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%8B%E5%A0%82/2098301?fromModule=lemma_inlink" target="_blank" data-from-module="">ի��</a></span><span data-text="true">�����á������ҵ����彨������ģ�޴���ΰ׳�ۡ���������Ϊ��͢ʽ������֣����ֺ�������̻Ի͡�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e2b" data-idx="1-15"><span data-text="true">�»���ͬ����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BD%92%E5%85%83%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��Ԫ��</a></span><span data-text="true">������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%8E%89%E6%B3%89%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">��Ȫ��</a></span><span data-text="true">����Ϊ����������֣��Ǻ���ʡ�ص㱣����λ������ʷ�ϼ��أ����µ�λ������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">���й���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">�»�̨</a></span><span data-text="true">����ַ���»�̨�ǳ������ڹ�Ԫǰ535����������ˣ��»��µ���������̨�¡��������䣬�»��¸�ɮ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%80%E6%9C%88/0?fromModule=lemma_inlink" target="_blank" data-from-module="">����</a></span><span data-text="true">��ּ���������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%85%88%E7%A6%A7%E5%A4%AA%E5%90%8E/14921996?fromModule=lemma_inlink" target="_blank" data-from-module="">����̫��</a></span><span data-text="true">���ʹ�����ʶ������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E3%80%8A%E9%BE%99%E8%97%8F%E3%80%8B/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�����ء�</a></span><span data-text="true">һ�����Ǽݰ븱�Լ�������͢��Ʒ�����±���Ϊ��Ʒ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A4%A7%E5%83%A7/1059221?fromModule=lemma_inlink" target="_blank" data-from-module="">��ɮ</a></span><span data-text="true">�����������ɡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e3w" data-idx="1-16"><span data-text="true">�Ӵˣ��»����������������������Ϊ�������������ֺͳ�����������Ӱ�������֮һ���»����ڵ��»���÷������ž������ӹ�����ʯ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8F%A4%E5%88%BB/183294?fromModule=lemma_inlink" target="_blank" data-from-module="">�ſ�</a></span><span data-text="true">����Ϊ��</span><span data-text="true">�Ĺ�֮��</span><span data-text="true">��������»��д���ʱ�ı���·�Ͷ���ʱ�Ĵ�ש�ȡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e5a" data-idx="1-17"><span data-text="true">1956�꣬�»��±���Ϊ����ʡ��һ��</span><span data-text="true">�ص����ﱣ����λ</span><span data-text="true">���»��µ�ԭַ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/0?fromModule=lemma_inlink" target="_blank" data-from-module="">�»�̨</a></span><span data-text="true">�����»�̨��������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/0?fromModule=lemma_inlink" target="_blank" data-from-module="">������</a></span><span data-text="true">���꣨��Ԫǰ535�꣩�޽����й���</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e6v" data-idx="1-18"><span data-text="true">�����»������ڱ��ң�����ĩ�Ƴ���Լ��Ԫ618�꣩�йŵ��ڴ˽�é���ޣ�Ԫ̩�����꣨��Ԫ1325�꣩ʼ����̨�£���������Ϊ�»��¡�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9D%90%E4%B8%9C%E6%9C%9D%E8%A5%BF/10700521?fromModule=lemma_inlink" target="_blank" data-from-module="">��������</a></span><span data-text="true">�����8790ƽ���ס�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyj7e8g" data-idx="1-19"><span data-text="true">�������ΰ��װ�ε��ţ����þ�Ȼ���򣬷��������������������������̻Իͣ���Ժ�������ƣ������ľ�������Щע�Ͳ��ѿ����»�����ʷ�ƾã�Ӱ��֮����ʵ��������Ϊ�»��µĹ�ģ�ͽ���װ��ҪԶ���������Ĺ�Ԫ�£���Ȼ�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">�޺���</a></span><span data-text="true">���ɺ͹�Ԫ�µ���ȣ�������ߴ�2��¥���ķ��໹�Ƿǳ����˾����ġ�</span></div>
+                        <span data-text="true">宝塔第7层供奉巨型</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BC%85%E7%94%B8%E7%8E%89/7351594?fromModule=lemma_inlink" target="_blank" data-from-module="">缅甸玉</a></span><span data-text="true">四面观音洒甘露，恰与塔身八角相呼应，谓之四面八方，寓意着伟大祖国四面八方永久和平。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dvd" data-idx="1-8"><span data-text="true">繁荣昌盛。高4。8米的</span><span data-text="true">阿弥驼佛</span><span data-text="true">金象镇守塔顶。谓之四平八稳。寓意亿万人民</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E5%B9%B3%E5%AE%89/9032862?fromModule=lemma_inlink" target="_blank" data-from-module="">四季平安</a></span><span data-text="true">吉祥。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dwy" data-idx="1-9"><span data-text="true">祖国富强繁荣。稳步前进。在古楼的后面是一尊</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%93%81%E5%A1%94/0?fromModule=lemma_inlink" target="_blank" data-from-module="">铁塔</a></span><span data-text="true">，在塔的一侧还备有案台供人跪拜。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dxk" data-idx="1-10"><span data-text="true">后来在其它地方的介绍中曾看过说寺中有一处塔内供奉着6位高僧的骨灰，猜测可能说的就是这座铁塔了。只可惜当时忘记询问当地的僧众了。铁塔的后面是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">罗汉堂</a></span><span data-text="true">，里面供奉着众多罗汉，最让人惊讶的是位于堂中央的四佛法相。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IwxPa2C1X" data-idx="1-11"><span data-text="true">有一位是观音，一位主管健康的佛，一位掌管前程的佛，还有一位管财富。特别的是在这四尊佛的上面还有相同的4尊佛，但是法相却不一样。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7dz5" data-idx="1-12"><span data-text="true">章华寺位于湖北省沙市太师渊，为荆楚名刹。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e0q" data-idx="1-13"><span data-text="true">据寺内碑文记载，该寺始建于元代泰定年间，即1325年左右。清代章华寺重修。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyhojjn" data-idx="1-14"><span data-text="true">殿宇建筑面积1.2万平方米。有山门、天王殿、财神殿、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%9F%A6%E9%A9%AE/2457002?fromModule=lemma_inlink" target="_blank" data-from-module="">韦驮</a></span><span data-text="true">殿、大雄宝殿、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%A7%82%E9%9F%B3%E6%AE%BF/10873972?fromModule=lemma_inlink" target="_blank" data-from-module="">观音殿</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BC%A5%E9%99%80%E6%AE%BF/3696935?fromModule=lemma_inlink" target="_blank" data-from-module="">弥陀殿</a></span><span data-text="true">、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">藏经楼</a></span><span data-text="true">、禅堂、念佛堂、净月堂、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%8B%E5%A0%82/2098301?fromModule=lemma_inlink" target="_blank" data-from-module="">斋堂</a></span><span data-text="true">、客堂、方丈室等主体建筑，规模巨大，雄伟壮观。整座寺庙为宫廷式建筑格局，布局合理，金碧辉煌。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e2b" data-idx="1-15"><span data-text="true">章华寺同汉阳</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BD%92%E5%85%83%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">归元寺</a></span><span data-text="true">、当阳</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%8E%89%E6%B3%89%E5%AF%BA/0?fromModule=lemma_inlink" target="_blank" data-from-module="">玉泉寺</a></span><span data-text="true">并列为湖北三大丛林，是湖北省重点保护单位。另据史料记载，该寺的位置正是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/7273818?fromModule=lemma_inlink" target="_blank" data-from-module="">楚灵王</a></span><span data-text="true">五行宫古</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/2944145?fromModule=lemma_inlink" target="_blank" data-from-module="">章华台</a></span><span data-text="true">的遗址，章华台是楚灵王于公元前535年所建。因此，章华寺当初又名章台寺。清光绪年间，章华寺高僧</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%87%80%E6%9C%88/0?fromModule=lemma_inlink" target="_blank" data-from-module="">净月</a></span><span data-text="true">奉旨进京，深得</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%85%88%E7%A6%A7%E5%A4%AA%E5%90%8E/14921996?fromModule=lemma_inlink" target="_blank" data-from-module="">慈禧太后</a></span><span data-text="true">及皇宫大臣赏识，赐其</span><span data-text="true"><a href="https://baike.baidu.com/item/%E3%80%8A%E9%BE%99%E8%97%8F%E3%80%8B/0?fromModule=lemma_inlink" target="_blank" data-from-module="">《龙藏》</a></span><span data-text="true">一部、銮驾半副以及其他宫廷珍品，净月被封为四品</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%A4%A7%E5%83%A7/1059221?fromModule=lemma_inlink" target="_blank" data-from-module="">大僧</a></span><span data-text="true">正和钦命方丈。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e3w" data-idx="1-16"><span data-text="true">从此，章华寺名声大振，香火兴旺，成为湖北佛教三大丛林和长江流域最有影响的寺庙之一。章华寺内的章华古梅、沉香古井、银杏古树、石碑</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%8F%A4%E5%88%BB/183294?fromModule=lemma_inlink" target="_blank" data-from-module="">古刻</a></span><span data-text="true">被称为“</span><span data-text="true">四古之绝</span><span data-text="true">”。其地下还有春秋时的贝壳路和东汉时的大汉砖等。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e5a" data-idx="1-17"><span data-text="true">1956年，章华寺被列为湖北省第一批</span><span data-text="true">重点文物保护单位</span><span data-text="true">。章华寺的原址是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%AB%A0%E5%8D%8E%E5%8F%B0/0?fromModule=lemma_inlink" target="_blank" data-from-module="">章华台</a></span><span data-text="true">，而章华台的所在是</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%A5%9A%E7%81%B5%E7%8E%8B/0?fromModule=lemma_inlink" target="_blank" data-from-module="">楚灵王</a></span><span data-text="true">六年（公元前535年）修建的行宫。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e6v" data-idx="1-18"><span data-text="true">后来章华宫毁于兵乱，至隋末唐初（约公元618年）有古德在此结茅静修，元泰定二年（公元1325年）始建章台寺，明初更名为章华寺。寺庙</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%9D%90%E4%B8%9C%E6%9C%9D%E8%A5%BF/10700521?fromModule=lemma_inlink" target="_blank" data-from-module="">坐东朝西</a></span><span data-text="true">，面积8790平方米。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyj7e8g" data-idx="1-19"><span data-text="true">庙宇建筑宏伟，装饰典雅，殿堂井然有序，佛像栩栩如生。殿雕梁画栋，金碧辉煌，寺院绿树环绕，分外幽静。从这些注释不难看出章华寺历史悠久，影响之大。其实个人窃以为章华寺的规模和建筑装饰要远超过汉阳的归元寺，当然这里的</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">罗汉堂</a></span><span data-text="true">不可和归元寺的相比，但是其高达2层楼的四佛法相还是非常让人敬仰的。</span></div>
                       <div data-index="3" data-tag="header" data-uuid="go0dyhojng" data-level="1">
-                        <div><a name="�Ļ�����"></a><a name="3"></a></div>
-                        <h2 name="3">�Ļ�����</h2>
+                        <div><a name="文化交流"></a><a name="3"></a></div>
+                        <h2 name="3">文化交流</h2>
                         <div></div>
                         <div></div>
                       </div>
-                      <div data-tag="paragraph" data-uuid="go0dyhyofd" data-idx="2-1"><span data-text="true">ԭ����̨�£�������ɳ��̫ʦԨ·���ࡣԪ̩�����꣨��Ԫ1325�꣩�޽���</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyhyogy" data-idx="2-2"><span data-text="true">���»������ڱ��ң����»�̨��ַ�ϣ�Ԫ���޽��»��£���������ޡ����ڲ�������������͡��ؾ����������๬͢��Ʒ�������������������������</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IxKpYXQ0A" data-idx="2-3"><span data-text="true">��Ժ����������������ɮĹ��������6λ��ʦ��ǡ���Ժ��ȫ����һ��÷--��÷������ž����ƴ��������ȹż���</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IxzPxFSdy" data-idx="2-4"><span data-text="true">�������䣨��Ԫ1875-1908�꣩���»��¸�ɮ���±���͢��Ϊ��Ʒ��ɮ�����������ɣ���Ͻ���ݡ��˲�����ʩ�������ȵ������������Ӵˣ��»��³�Ϊ������������Ӱ�������֮һ��</span>?[4]</div>
+                      <div data-tag="paragraph" data-uuid="go0dyhyofd" data-idx="2-1"><span data-text="true">原名章台寺，座落在沙市太师渊路北侧。元泰定二年（公元1325年）修建。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyhyogy" data-idx="2-2"><span data-text="true">后章华宫毁于兵乱，在章华台遗址上，元代修建章华寺，清代又重修。寺内藏有清代皇室御赐《藏经》，及许多宫廷珍品，还有缅甸国王敬赠的两尊玉佛。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IxKpYXQ0A" data-idx="2-3"><span data-text="true">寺院建有民国以来历年高僧墓塔，供奉6位法师灵骨。寺院有全国第一古梅--楚梅、沉香古井、唐代银杏树等古迹。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IxzPxFSdy" data-idx="2-4"><span data-text="true">清光绪年间（公元1875-1908年），章华寺高僧净月被清廷封为四品大僧正和钦命方丈，管辖荆州、宜昌、恩施、郧阳等地所有寺庙。从此，章华寺成为长江流域最有影响的寺庙之一。</span>?[4]</div>
                       <div data-index="4" data-tag="header" data-uuid="go0dyi2l3w" data-level="1">
-                        <div><a name="��Ժ����"></a><a name="4"></a></div>
-                        <h2 name="4">��Ժ����</h2>
+                        <div><a name="寺院复兴"></a><a name="4"></a></div>
+                        <h2 name="4">寺院复兴</h2>
                         <div></div>
                         </div>
-                      <div data-tag="paragraph" data-uuid="go0dyev7w2" data-idx="3-1"><span data-text="true">�л����񹲺͹������Ժ��»��»���Ӧ���������ĺ��٣������̵�������ͳ��</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%86%9C%E7%A6%85/2377893?fromModule=lemma_inlink" target="_blank" data-from-module="">ũ��</a></span><span data-text="true">���أ�����˼��̣����������ƽ���ܵ����������͡�</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5Izkn6TYqj" data-idx="3-2"><span data-text="true">��Ԫ1956���»���Ϊ�������ɮ�ţ�ѡ�ɿ�����ʦȥ��������ϵͳ�ķ�ѧ������ѵ��������ʦ��˶�Ϊ���й���ѧԺ��һ��ѧɮ��ͬ�꣬�»��±���Ϊ����ʡ��һ���ص����ﱣ����λ����Ԫ1966�ꡰ</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%87%E5%8C%96%E5%A4%A7%E9%9D%A9%E5%91%BD/117740?fromModule=lemma_inlink" target="_blank" data-from-module="">�Ļ������</a></span><span data-text="true">�����ڣ�������ɮ��������̻Ի͵���ʷ��ɲ����ƽ٣������ҡ����ﱻ��������١�ɮ�ڱ���������Ժ�ڰ����˹���������ʮһ�����л�ȫ����ʵ�����ڽ����ߣ�ԭ������ϯ�������Ⱥ������Ӳ��»��£������ˡ���Ҫ�ᡢ��Ҫ�ޡ�����Ҫָʾ��</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IyH1cD2pH" data-idx="3-3"><span data-text="true">��Ԫ1988��6��14�գ��»���ǰ�η��ɿ�����ʦ�����ط������ž��أ���ʼʵʩ�����»��µĺ�ͼ��Ը��</span></div>
-                      <div data-tag="paragraph" data-uuid="sC5IyvBoJeEj" data-idx="3-4"><span data-text="true">��Ԫ1997�������ʦ����Բ�����������顣�����</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BF%83%E7%BB%A7%E6%B3%95%E5%B8%88/8043053?fromModule=lemma_inlink" target="_blank" data-from-module="">�ļ̷�ʦ</a></span><span data-text="true">�����»��·��ɣ���ʦ��֮Ը��������֮����Ǳ�İ�̣��������У��Ⱥ����δ���</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%9B%E6%95%99%E5%8D%8F%E4%BC%9A/1938255?fromModule=lemma_inlink" target="_blank" data-from-module="">�й����Э��</a></span><span data-text="true">���»��´��ڡ�����ɮ�ڡ���䣬�Ĵξٰ조</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%B4%E9%99%86%E5%A4%A7%E6%B3%95%E4%BC%9A/8663560?fromModule=lemma_inlink" target="_blank" data-from-module="">ˮ½�󷨻�</a></span><span data-text="true">�����ٰ조����ߡ�һ����Σ���Ǩ�����ھ���ס��83�ң��½����ؽ��˹�����¶������ɽ�š�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%92%9F%E9%BC%93%E6%A5%BC/3168600?fromModule=lemma_inlink" target="_blank" data-from-module="">�ӹ�¥</a></span><span data-text="true">����������۱�����á�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%8B%E5%A0%82/2098301?fromModule=lemma_inlink" target="_blank" data-from-module="">ի��</a></span><span data-text="true">������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">�޺���</a></span><span data-text="true">�����õ�ʮ�����������������ƽ���ף��½����ؽ���������800���𣬷���������������ʹ�»��¾��д��ͷ�����ͬʱ����һǧ����ʳ�ޡ�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dygva9q" data-idx="3-5"><span data-text="true">�»����������ļ̷�ʦ��ס���£�������ģ��Ȼ�ѳ�������������������Ժ10�������������»�������滮����������������Ժ���ƣ�����������Դ�滮���ﵽ����AAAA��������׼������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">�ؾ�¥</a></span><span data-text="true">���Է�������ã��οͽӴ����ģ�ͣ����������Ļ�����ݵȽ�����Ҫ���裬�»��½�����ί�����˴�������������Э���йز��ŵĴ���֧��������ɡ����Ǽ����»��µ�δ�����������á�</span></div>
-                      <div data-tag="paragraph" data-uuid="go0dyk3ydx" data-idx="3-6"><span data-text="true">1964�꣬�»��±���Ϊ����ʡ�ص����ﱣ����λ�������˱�ȥ����ʤ</span>?[5]<span data-text="true">��</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyev7w2" data-idx="3-1"><span data-text="true">中华人民共和国成立以后，章华寺积极应党和政府的号召，发扬佛教的优良传统，</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%86%9C%E7%A6%85/2377893?fromModule=lemma_inlink" target="_blank" data-from-module="">农禅</a></span><span data-text="true">并重，坚持人间佛教，祈祷世界和平，受到社会各界赞赏。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5Izkn6TYqj" data-idx="3-2"><span data-text="true">公元1956年章华寺为培养佛教僧才，选派宽莲法师去北京接受系统的佛学教理培训，宽莲法师因此而为新中国佛学院第一批学僧。同年，章华寺被列为湖北省第一批重点文物保护单位。公元1966年“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%87%E5%8C%96%E5%A4%A7%E9%9D%A9%E5%91%BD/117740?fromModule=lemma_inlink" target="_blank" data-from-module="">文化大革命</a></span><span data-text="true">”初期，这座高僧辈出，金碧辉煌的历史名刹惨遭浩劫，佛像被砸、文物被抄、殿宇被毁、僧众被驱、在寺院内办起了工厂。党的十一届三中会全后，落实党的宗教政策，原国家主席李先念先后两次视察章华寺，作出了“厂要搬、庙要修”的重要指示。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IyH1cD2pH" data-idx="3-3"><span data-text="true">公元1988年6月14日，章华寺前任方丈宽莲法师率众重返这块佛门净地，开始实施重振章华寺的宏图大愿。</span></div>
+                      <div data-tag="paragraph" data-uuid="sC5IyvBoJeEj" data-idx="3-4"><span data-text="true">公元1997年宽莲法师功德圆满，安详西归。其弟子</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%BF%83%E7%BB%A7%E6%B3%95%E5%B8%88/8043053?fromModule=lemma_inlink" target="_blank" data-from-module="">心继法师</a></span><span data-text="true">继任章华寺方丈，承师父之愿，杨菩提之道，潜心办教，身体力行，先后两次代表</span><span data-text="true"><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%9B%E6%95%99%E5%8D%8F%E4%BC%9A/1938255?fromModule=lemma_inlink" target="_blank" data-from-module="">中国佛教协会</a></span><span data-text="true">在章华寺传授“二部僧众”大戒，四次举办“</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B0%B4%E9%99%86%E5%A4%A7%E6%B3%95%E4%BC%9A/8663560?fromModule=lemma_inlink" target="_blank" data-from-module="">水陆大法会</a></span><span data-text="true">”，举办“念佛七”一百余次；搬迁了寺内居民住户83家，新建、重建了观音甘露宝塔、山门、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%92%9F%E9%BC%93%E6%A5%BC/3168600?fromModule=lemma_inlink" target="_blank" data-from-module="">钟鼓楼</a></span><span data-text="true">、天王殿、大雄宝殿、客堂、</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%96%8B%E5%A0%82/2098301?fromModule=lemma_inlink" target="_blank" data-from-module="">斋堂</a></span><span data-text="true">、五面</span><span data-text="true"><a href="https://baike.baidu.com/item/%E7%BD%97%E6%B1%89%E5%A0%82/8813757?fromModule=lemma_inlink" target="_blank" data-from-module="">罗汉堂</a></span><span data-text="true">、禅堂等十座殿宇，总面积达二万余平方米；新建、重建各类佛像达800余尊，法器、法物近万件，使章华寺举行大型法会能同时满足一千弟子食宿。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dygva9q" data-idx="3-5"><span data-text="true">章华寺现有在心继法师的住持下，建筑规模虽然已超过历朝历代，下属寺院10余座，但按照章华寺总体规划，建设完整丛林禅院规制，完善旅游资源规划，达到国家AAAA级景区标准，仍有</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%97%8F%E7%BB%8F%E6%A5%BC/2676921?fromModule=lemma_inlink" target="_blank" data-from-module="">藏经楼</a></span><span data-text="true">、卧佛殿、万佛殿、法堂，游客接待中心，停车场，佛教文化体验馆等建筑需要建设，章华寺将在市委、市人大、市政府、市政协及有关部门的大力支持下逐步完成。我们坚信章华寺的未来将更加美好。</span></div>
+                      <div data-tag="paragraph" data-uuid="go0dyk3ydx" data-idx="3-6"><span data-text="true">1964年，章华寺被列为湖北省重点文物保护单位，是游人必去的名胜</span>?[5]<span data-text="true">。</span></div>
                     </div>
                   </div>
                 </div>
