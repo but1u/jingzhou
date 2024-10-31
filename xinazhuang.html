@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-<title>���ʽHTMLģ��</title>
-    <meta charset="gpk">
+<title>框架式HTML模板</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* ����ҳ�沼����ʽ */
+        /* 整体页面布局样式 */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
 
-        /* ͷ����ʽ */
+        /* 头部样式 */
         header {
             background-color: #333;
             color: white;
@@ -21,7 +21,7 @@
             text-align: center;
         }
 
-        /* ��������ʽ */
+        /* 导航栏样式 */
         nav {
             background-color: #555;
             color: white;
@@ -40,18 +40,18 @@
             cursor: pointer;
         }
 
-        /* ����������ʽ */
+        /* 内容区域样式 */
         section {
             padding: 20px;
         }
 
-        /* �������ʽ */
+        /* 侧边栏样式 */
         aside {
             background-color: #f4f4f4;
             padding: 20px;
         }
 
-        /* ҳ����ʽ */
+        /* 页脚样式 */
         footer {
             background-color: #333;
             color: white;
@@ -62,80 +62,80 @@
 </head>
 
 <body>
-    <!-- ͷ�� -->
+    <!-- 头部 -->
     <header>
-        <h1>������״</h1>
+        <h1>荆州现状</h1>
     </header>
-    <!-- ������ -->
+    <!-- 导航栏 -->
     <nav>
         <ul>
             
         </ul>
     </nav>
-    <!-- ҳ�����壬ʹ��flex����ʵ�ּ򵥵������ṹ -->
+    <!-- 页面主体，使用flex布局实现简单的两栏结构 -->
     <div style="display: flex; flex-wrap: wrap;">
-        <!-- ��Ҫ�������� -->
+        <!-- 主要内容区域 -->
         <section style="flex: 3;">
             <ul>
            
-			   <h1>���ݵ���״���ֳ��෽��Ļ�����չ̬�ƣ�</h1>
+			   <h1>荆州的现状呈现出多方面的积极发展态势：</h1>
             </ul>
             
             <div></div>
             <br>
           <ol>
-            <li><strong>���÷�չ</strong><span tabindex="0" aria-describedby="83llnkp" data-popupid="83llnkp">3</span><span tabindex="0" aria-describedby="0df47gv" data-popupid="0df47gv">8</span>��
+            <li><strong>经济发展</strong><span tabindex="0" aria-describedby="83llnkp" data-popupid="83llnkp">3</span><span tabindex="0" aria-describedby="0df47gv" data-popupid="0df47gv">8</span>：
                   <ul>
-                    <li><strong>��ҵ��ϵ��������</strong>���������������г����Ż�Ӫ�̻��������� 3 ����� ���й�Ͷ���ȵ���С������������ʺ���Ŀ����Ϊץ�֣����ܲ�ҵ����Ӧ����ϵ���ӿ칹���ִ�����ҵ��ϵ���ڲ�ҵ��չ���棬�����ļ���Ϊ��ͷ�ĸ߶�װ�������ҵ���γ�ǧ��Ԫ��ҵ��Ⱥ���������ڶ�������ҵ��չ��������Ϣ�����˲�ҵҲ�ڼ��ٷ�չ���������˰��¿������𻪿Ƽ��������뵼�塢��ʯ�Ƽ���������Ŀ��ͬʱ����ͳ������ҵ����ת��������ʵ���˴Ӵ�ͳ��������ϸ�������ӻ���ԭ�ϵ��뵼��ԭ��<img src="OIP-C (3).jpg" width="1057" height="492"> ��ת�䣬ѭ������������̨�ס�</li>
-                    <li><strong>��ҵͶ������Ѹ��</strong>���� 3 �꣬ȫ�й�ҵͶ���������Լ�ĳɣ���ǩԼ����Ԫ��Ŀ 24 ����Э��Ͷ�ʽ��� 3000 ��Ԫ�������˲�ҵ��Ŀ�ۼ��ط�չ�����̡�</li>
+                    <li><strong>产业体系不断完善</strong>：近年来，荆州市持续优化营商环境，连续 3 年获评 “中国投资热点城市”。以招商引资和项目建设为抓手，重塑产业链供应链体系，加快构建现代化产业体系。在产业发展方面，以美的集团为龙头的高端装备制造产业已形成千亿元产业雁群，带动了众多配套企业发展；电子信息等新兴产业也在加速发展，如引进了安德科铭、瑞华科技、长联半导体、鸣石科技等优质项目。同时，传统化工产业经过转型升级，实现了从传统化工到精细化工、从化肥原料到半导体原料<img src="OIP-C (3).jpg" width="1057" height="492"> 的转变，循环经济再上新台阶。</li>
+                    <li><strong>工业投资增长迅速</strong>：近 3 年，全市工业投资年均增长约四成，共签约百亿元项目 24 个，协议投资金额超过 3000 亿元，筑牢了产业项目聚集地发展基本盘。</li>
                   </ul>
             </li>
-                <li><strong>�Ļ�����</strong>��
+                <li><strong>文化旅游</strong>：
                   <ul>
-                    <li><strong>������Դ�ḻ��Ӱ��������</strong>������ӵ��������ʷ�Ļ����̺ͷḻ��������Դ��������˰����� 411 �궨�����ݣ����Ļ��ڴ�����׳�󡣾��ݲ�����ǹ���һ������ݣ�Ҳ����Ҫ�ĳ��Ļ�չʾ���ڣ��ݲ�����ḻ�����˽���Ļ�����Ҫ����<span tabindex="0" aria-describedby="qon0wmm" data-popupid="qon0wmm">4</span>�����������������ƻֺ�ĳ����ꡢ����׳�۵ĳ�������������������Ϊ ���й����У����µ�һ�� �ĳ�����䷶<span tabindex="0" aria-describedby="brbzsx5" data-popupid="brbzsx5">4</span>�����⣬���о��ݹų�ǽ��������԰���ڶ������ʷ�Ļ���ֵ�ľ���<span tabindex="0" aria-describedby="kcvorbb" data-popupid="kcvorbb">4</span>��</li>
-                    <li><strong>���û�ḻ</strong>�������������ݾٰ���һϵ�д����Ļ�����������£��� 2023��2024 ����й���Ӱ�������ߵ�ӰƵ�� m ������֮ҹ������?������ë�򵥴򹫿������й�?���� 2024 ȫ����ʷ�Ļ�������ë���������ȣ������˳��е�֪���Ⱥ�Ӱ����<span tabindex="0" aria-describedby="ea6gyah" data-popupid="ea6gyah">4</span>��</li>
+                    <li><strong>文旅资源丰富且影响力提升</strong>：荆州拥有深厚的历史文化底蕴和丰富的旅游资源，如楚国八百年有 411 年定都荆州，楚文化在此孕育壮大。荆州博物馆是国家一级博物馆，也是重要的楚文化展示窗口，馆藏文物丰富，是了解楚文化的重要场所<span tabindex="0" aria-describedby="qon0wmm" data-popupid="qon0wmm">4</span>。楚王车马阵以气势恢宏的楚王陵、威武壮观的车马阵闻名于世，被誉为 “中国仅有，天下第一” 的楚王陵典范<span tabindex="0" aria-describedby="brbzsx5" data-popupid="brbzsx5">4</span>。此外，还有荆州古城墙、三国公园等众多具有历史文化价值的景点<span tabindex="0" aria-describedby="kcvorbb" data-popupid="kcvorbb">4</span>。</li>
+                    <li><strong>文旅活动丰富</strong>：近年来，荆州举办了一系列大型文化活动和体育赛事，如 2023－2024 年度中国电影大数据暨电影频道 m 榜荣誉之夜、李宁?谌龙羽毛球单打公开赛、中国?荆州 2024 全国历史文化名城羽毛球邀请赛等，提升了城市的知名度和影响力<span tabindex="0" aria-describedby="ea6gyah" data-popupid="ea6gyah">4</span>。</li>
                   </ul>
             </li>
-                <li><strong>��������</strong><span tabindex="0" aria-describedby="j1hkqsh" data-popupid="j1hkqsh">2</span>��
+                <li><strong>民生保障</strong><span tabindex="0" aria-describedby="j1hkqsh" data-popupid="j1hkqsh">2</span>：
                   <ul>
-                    <li><strong>���Ϸ�����ϵ���Ͻ�ȫ</strong>������ 2021 ����ߴ�ȫ���˿��ղ鹫���������г�ס�˿��� 60 �꼰����������ռ�Ƚϸߡ�����˿����仯����ս�����ݹ����� ���������Ӽҡ�������Э����ҽ���������ϡ� �����Ϸ�����ϵ��ȫ���˰����ڶ����ϻ����������������Ϸ������ĺ�ũ�����Ϸ������ģ����ϴ�λ�����ﵽ 5.07 ���š�</li>
-                    <li><strong>���ϻ������ƽ�</strong>������Ͷ���ʽ�������˵ļ�ͥ�������ϻ����죬������װ�������޽����¡��䱸��ء��ṩ���ȵȣ������������˵��������ԺͰ�ȫ�ԡ�ͬʱ��ȫ����ʵ�������˽��������Ϸ������ƶȣ������������ܵ�����ĸ������ϡ�</li>
+                    <li><strong>养老服务体系不断健全</strong>：根据 2021 年第七次全国人口普查公报，荆州市常住人口中 60 岁及以上老年人占比较高。面对人口老龄化的挑战，荆州构建了 “社区、居家、机构相协调，医养康养相结合” 的养老服务体系。全市兴办了众多养老机构、城市社区养老服务中心和农村养老服务中心，养老床位总数达到 5.07 万张。</li>
+                    <li><strong>适老化改造推进</strong>：政府投入资金对老年人的家庭进行适老化改造，包括安装护栏、修建缓坡、配备监控、提供手杖等，提升了老年人的生活便捷性和安全性。同时，全面落实高龄老人津贴及养老服务补贴制度，让老年人享受到更多的福利保障。</li>
                   </ul>
-            </li><img src="�Ƶ������Ű��Ρ�������ǧ�ꡪ������_5_������У����ι���_����С������ҳ��.jpg">
-                <li><strong>���н���</strong>��
+            </li><img src="浩荡荆江九百里，巍峨楚天三千年——荆州_5_玩点旅行｜旅游攻略_来自小红书网页版.jpg">
+                <li><strong>城市建设</strong>：
                   <ul>
-                    <li><strong>������ʩ��������</strong>����ͨ���棬���������Ŀ�ͨ��Ӫ�����˶��������ۺϽ�ͨ��ϵ���������߲�����չ��Ϊ���⽻���ṩ�˱���<span tabindex="0" aria-describedby="qe4ufd0" data-popupid="qe4ufd0">8</span>�����ڵĹ�����ͨҲ�ڲ��Ϸ�չ��������·���Ƿ�Χ���㣬���������๲���綯��������ʹ��<span tabindex="0" aria-describedby="j1zd1kd" data-popupid="j1zd1kd">9</span>��</li>
-                    <li><strong>�������γ�Ч����</strong>�����������ĳ�����չ�Ƿ��㵹������ˮ���ͳ�����ר�����Σ��鴦�˶���Ƿ�������Ϊ�������˳�������������ȫͨ�����У�������ˮ��̬�����������Ż����˾ӻ���<span tabindex="0" aria-describedby="zthbwds" data-popupid="zthbwds">1</span>��</li>
+                    <li><strong>基础设施不断完善</strong>：交通方面，荆荆高铁的开通运营完善了鄂中区域综合交通体系，机场航线不断拓展，为对外交流提供了便利<span tabindex="0" aria-describedby="qe4ufd0" data-popupid="qe4ufd0">8</span>。市内的公共交通也在不断发展，公交线路覆盖范围更广，并且有许多共享电动车供市民使用<span tabindex="0" aria-describedby="j1zd1kd" data-popupid="j1zd1kd">9</span>。</li>
+                    <li><strong>环境整治成效显著</strong>：荆州市中心城区开展非法倾倒生活污水及餐厨垃圾专项整治，查处了多起非法收运行为，保障了城市市政管网安全通畅运行，改善了水生态环境质量，优化了人居环境<span tabindex="0" aria-describedby="zthbwds" data-popupid="zthbwds">1</span>。</li>
                   </ul>
             </li>
-                <img src="�Ƶ������Ű��Ρ�������ǧ�ꡪ������_8_������У����ι���_����С������ҳ��.jpg"><li><strong>����Χ</strong>��
+                <img src="浩荡荆江九百里，巍峨楚天三千年——荆州_8_玩点旅行｜旅游攻略_来自小红书网页版.jpg"><li><strong>社会氛围</strong>：
                   <ul>
-                    <li><strong>����������</strong>�������л����������������������ҵ���γ������ϡ����ϡ����ϡ����ϵ����÷��С����Ļ����з��棬���ǶԳ��Ļ��������Ļ������㴫ͳ�Ļ�����ͬ�к��Ժ��в�����ǿ���������뵽�Ļ��Ĵ��кͱ�����<span tabindex="0" aria-describedby="15rbgyv" data-popupid="15rbgyv">2</span>��</li>
-                    <li><strong>������񲻶��Ż�</strong>���������Ż����ƽ��������ĸ��߰���Ч�ʣ�ͨ���ƽ̨���Ż����̵ȷ�ʽ������ҵ��Ⱥ�ڰ��¸��ӱ��<span tabindex="0" aria-describedby="kvz9zsh" data-popupid="kvz9zsh">2</span>��</li>
+                    <li><strong>社会风气良好</strong>：荆州市积极倡导社会各界参与老龄事业，形成了尊老、敬老、爱老、助老的良好风尚。在文化传承方面，人们对楚文化、三国文化等优秀传统文化的认同感和自豪感不断增强，积极参与到文化的传承和保护中<span tabindex="0" aria-describedby="15rbgyv" data-popupid="15rbgyv">2</span>。</li>
+                    <li><strong>政务服务不断优化</strong>：政府部门积极推进政务服务改革，提高办事效率，通过搭建平台、优化流程等方式，让企业和群众办事更加便捷<span tabindex="0" aria-describedby="kvz9zsh" data-popupid="kvz9zsh">2</span>。</li>
                   </ul>
             </li>
           </ol>
         </section>
-        <!-- ��������� -->
+        <!-- 侧边栏区域 -->
         <aside style="flex: 1;">
-            <h3><strong>�����г���־�챻��</strong></h3>
-            <p>2024��10��19�գ�����ʡ��ί��ί��վ������һ�����Ϣ��<strong>������ί����ǡ��г���־����������Υ��Υ����Ŀǰ�����ܺ���ʡ��ί��ί�������ͼ�����</strong>��</p>
-            <p>�������Ŵ�ǰ���б����ƣ�10 �� 17 ���������������������ٷ���վ���ѽ��г���־���������Ϣ����ɾ����<strong>���ң�����վ�е� ���������쵼�����г������� �ȹ��ܾ��޷�������</strong>��</p>
-            <p>��������ͨ��������֤ʵ��<strong>��־����������֮ǰ����ز��Ŵ���</strong>��</p>
-            <p>�����ı�����ʾ����־�����һ�ι����������� 10 �� 11 �������ٿ�������������������������飨���󣩻��顣<strong></strong></p>
+            <h3><strong>荆州市长周志红被查</strong></h3>
+            <p>2024年10月19日，湖北省纪委监委网站发布了一则的消息：<strong>荆州市委副书记、市长周志红涉嫌严重违纪违法，目前正接受湖北省纪委监委纪律审查和监察调查</strong>。</p>
+            <p>澎湃新闻此前曾有报道称，10 月 17 日晚，荆州市人民政府官方网站上已将市长周志红的所有信息予以删除。<strong>并且，该网站中的 “市政府领导”“市长日历” 等功能均无法正常打开</strong>。</p>
+            <p>澎湃新闻通过多渠道证实，<strong>周志红已于数日之前被相关部门带走</strong>。</p>
+            <p>公开的报道显示，周志红最后一次公开亮相是在 10 月 11 日主持召开市政府常务会议暨市政府党组（扩大）会议。<strong></strong></p>
             <p>&nbsp;</p>
             
-			<h2>�����м�ί����5��Υ���������涨������Ͱ�����ͨ��</h2>
-            <p><strong>һ���������м�����Ժ�������е�һͥԭͥ���콨��Υ��������Ʒ������⡣</strong>2015����2018���ڼ䣬�콨���ܰ��������������������Ա˵�顢���к��������ܼ�ֵ1.2��Ԫ����Ʒ���2021��9�£��콨���ܵ����ھ��洦�֣�Υ���������սɡ�</p>
-            <p>����<strong>�����������ܺ�����ˮ��˾��֧��ԭ��ǡ���������ѧΥ�淢�Ž��������⡣</strong>2018�꣬����ѧ�ԼӰ�����Υ����13��ְ�����żӰ๤��3.075��Ԫ������ѧ����������Υ�����⡣2021��12�£�����ѧ�ܵ��������ؾ��洦�֣�Υ���������սɡ�</p>
-            <p>����<strong>���������еڶ���ѧ����֧��ǡ�У����ʱ��Υ��ٰ�ϲ���������⡣</strong>2020��9�£���ʱ����δ����֯���б�������������£��ٰ����ӻ��磬Υ�����������еڶ���ѧ21����ʦ������𹲼�9300Ԫ��2021��4�£���ʱ���ܵ����ھ��洦�֡�</p>
-            <p>����<strong>�ġ�ʯ���й��������꼯�Ű����Ƴ����˽���������⡣</strong>2018��1����2020��12�£�������õ�λ�����Ϳ�Ϊ�Լ�˽������25�Σ��ϼƽ��3682.5Ԫ��2021��11�£�����ܵ����ھ��洦�֣�Υ���ʽ����սɡ�</p>
-            <p>����<strong>�塢�����������־ֱ����ɳ���������������Υ����ܹ�������������뼰����������⡣</strong>2017��6�£������ɳ���Ͻ����ĳ�Ƶ꾭Ӫ�߻�ĳ���и����۽�����ʶ��������Ǩ���������Ա�������븶���۵��˻���1180Ԫ����ĳ��������1��Ԫ���ڽ��ˣ������۽�ʣ��8820Ԫ��Ϊ���У������������2021��6�£��������ܵ����ھ��洦�֣������Ա���ܵ��������֡�</p>
+			<h2>荆州市纪委关于5起违反中央八项规定精神典型案例的通报</h2>
+            <p><strong>一、荆州市中级人民法院刑事审判第一庭原庭长徐建祖违规收受礼品礼金问题。</strong>2015年至2018年期间，徐建祖受案件当事人请托向相关人员说情、打招呼，并收受价值1.2万元的礼品礼金。2021年9月，徐建祖受到党内警告处分，违纪所得已收缴。</p>
+            <p>　　<strong>二、江陵县熊河自来水公司党支部原书记、经理陈重学违规发放津补贴等问题。</strong>2018年，陈重学以加班名义违规向13名职工发放加班工资3.075万元，陈重学还存在其他违纪问题。2021年12月，陈重学受到党内严重警告处分，违纪所得已收缴。</p>
+            <p>　　<strong>三、松滋市第二中学党总支书记、校长邹时军违规操办喜庆事宜问题。</strong>2020年9月，邹时军在未向组织履行报备手续的情况下，操办其子婚宴，违规收受松滋市第二中学21名教师所送礼金共计9300元。2021年4月，邹时军受到党内警告处分。</p>
+            <p>　　<strong>四、石首市供销社联谊集团安保科长李洪私车公养问题。</strong>2018年1月至2020年12月，李洪利用单位公务油卡为自己私车加油25次，合计金额3682.5元。2021年11月，李洪受到党内警告处分，违纪资金已收缴。</p>
+            <p>　　<strong>五、荆州区公安分局北门派出所副所长付昌雄违规接受管理服务对象宴请及收受礼金问题。</strong>2017年6月，北门派出所辖区内某酒店经营者黄某请托付昌雄介绍认识荆州区征迁部门相关人员，并宴请付昌雄等人花费1180元，黄某给付昌雄1万元用于结账，付昌雄将剩余8820元据为己有，变相收受礼金。2021年6月，付昌雄受到党内警告处分，相关人员均受到处理处分。</p>
             <p>&nbsp;</p>
             <div></div>
             <div>
               <div id="header">
-                <h2>����ʡ�������˴�ί��ԭ�����Ա�������λ���������˫����</h2>
+                <h2>湖北省荆州市人大常委会原党组成员、副主任黄祥龙被“双开”</h2>
                 <div>
                   <div>
                     <div></div>
@@ -147,26 +147,26 @@
             <div>
               <div data-testid="article">
                 <div>
-                  <p>�����ί���Ҽ�ί��վѶ �ݺ���ʡ��ί��ί��Ϣ����ǰ��������ʡί��׼������ʡ��ί��ί�Ծ������˴�ί��ԭ�����Ա�������λ���������Υ��Υ��������������������顣</p>
+                  <p>中央纪委国家监委网站讯 据湖北省纪委监委消息：日前，经湖北省委批准，湖北省纪委监委对荆州市人大常委会原党组成员、副主任黄祥龙严重违纪违法问题进行了立案审查调查。</p>
                 </div>
                 <div>
-                  <p>���飬������ɥʧ���������������ʹ�����Ե����ҳϲ���ʵ���������ɣ��������ˣ������¿ڡ�α��֤�ݡ�����֯�ṩ�������ڸ���ʵ���Կ���֯��飻�ڸɲ�ѡ�����ù�����Υ��Ϊ����ıȡ���沢���ܲ�������������涨����Υ��������𡢽��ܿ���Ӱ�칫��ִ�й�������룬���Ȩɫ��Ǯɫ���ף�˽�����ͣ�̰�����ԣ����뵱�����뷢�ƣ�����ְ���ϵı���Ϊ�����ڹ��̳�������ҵ��Ӫ�ȷ���ı�������Ƿ����ܾ޶���</p>
+                  <p>经查，黄祥龙丧失理想信念，背弃初心使命，对党不忠诚不老实，搞两面派，做两面人，串供堵口、伪造证据、向组织提供虚假情况掩盖事实，对抗组织审查；在干部选拔任用工作中违规为他人谋取利益并收受财物；无视中央八项规定精神，违规收受礼金、接受可能影响公正执行公务的宴请，大搞权色、钱色交易；私欲膨胀，贪婪成性，既想当官又想发财，利用职务上的便利为他人在工程承揽、企业经营等方面谋利，并非法收受巨额财物。</p>
                 </div>
                 <div>
-                  <p>����������Υ���������μ��ɡ���֯���ɡ�������ɣ���������ְ��Υ���������ܻ߷�����ڵ���ʮ�˴�������������֣��������أ�Ӱ����ӣ�Ӧ�����ദ�������ݡ��й����������ɴ������������л����񹲺͹���취�����л����񹲺͹���ְ��Ա���񴦷ַ������йع涨��������ʡ��ί��ί������о���������ʡί��׼��������������������������֣��ɺ���ʡ��ί�����俪����ְ���֣��ս���Υ��Υ�����ã��������ӷ����������ͼ���������������ߣ��������һ�����͡�</p>
+                  <p>黄祥龙严重违反党的政治纪律、组织纪律、廉洁纪律，构成严重职务违法并涉嫌受贿犯罪，且在党的十八大后不收敛、不收手，性质严重，影响恶劣，应予严肃处理。依据《中国共产党纪律处分条例》《中华人民共和国监察法》《中华人民共和国公职人员政务处分法》等有关规定，经湖北省纪委常委会会议研究并报湖北省委批准，决定给予黄祥龙开除党籍处分；由湖北省监委给予其开除公职处分；收缴其违纪违法所得；将其涉嫌犯罪问题移送检察机关依法审查起诉，所涉财物一并移送。</p>
                 </div>
               </div>
             </div>
             <div>
-              <h1>ԭ��������������ֵ����Ա�����ֳ�֣�̵��ܵ������������ֲ�������˾��������������? </h1>
+              <h1>原荆州市外事侨务局党组成员、副局长郑继典受到开除党籍处分并被移送司法机关依法处理? </h1>
               <div></div>
             </div>
-            <p>�ݾ����м�ί��ί��Ϣ���������м�ί��ί�������ͼ����飬ԭ��������������ֵ����Ա�����ֳ�֣�̵�Υ�����μ��ɣ������˴����¿ڣ�����֯�ṩ���������Կ���֯��飻Υ����֯���ɣ����������й����Υ��������ɣ��ҷ粻������������ְȨ��ͬ���ƣ���ɲ���Ӱ�죻��ͬ����ż�������˻�¸������޴������ܻ����ͬ����ż̰�۹������ϴ�����̰���Ϊıȡ���������棬��ͬ����ż����ҹ�����Ա�лߣ�������أ������л��</p>
-            <p>֣�̵���Ϊ��Ա�쵼�ɲ����������ʹ�����Ե����ҳϣ�����ʵ��������ʶ����������Υ�����ļ��ɺ͹��ҷ��ɷ��棬������ְ������ڵ���ʮ�˴���Բ������������֣����ʶ��ӣ�������أ�Ӧ�����ദ�������ݡ��й����������ɴ������������л����񹲺͹���취�����л����񹲺͹���ְ��Ա���񴦷ַ������йع涨���������м�ί��ί������о�����������ί��ί�������׼����������֣�̵俪���������֣������������ݴ������������ӷ����������ͼ���������������ߣ���������永���͡��������м�ί��ί��</p>
+            <p>据荆州市纪委监委消息：经荆州市纪委监委纪律审查和监察调查，原荆州市外事侨务局党组成员、副局长郑继典违反政治纪律，与他人串供堵口，向组织提供虚假情况，对抗组织审查；违反组织纪律，瞒报个人有关事项；违反生活纪律，家风不正，利用亲属职权共同敛财，造成不良影响；伙同其配偶收受他人贿赂，数额巨大，涉嫌受贿罪；伙同其配偶贪污公款，数额较大，涉嫌贪污罪；为谋取不正当利益，伙同其配偶向国家工作人员行贿，情节严重，涉嫌行贿罪。</p>
+            <p>郑继典身为党员领导干部，背离初心使命，对党不忠诚，不老实，法纪意识淡薄，严重违反党的纪律和国家法律法规，并涉嫌职务犯罪，且在党的十八大后仍不收敛、不收手，性质恶劣，情节严重，应予严肃处理。依据《中国共产党纪律处分条例》《中华人民共和国监察法》《中华人民共和国公职人员政务处分法》等有关规定，经荆州市纪委常委会会议研究并报荆州市委常委会会议批准，决定给予郑继典开除党籍处分，并调整其退休待遇；将其涉嫌犯罪问题移送检察机关依法审查起诉，所涉财物随案移送。（荆州市纪委监委）</p>
             <p>&nbsp;</p>
         </aside>
 </div>
-    <!-- ҳ�� -->
+    <!-- 页脚 -->
     <footer>
    
     </footer>
