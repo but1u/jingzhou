@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <title>���ʽHTMLģ��</title>
-    <meta charset="gpk">
+    <title>框架式HTML模板</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* ����ҳ�沼����ʽ */
+        /* 整体页面布局样式 */
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
 
-        /* ͷ����ʽ */
+        /* 头部样式 */
         header {
             background-color: #333;
             color: white;
@@ -21,7 +21,7 @@
             text-align: center;
         }
 
-        /* ��������ʽ */
+        /* 导航栏样式 */
         nav {
             background-color: #555;
             color: white;
@@ -40,18 +40,18 @@
             cursor: pointer;
         }
 
-        /* ����������ʽ */
+        /* 内容区域样式 */
         section {
             padding: 20px;
         }
 
-        /* �������ʽ */
+        /* 侧边栏样式 */
         aside {
             background-color: #f4f4f4;
             padding: 20px;
         }
 
-        /* ҳ����ʽ */
+        /* 页脚样式 */
         footer {
             background-color: #333;
             color: white;
@@ -62,21 +62,21 @@
 </head>
 
 <body>
-    <!-- ͷ�� -->
+    <!-- 头部 -->
     <header>
-        <h1>���ݵ���ʷ��Ϣ</h1>
+        <h1>荆州的历史信息</h1>
     </header>
-    <!-- ������ -->
+    <!-- 导航栏 -->
     <nav>
         <ul>
             
         </ul>
     </nav>
-    <!-- ҳ�����壬ʹ��flex����ʵ�ּ򵥵������ṹ -->
+    <!-- 页面主体，使用flex布局实现简单的两栏结构 -->
 <div style="display: flex; flex-wrap: wrap;">
-        <!-- ��Ҫ�������� -->
+        <!-- 主要内容区域 -->
         <section style="flex: 3;">
-            <h2>�������ż���������ʷ�Ļ�����</h2>
+            <h2>荆州有着极其深厚的历史文化底蕴</h2>
           <div>
             <div>
               <div>
@@ -90,56 +90,56 @@
                                 <div></div>
                                 <br>
                                 <ol>
-                                  <li><strong>����֮һ</strong><span tabindex="0" aria-describedby="dpdbm5d" data-popupid="dpdbm5d">2</span>��
+                                  <li><strong>九州之一</strong><span tabindex="0" aria-describedby="dpdbm5d" data-popupid="dpdbm5d">2</span>：
                                       <ul>
-                                        <li>���ҹ�����ĵ���ѧ��������Լ������ս��ʱ���ġ��������У����о��ݵļ��ء��������ʡ������һ���ľ�ɽ���ϵ�����ʡ������ɽ���ϵĹ��������ǹŴ����ݵķ�Χ�����°�������ĺ����ͺ�����ʡ�����ڳ��ӣ���������Ϊ�Ӿ������ַ��ڹŴ����ݵķ�Χ�ڣ����������ص伮�У�������ʱҲ������ �����ˡ�����������������ʱҲ������ ����������</li><img src="�Ƶ������Ű��Ρ�������ǧ�ꡪ������_9_������У����ι���_����С������ҳ��.jpg">
+                                        <li>在我国最早的地理学著作、大约成书于战国时代的《禹贡》中，就有荆州的记载。北起湖北省南漳县一带的荆山，南到湖南省南岳衡山以南的广大地区都是古代荆州的范围，大致包括今天的湖北和湖南两省。由于楚子（楚国国君为子爵）被分封在古代荆州的范围内，所以在先秦典籍中，楚人有时也被称作 “荆人”“荆蛮”，楚国有时也被称作 “荆国”。</li><img src="浩荡荆江九百里，巍峨楚天三千年——荆州_9_玩点旅行｜旅游攻略_来自小红书网页版.jpg">
                                       </ul>
                                   </li>
-                                  <li><strong>ʷǰ�Ļ�</strong><span tabindex="0" aria-describedby="mojruo6" data-popupid="mojruo6">2</span>��
+                                  <li><strong>史前文化</strong><span tabindex="0" aria-describedby="mojruo6" data-popupid="mojruo6">2</span>：
                                       <ul>
-                                        <li><strong>��ʯ��ʱ��</strong>���������ڵľ�ʯ��ʱ����ַĿǰ���ֽ��٣����������Ǽ���ɽ��ʯ��ʱ����ַ������ַλ�ھ��ݹųǱ���Լ�幫���������������һ���֣��ϰ���һ��С�����ϣ�����ġ������꣬���﷢����Զ������ľ�ס�ż���ʯ�������������й��������緢�ֵľ�ʯ��ʱ����Զ��������ƽԭ�����Ļ�ż���1996 �걻����Ժ��׼Ϊ������ȫ���ص����ﱣ����λ��</li>
-                                        <li><strong>��ʯ��ʱ��</strong>�������е���ʯ��ʱ���ɷ�Ϊ��Ϫ�Ļ����������Ļ���ʯ�Һ��Ļ������໥���кͷ�չ�Ľ׶Ρ������з�Χ�ڵ���ʯ��ʱ����ַ����ʮ�ദ����ֲ��ڿ�������������ĸڵ��ϣ��Ƚ�������������ǹųǡ�������ųǡ������ǹųǵȡ�</li><img src="�Ƶ������Ű��Ρ�������ǧ�ꡪ������_6_������У����ι���_����С������ҳ��.jpg">
+                                        <li><strong>旧石器时代</strong>：荆州市内的旧石器时代遗址目前发现较少，最著名的是鸡公山旧石器时代遗址。该遗址位于荆州古城北面约五公里的庙湖（长湖的一部分）南岸的一处小土岗上，距今四、五万年，这里发现了远古人类的居住遗迹和石器制作场，是中国迄今最早发现的旧石器时代的远古人类在平原地区的活动遗迹，1996 年被国务院批准为第四批全国重点文物保护单位。</li>
+                                        <li><strong>新石器时代</strong>：荆州市的新石器时代可分为大溪文化、屈家岭文化和石家河文化三个相互传承和发展的阶段。荆州市范围内的新石器时代遗址有五十多处，多分布于靠近河流或湖泊的岗地上，比较著名的有阴湘城古城、走马岭古城、鸡鸣城古城等。</li><img src="浩荡荆江九百里，巍峨楚天三千年——荆州_6_玩点旅行｜旅游攻略_来自小红书网页版.jpg">
                                       </ul>
                                   </li>
-                                  <li><strong>�̴�</strong><span tabindex="0" aria-describedby="b4ornbw" data-popupid="b4ornbw">2</span>��
+                                  <li><strong>商代</strong><span tabindex="0" aria-describedby="b4ornbw" data-popupid="b4ornbw">2</span>：
                                       <ul>
-                                        <li>���ݵ��̴���ַ�Ⱥ���������������ַ���ٵ���ַ��÷������ַ����������ַ��᯺����˰˹�̨��ַ�ȡ���Щ��ַ�з����� ���˼��ӡ���ͭ������ӡ����Ǽ��ӡ� �ȼ���ӡ��������˽϶��ţ�������ȶ��������������ʱ���нϷ��������ҵ�����ҳ�����һ��������ͭ������˵����ͭҵҲ��һ���ķ�չ���������ʱ�ľ������˹��Ŷ���������˿��ܼ���</li>
+                                        <li>荆州的商代遗址先后发现了周良玉桥遗址、官堤遗址、梅槐桥遗址、荆南寺遗址和岑河庙兴八姑台遗址等。这些遗址中发现了 “人祭坑”“铜器祭祀坑”“燎祭坑” 等祭祀坑。还发现了较多的牛、羊、猪等动物骨骼，表明当时已有较发达的畜牧业。并且出土了一批大型青铜礼器，说明青铜业也有一定的发展，这表明当时的荆州商人过着定居生活，且人口密集。</li>
                                       </ul>
                                   </li>
-                                  <li><strong>����ʱ��</strong>��
+                                  <li><strong>楚国时期</strong>：
                                       <ul>
-                                        <li><strong>�������ϳ�</strong>�����ϳ��ֳ� ����۫�������ڼ�ɽ֮�϶���������ַλ�ڽ��ݳǱ� 5 ���ﴦ���ǳ��������˽�������У���ս��ʱ���ҹ��Ϸ����Ρ����á��Ļ������ģ��ǳ������𽭺��������Ϸ�����ʷ��֤�����ϳǱ�����ã���������Ϊ ���Ϲ���赡���1961 �걻����Ժ����Ϊȫ���ص����ﱣ����λ<span tabindex="0" aria-describedby="59ocwrg" data-popupid="59ocwrg">2</span>��</li>
-                                        <li><strong>��ѧ�������ɾ�</strong><span tabindex="0" aria-describedby="camct35" data-popupid="camct35">2</span>��
+                                        <li><strong>楚都纪南城</strong>：纪南城又称 “纪郢”，因在纪山之南而得名，故址位于今荆州城北 5 公里处。是楚立国后兴建的最大都市，是战国时期我国南方政治、经济、文化的中心，是楚国崛起江汉、称雄南方的历史见证。纪南城保存完好，被世人誉为 “南国完璧”，1961 年被国务院公布为全国重点文物保护单位<span tabindex="0" aria-describedby="59ocwrg" data-popupid="59ocwrg">2</span>。</li>
+                                        <li><strong>文学与艺术成就</strong><span tabindex="0" aria-describedby="camct35" data-popupid="camct35">2</span>：
                                             <ul>
-                                              <li><strong>����</strong>�������ǡ����й�ʫ��ʷ�ϵķᱮ������ԭ����ƷΪ���������м��ߵ���ѧ��ֵ������ԭ���Դ����ʵĳ�ƪ��������ʫ��Ҳ���й��Ŵ�����ʫ�ж�һ�޶��ĺ�ƪ������</li>
-                                              <li><strong>�������</strong>������ʢ�� ���׷硱���ƶ��˳�������Ѹ�ٷ�չ�͹㷺�������������ɷ�Ϊ�Ͷ��衢��ʽ�衢����衢ʱ����ȣ��Ժ����й����ķ�չ��������ԶӰ�졣</li>
-                                              <li><strong>������������</strong>�����˵Ľ��������ƺͼ����϶����Ƚ�������ѡַ��Ӫ�췽ʽ������װ�ζ�������ɫ����������漰��������ͭ������ľ���������ȷ��棬�����˳��������Ļ��;����Ļ��ķ�չ��<img src="58c8ce3fe1578a81e941e6bf428d99e4.jpg" width="490" height="653"></li>
+                                              <li><strong>楚辞</strong>：《楚辞》是中国诗歌史上的丰碑，以屈原的作品为代表，具有极高的文学价值，是屈原带自传性质的长篇政治抒情诗，也是中国古代抒情诗中独一无二的宏篇巨著。</li>
+                                              <li><strong>楚国民歌</strong>：楚地盛行 “巫风”，推动了楚歌楚舞的迅速发展和广泛传播。楚国民歌可分为劳动歌、仪式歌、爱情歌、时政歌等，对后世中国民歌的发展产生了深远影响。</li>
+                                              <li><strong>建筑与雕刻艺术</strong>：楚人的建筑在形制和技术上都很先进，建筑选址、营造方式、造型装饰都独具特色；雕刻艺术涉及陶器、青铜器、漆木器、玉器等方面，体现了楚国物质文化和精神文化的发展。<img src="58c8ce3fe1578a81e941e6bf428d99e4.jpg" width="490" height="653"></li>
                                             </ul>
                                         </li>
                                       </ul>
                                   </li>
-                                  <li><strong>�غ�ʱ��</strong><span tabindex="0" aria-describedby="tjabto7" data-popupid="tjabto7">2</span>��
+                                  <li><strong>秦汉时期</strong><span tabindex="0" aria-describedby="tjabto7" data-popupid="tjabto7">2</span>：
                                       <ul>
-                                        <li><strong>�ش�</strong>����Ԫǰ 278 �꣬�ؽ������֮۫�󣬼��ϳ���Ϊ���棬��Ϊ���ϳǶ�����ĸ߸ڵط��ɽ����Ϊ���˺ͺ����������Ĺ�ء��ھ��ݷ���Ľ� 500 ���С�С����Ĺ���������Ļ����ص㣬�����ܵ����Ļ���һЩӰ�죬�γ��˺���������Ĺ���Ļ��ص㡣</li>
-                                        <li><strong>����</strong>��������ʮ���ݼ�˾�������еľ��ݴ�ʷ�����Ǿ���֮һ�ľ��ݡ�Ͻ���������������Ͽ������Ŀ��������������꿤�����꿤����ɳ���ȡ����ա�����?����־���������޶�Ӧ���Ϸ�Ұ��˵������������Ӧ���ݡ�������?����־�¡��������ľ��ݷ�Χ��������ĺ��ϡ�����ȫ���������ϲ�����<span tabindex="0" aria-describedby="ibcvf7i" data-popupid="ibcvf7i">1</span>��</li>
+                                        <li><strong>秦代</strong>：公元前 278 年，秦将白起拔郢之后，纪南城沦为废墟，作为纪南城东南隅的高岗地凤凰山即成为秦人和汉人最理想的墓地。在荆州发掘的近 500 座中、小型秦墓，具有秦文化的特点，但仍受到楚文化的一些影响，形成了湖北地区秦墓的文化特点。</li>
+                                        <li><strong>汉代</strong>：西汉有十三州及司隶，其中的荆州刺史部即是九州之一的荆州。辖境包括南阳郡、南郡、江夏郡、桂阳郡、武陵郡、零陵郡、长沙国等。按照《汉书?天文志》天上星宿对应地上分野的说法，翼、轸对应荆州。《汉书?地理志下》所描述的荆州范围囊括当今的湖南、湖北全境及河南南部地区<span tabindex="0" aria-describedby="ibcvf7i" data-popupid="ibcvf7i">1</span>。</li>
                                       </ul>
                                   </li>
-                                  <li><strong>����ʱ��</strong>��
+                                  <li><strong>三国时期</strong>：
                                       <ul>
-                                        <li>�����Ļ��ھ���������Ũī�زʵ�һ�ʣ����������塷�� 72 ��д�����ݡ����֮ս�󣬲ܲ١���������Ȩ���ҷ־��ݣ��ܲ�ռ���������Ͽ�����������ռ�ݳ������ϵ����ꡢ���������ꡢ��ɳ�Ŀ�����Ȩ��ռ�ݽ��Ŀ�<span tabindex="0" aria-describedby="4d8qrml" data-popupid="4d8qrml">1</span>��</li>
-                                        <li>�������ؾ��ݣ����������ഫ˵�͹��£��� ���������ᡱ �ȣ����ݵĹص�������Ϊ����������������������ϴ�ܹ��𣬹Ϸ־���<span tabindex="0" aria-describedby="63lk3pp" data-popupid="63lk3pp">1</span>��</li>
+                                        <li>三国文化在荆州留下了浓墨重彩的一笔，《三国演义》有 72 回写到荆州。赤壁之战后，曹操、刘备、孙权三家分荆州，曹操占据南阳、南郡二郡，刘备占据长江以南的零陵、桂阳、武陵、长沙四郡，孙权则占据江夏郡<span tabindex="0" aria-describedby="4d8qrml" data-popupid="4d8qrml">1</span>。</li>
+                                        <li>关羽镇守荆州，留下了许多传说和故事，如 “单刀赴会” 等，荆州的关帝庙就是为纪念关羽而建。后来孙曹联合打败关羽，瓜分荆州<span tabindex="0" aria-describedby="63lk3pp" data-popupid="63lk3pp">1</span>。</li>
                                       </ul>
                                   </li>
-                                  <li><strong>��������</strong>��
+                                  <li><strong>后续朝代</strong>：
                                       <ul>
-                                        <li>�������ν��꣬Ϊ��ʱ���ϳ�������������<span tabindex="0" aria-describedby="dtb8fng" data-popupid="dtb8fng">1</span>��</li>
-                                        <li>�ϱ���ʱ����͵ۡ���Ԫ�ۡ���������ϳ���Ծ���Ϊ����<span tabindex="0" aria-describedby="qdk5jwn" data-popupid="qdk5jwn">1</span>��</li>
-                                        <li>���ʮ��ʱ�����Ͻڶ�ʹ�߼��˸�ݾ����顢Ͽ���ݣ�����ƽ���������轭��<span tabindex="0" aria-describedby="qy2hokz" data-popupid="qy2hokz">1</span>��</li>
+                                        <li>东晋定治江陵，为当时及南朝长江中游重镇<span tabindex="0" aria-describedby="dtb8fng" data-popupid="dtb8fng">1</span>。</li>
+                                        <li>南北朝时，齐和帝、梁元帝、后梁、萧铣皆以荆州为国都<span tabindex="0" aria-describedby="qdk5jwn" data-popupid="qdk5jwn">1</span>。</li>
+                                        <li>五代十国时，荆南节度使高季兴割据荆、归、峡三州，称南平王，国都设江陵<span tabindex="0" aria-describedby="qy2hokz" data-popupid="qy2hokz">1</span>。</li>
                                       </ul>
                                   </li>
                                 </ol>
                                 <br>
-                                <div>��֮����������ʷ��һֱ����Ҫ�����Ρ����á��Ļ����ģ���ḻ����ʷ�Ļ��Ų����й���ʷ�ķ�չ��������Զ��Ӱ�졣</div>
+                                <div>总之，荆州在历史上一直是重要的政治、经济、文化中心，其丰富的历史文化遗产对中国历史的发展产生了深远的影响。</div>
                               </div>
                             </div>
                           </div>
@@ -150,7 +150,7 @@
                                 <div><span role="img"> </span>
                                     <div><br>
                                         <p>
-                                          <!-- ��������� -->
+                                          <!-- 侧边栏区域 -->
                                       </p>
                                   </div>
                                 </div>
@@ -167,26 +167,26 @@
           </div>
   </section>
     <aside style="flex: 1;">
-        <h3>�����</h3>
-            <div data-tag="paragraph" data-uuid="tB30vLVt6Flm" data-idx="0-1"><span data-text="true">����֮��Դ�ڡ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%9A%E4%B9%A6%C2%B7%E7%A6%B9%E8%B4%A1/14094077?fromModule=lemma_inlink" target="_blank" data-from-module="">���顤����</a></span><span data-text="true">��������������Ω���ݡ���Ϊ�ž���֮һ����ԭ�������Ѹ��ʵľ�ɽ�����������ǹŴ������ı�ƣ�����������ھ�ɽ���ʹ�ʱ������ͨ�á�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B2%99%E5%B8%82/8533136?fromModule=lemma_inlink" target="_blank" data-from-module="">ɳ��</a></span><span data-text="true">��ʼ�ƽ򡢽���򽭽���Ϊ��������Ҫ�̲�����ͷ��</span></div>
-            <div data-tag="paragraph" data-uuid="tB30vLVekAuV" data-idx="0-2"><span data-text="true">������ʷ�ƾã����Լ5��1����ǰ�ľ�ʯ��ʱ������</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%B8%A1%E5%85%AC%E5%B1%B1%E9%81%97%E5%9D%80/3450594?fromModule=lemma_inlink" target="_blank" data-from-module="">����ɽ��ַ</a></span><span data-text="true">��λ�ھ��ݳǶ�����۫���壬Ϊȫ���ص����ﱣ����λ����ԭʼ�������ڴ������Ϣ������������ʯ�����������ʯ��ʱ�������������ڴ˷�չ����Ϫ�Ļ������6000��5000�꣩�����ֻ�婾������ľ������ϯ���������Ļ������5000��4600�꣩����ƫ���׶Σ���������ǣ�λ�ھ�������ɽ�����Ǵ壬Ϊȫ���ص����ﱣ����λ����������ʯ�Һ��Ļ�ʱ�ڣ����4600��4000�꣩������ϵ���Ļ��ķ���أ�����ս��ʱ������</span></div>
-            <div data-tag="paragraph" data-uuid="tB31awBWuShr" data-idx="0-3"><span data-text="true">������Ԫ�꣨ǰ689�꣩������Ǩ����۫�����������ϳǣ�����۫400���ꡣ�����Ͽ������ν��꣬�ʳ����Ͽ������ݡ�</span></div>
-            <div data-tag="paragraph" data-uuid="tB31b9vwHqVY" data-idx="0-4"><span data-text="true">�����Ԫ�����꣨ǰ106�꣩���������ݴ�ʷ����������ʱ�����Ͽ���</span></div>
-            <div data-tag="paragraph" data-uuid="tB31bAMbs9Ba" data-idx="0-5"><span data-text="true">����ʱ�ڣ�κ���������־��ݣ�����⣬�����Ͽ��������Ͱ��꣨352�꣩�����ݶ��ν��ꡣ</span></div>
-            <div data-tag="paragraph" data-uuid="tB31dLFFqhJu" data-idx="0-6"><span data-text="true">�ϱ���ʱ����͵ۡ���Ԫ�ۡ���������ϳ���Ծ���Ϊ������</span></div>
+        <h3>侧边栏</h3>
+            <div data-tag="paragraph" data-uuid="tB30vLVt6Flm" data-idx="0-1"><span data-text="true">荆州之名源于《</span><span data-text="true"><a href="https://baike.baidu.com/item/%E5%B0%9A%E4%B9%A6%C2%B7%E7%A6%B9%E8%B4%A1/14094077?fromModule=lemma_inlink" target="_blank" data-from-module="">尚书·禹贡</a></span><span data-text="true">》：“荆及衡阳惟荆州”，为古九州之一；以原境内蜿蜒高耸的荆山而得名。荆是古代楚国的别称，因楚曾建国于荆山，故古时荆、楚通用。</span><span data-text="true"><a href="https://baike.baidu.com/item/%E6%B2%99%E5%B8%82/8533136?fromModule=lemma_inlink" target="_blank" data-from-module="">沙市</a></span><span data-text="true">，始称津、津乡或江津，历为江陵县重要商埠和码头。</span></div>
+            <div data-tag="paragraph" data-uuid="tB30vLVekAuV" data-idx="0-2"><span data-text="true">荆州历史悠久，距今约5万—1万年前的旧石器时代晚期</span><span data-text="true"><a href="https://baike.baidu.com/item/%E9%B8%A1%E5%85%AC%E5%B1%B1%E9%81%97%E5%9D%80/3450594?fromModule=lemma_inlink" target="_blank" data-from-module="">鸡公山遗址</a></span><span data-text="true">（位于荆州城东北郊郢北村，为全国重点文物保护单位），原始人类已在此生活、栖息和劳作，制作石器，或搭建窝棚。新石器时代，先民三苗于此发展出大溪文化（距今6000—5000年），出现环濠聚落和漆木器及竹席。屈家岭文化（距今5000—4600年）早期偏晚阶段，建造阴湘城（位于荆州区马山镇阳城村，为全国重点文物保护单位），沿用至石家河文化时期（距今4600—4000年）。荆州系楚文化的发祥地，春秋战国时属楚。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31awBWuShr" data-idx="0-3"><span data-text="true">楚文王元年（前689年），楚国迁都于郢（今荆州区纪南城），都郢400余年。秦属南郡，定治江陵，故常以南郡喻荆州。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31b9vwHqVY" data-idx="0-4"><span data-text="true">汉武帝元封五年（前106年），设立荆州刺史部，东西汉时皆属南郡。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31bAMbs9Ba" data-idx="0-5"><span data-text="true">三国时期，魏、蜀、吴三分荆州，后归吴，定治南郡。晋永和八年（352年），荆州定治江陵。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31dLFFqhJu" data-idx="0-6"><span data-text="true">南北朝时，齐和帝、梁元帝、后梁、萧铣皆以荆州为国都。</span></div>
             <div data-tag="paragraph" data-uuid="tB30vLVBdAPv" data-idx="0-7">
               <div data-tag="module" data-uuid="tB30TzXmv2TB" data-module-type="album">
                 <div></div>
                 <div>
                   <div>
-                    <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%B8%82/62402558/4701047018/d788d43f8794a4c2587a4d0203f41bd5ad6e39b9?fr=lemma&fromModule=lemma_content-image" title="��������"></a></div>
+                    <div><a target="_blank" href="https://baike.baidu.com/pic/%E8%8D%86%E5%B7%9E%E5%B8%82/62402558/4701047018/d788d43f8794a4c2587a4d0203f41bd5ad6e39b9?fr=lemma&fromModule=lemma_content-image" title="美丽荆州"></a></div>
                   </div>
                 </div>
                 <div></div>
               </div>
-              <span data-text="true">�忪�ʶ��꣨582�꣩������������������ܹܸ����������겢���������ý����ܹܣ����ʶ�ʮ���Ϊ�����ܹܡ���ҵ���������Ͽ���</span></div>
-            <div data-tag="paragraph" data-uuid="tB31esSYhaim" data-idx="0-8"><span data-text="true">�����Ԫ�꣨627�꣩����ɽ�ϵ�����Ԫ��ʮһ�꣨733�꣩��ɽ�ϵ���Ϊ������������ɽ�϶������긮���辣�ݴ󶼶��������º��þ��Ͻڶ�ʹ����ԪԪ�꣨760�꣩���Խ���Ϊ�϶����ľ���Ϊ���긮�����꣨761�꣩�ն������ʮ��ʱ��925�꣩�����Ͻڶ�ʹ�߼��˸�ݾ����顢Ͽ���ݣ�����ƽ���������Ϲ��������轭�ꡣ</span></div>
-            <div data-tag="paragraph" data-uuid="tB30vLVbLVOj" data-idx="0-9"><span data-text="true">���������꣨997�꣩���Զ�ͥ��Ϊ�磬����Ϊ�����ϡ���·����·��ƺ������ν��ꣻ�������꣨1130�꣩������Ϊ���ϸ�������֦���أ��������꣨1135�꣩������Ϊ���긮�������ν����أ�����Ԫ�꣨1174�꣩��������Ϊ���ϸ�������ʮ�꣨1183�꣩��֮ǰ�Ը���Ϊ���긮��Ԫ�����Ͻ����ȴ�������ʡ���ϸ�����Ԫʮ���꣨1276�꣩��������·���������꣨1329�꣩����������·��������ʮ���꣨1364�꣩����Ԫ谳����������þ��ݸ�������������ʡ������ʮһ�꣨1365�꣩�����������ʡ����Ԫ�꣨1367�꣩��������������ʡ��</span></div>
+              <span data-text="true">隋开皇二年（582年），因与后梁联姻，罢总管府；开皇七年并后梁，又置江陵总管；开皇二十年改为荆州总管。大业初，复称南郡。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31esSYhaim" data-idx="0-8"><span data-text="true">唐贞观元年（627年），属山南道；开元二十一年（733年），山南道分为东、西道，属山南东道江陵府，设荆州大都督府，至德后置荆南节度使。上元元年（760年），以江陵为南都，改荆州为江陵府；次年（761年）罢都。五代十国时（925年），荆南节度使高季兴割据荆、归、峡三州，称南平王，立荆南国，国都设江陵。</span></div>
+            <div data-tag="paragraph" data-uuid="tB30vLVbLVOj" data-idx="0-9"><span data-text="true">宋至道三年（997年），以洞庭湖为界，复分为荆湖南、北路，北路简称湖北，治江陵；建炎四年（1130年），更名为荆南府，寄治枝江县，绍兴五年（1135年），复名为江陵府，仍徙治江陵县；淳熙元年（1174年），复更名为荆南府，淳熙十年（1183年），之前仍更名为江陵府。元属河南江北等处行中书省荆南府，至元十三年（1276年），升江陵路，天历二年（1329年），更名中兴路。至正二十四年（1364年），朱元璋称吴王，改置荆州府，改属湖广行省。龙凤十一年（1365年），改属湖广分省，吴元年（1367年），复改属湖广行省。</span></div>
             <div data-tag="paragraph" data-uuid="tB30vLVjxG9G" data-idx="0-10">
               <div data-tag="module" data-uuid="tB30UGt9TALQ" data-module-type="album">
                 <div></div>
@@ -194,24 +194,24 @@
                 </div>
                 <div></div>
               </div>
-              <span data-text="true">��������꣨1376�꣩��������ʡ���ú����������ʹ˾�����ݸ��������ϲ���˾�������ʮ���꣨1391�꣩�����ݸ��������㲼��ʹ˾��</span></div>
-            <div data-tag="paragraph" data-uuid="tB31hal8tgKW" data-idx="0-11"><span data-text="true">�念�����꣨1670�꣩�����Ͼ��ϵ���פ���ݸ���Ӻ��ʮ���꣨1735�꣩���Ͼ��ϵ���������ʩ����������ʮ�꣨1904�꣩������ʩ���������˵�����ͳ���꣨1911�꣩1�£����ݸ��ø����أ���Ͻ����ֱ�����˵���</span></div>
-            <div data-tag="paragraph" data-uuid="tB31uFvN44Jw" data-idx="0-12"><span data-text="true">������꣨1914�꣩�����˵�����Ϊ���ϵ������ʮ�꣨1921�꣩8�£����ƾ��˵��������ʮһ�꣨1932�꣩��Ϊ����ʡ��������������רԱ���������ʮ���꣨1936�꣩����Ϊ����ʡ����������������</span></div>
-            <div data-tag="paragraph" data-uuid="tB30vLVCir8P" data-idx="0-13"><span data-text="true">1949��7�£�������������������רԱ����פ�����ؾ�����Ͻ���š���ɽ�����顢���š�Ǳ�������������̣�פ�½����򣩡������8�أ�ͬ�£���������֮ɳ����ɳ���У���ʡϽ�С�</span></div>
-            <div data-tag="paragraph" data-uuid="tB31KOenJfEP" data-idx="0-14"><span data-text="true">1951��6�£������������������㡢����4�ظ�һ�������ء�7�£���������ר�𣬽�������פ�����򣩡������������ʯ��4�ز��뾣��ר��</span></div>
-            <div data-tag="paragraph" data-uuid="tB31L8h90hMD" data-idx="0-15"><span data-text="true">1953��4�£��Թ�����ʯ�ס�����3�ظ�һ���辣���أ�פ�����̡�</span></div>
-            <div data-tag="paragraph" data-uuid="tB31LuAWCLym" data-idx="0-16"><span data-text="true">1955��2��22�գ�ɳ���л��龣��ר����Ͻ��4�£����������أ����빫���ء�</span></div>
-            <div data-tag="paragraph" data-uuid="tB31MJ4cqX8p" data-idx="0-17"><span data-text="true">1960�꣬�Ծ����ص�ɳ��������ɳ���У��ɾ���ר���쵼��</span></div>
-            <div data-tag="paragraph" data-uuid="tB31N5CGTgyL" data-idx="0-18"><span data-text="true">1961�꣬����ɳ���У����龣�����쵼��</span></div>
-            <div data-tag="paragraph" data-uuid="tB88cOxVqNDr" data-idx="0-19"><span data-text="true">1970�꣬����ר���ĳ�</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%9C%B0%E5%8C%BA/330375?fromModule=lemma_inlink" target="_blank" data-from-module="">���ݵ���</a></span><span data-text="true">������פ�����أ�Ͻɳ���м����ꡢ���š����顢��ɽ��������ʯ�ף�פ�����򣩡����š�Ǳ����������פ�����򣩡������פ�µ��򣩡�������פ�����򣬼�ԭ�������򣩡����̣�פ�½����򣩵�12�ء�</span></div>
-            <div data-tag="paragraph" data-uuid="tB30vLVu9rLs" data-idx="0-20"><span data-text="true">1979�꣬ɳ������Ϊ�ؼ��У�����ʡֱϽ���Ծ����سǹ��򼰸����������������У������ݵ�����</span></div>
-            <div data-tag="paragraph" data-uuid="tB31OY4mpogU" data-idx="0-21"><span data-text="true">1983��8��19�գ�����Ժ��׼��������Ϊ�ؼ��У��������ݵ�����</span></div>
-            <div data-tag="paragraph" data-uuid="tB31PLiPLoST" data-idx="0-22"><span data-text="true">1994��9��29�գ�����Ժ��׼�������ݵ�����ɳ���кͽ����أ�������ɳ�С���ɳ����ɳ�������������ͽ�������Ͻ�����ء������ء������ء���ɽ�أ����������С�ʯ���С�����С�</span></div>
-            <div data-tag="paragraph" data-uuid="tB31SBXyWspe" data-idx="0-23"><span data-text="true">1996��11��20�գ�����Ժ��׼����ɳ�и���Ϊ�����С�</span>?[4]</div>
+              <span data-text="true">明洪武九年（1376年），湖广行省改置湖广承宣布政使司，荆州府改属河南布政司；洪武二十四年（1391年），荆州府复属湖广布政使司。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31hal8tgKW" data-idx="0-11"><span data-text="true">清康熙九年（1670年），置上荆南道，驻荆州府；雍正十三年（1735年），上荆南道更名荆宜施道；光绪三十年（1904年），荆宜施道更名荆宜道。宣统三年（1911年）1月，荆州府裁府留县，所辖各县直属荆宜道。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31uFvN44Jw" data-idx="0-12"><span data-text="true">民国三年（1914年），荆宜道更名为荆南道；民国十年（1921年）8月，复称荆宜道。民国二十一年（1932年），为湖北省第七区行政督察专员公署；民国二十五年（1936年），改为湖北省第四行政督察区。</span></div>
+            <div data-tag="paragraph" data-uuid="tB30vLVCir8P" data-idx="0-13"><span data-text="true">1949年7月，成立荆州行政区督察专员公署，驻江陵县荆州镇，辖荆门、京山、钟祥、天门、潜江、公安、松滋（驻新江口镇）、江陵等8县；同月，析江陵县之沙市镇建沙市市，属省辖市。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31KOenJfEP" data-idx="0-14"><span data-text="true">1951年6月，以沔阳、监利、嘉鱼、汉阳4县各一部设洪湖县。7月，撤销沔阳专署，将沔阳（驻仙桃镇）、监利、洪湖、石首4县并入荆州专署。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31L8h90hMD" data-idx="0-15"><span data-text="true">1953年4月，以公安、石首、江陵3县各一部设荆江县，驻斗湖堤。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31LuAWCLym" data-idx="0-16"><span data-text="true">1955年2月22日，沙市市划归荆州专区管辖。4月，撤销荆江县，并入公安县。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31MJ4cqX8p" data-idx="0-17"><span data-text="true">1960年，以荆门县的沙洋镇设立沙洋市，由荆州专署领导。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31N5CGTgyL" data-idx="0-18"><span data-text="true">1961年，撤销沙洋市，划归荆门县领导。</span></div>
+            <div data-tag="paragraph" data-uuid="tB88cOxVqNDr" data-idx="0-19"><span data-text="true">1970年，荆州专区改称</span><span data-text="true"><a href="https://baike.baidu.com/item/%E8%8D%86%E5%B7%9E%E5%9C%B0%E5%8C%BA/330375?fromModule=lemma_inlink" target="_blank" data-from-module="">荆州地区</a></span><span data-text="true">，地区驻江陵县，辖沙市市及江陵、荆门、钟祥、京山、监利、石首（驻绣林镇）、天门、潜江、沔阳（驻仙桃镇）、洪湖（驻新堤镇）、公安（驻陡市镇，即原陡湖堤镇）、松滋（驻新江口镇）等12县。</span></div>
+            <div data-tag="paragraph" data-uuid="tB30vLVu9rLs" data-idx="0-20"><span data-text="true">1979年，沙市市升为地级市，改由省直辖；以荆门县城关镇及附近地区设立荆门市，属荆州地区。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31OY4mpogU" data-idx="0-21"><span data-text="true">1983年8月19日，国务院批准荆门市升为地级市，划出荆州地区。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31PLiPLoST" data-idx="0-22"><span data-text="true">1994年9月29日，国务院批准撤销荆州地区、沙市市和江陵县，设立荆沙市。荆沙市设沙市区、荆州区和江陵区，辖松滋县、公安县、监利县、京山县，代管钟祥市、石首市、洪湖市。</span></div>
+            <div data-tag="paragraph" data-uuid="tB31SBXyWspe" data-idx="0-23"><span data-text="true">1996年11月20日，国务院批准将荆沙市更名为荆州市。</span>?[4]</div>
         <p>&nbsp;</p>
     </aside>
 </div>
-    <!-- ҳ�� -->
+    <!-- 页脚 -->
     <footer>
    
     </footer>
